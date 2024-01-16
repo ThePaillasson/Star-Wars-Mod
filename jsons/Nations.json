@@ -5,6 +5,7 @@
 		"adjective": ["imperial"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Dark Side",
 		
 		"startIntroPart1": "The Dark Side of the Force is a pathway to many abilities some consider to be unnatural.",
 		"startIntroPart2": "Did you ever hear the tragedy off Darth Plagueis the Wise?",
@@ -12,7 +13,7 @@
 		"declaringWar": "Those who do not serve my ends, no matter how powerful they are, will be eliminated.",
 		"attacked": "This will be the final word in the story of your civilisation !",
 		"defeated": "I have died before.",
-		"introduction": "I am all the Sith !",
+		"introduction": "I am Darth Sidious. I am all the Sith !",
 		
 		"neutralHello": "Everything is going as I planned now.",
 		"neutralLetsHearIt": ["I have been every voice you have ever heard inside your head."],
@@ -30,7 +31,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [255,200,200],
 		"unique": "MANIFEST_DESTINY",
-		"cities": ["Galactic City","Aldera","Hanna City","Kuat City""Coronet City","Bburru Station","Nuba City","Kestro","Knossa","Republic City","Chasin City","iziz","Ta'a Chume'Dan","Pandath",""Ahto City"","Adascopolis","Hyllyard City","Bsellis City","Malidris","Fondor City","Abregado-rae City","Ord Mantell City","Tafanda Bay","Lessu","Pixelito","Pelek Baw","Pinyumb","Eriadu City","Dor'shan",
+		"cities": ["Galactic City","Aldera","Hanna City","Kuat City""Coronet City","Bburru Station","Nuba City","Kestro","Republic City","Chasin City","iziz","Ta'a Chume'Dan","Pandath",""Ahto City"","Adascopolis","Hyllyard City","Bsellis City","Malidris","Fondor City","Abregado-rae City","Ord Mantell City","Tafanda Bay","Lessu","Pixelito","Pelek Baw","Pinyumb","Eriadu City","Dor'shan",
 			"Q'Theed","Q'Anoat City"]
 	}
 	{
@@ -39,13 +40,14 @@
 		"adjective": ["takatan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Dark Side",
 		
 		"startIntroPart1": "The Rakata are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
 		"startIntroPart2": "",
 		
 		"declaringWar": "The Gate is mine to command! I am the Infinite Empire and the galaxy belongs to me!",
 		"attacked": "You were not the first to challenge me. I have crushed all who opposed me, as I have crushed you… as I will crush these obstacles to my will—the Je'daii!",
-		"defeated": "By definition, the Infinite Empire cannot "fall",
+		"defeated": "By definition, the Infinite Empire cannot fall.",
 		"introduction": "The Gate is mine to command! I am the Infinite Empire and the galaxy belongs to me!",
 		
 		"neutralHello": "I am Rakata—it is the name of my people.",
@@ -65,4 +67,38 @@
 		"innerColor": [0,0,0],
 		"cities": ["Lehon","Salin","Rhen Var","Alzoc"]
 	}
+	{
+		"name": "Jedi Order",
+		"leaderName": "Yoda",
+		"adjective": ["Jedi"],
+		"startBias": ["grass"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Light Side",
+		
+		"startIntroPart1": "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not. For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Powerful you have become, the dark side I sense in you.",
+		"attacked": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+		"defeated": "Into exile I must go. Failed, I have.",
+		"introduction": "Secret, shall I tell you? Grand Master of Jedi Order am I. Won this job in a raffle I did, think you? 'How did you know, how did you know, Master Yoda?' Master Yoda knows these things. His job it is.",
+		
+		"neutralHello": "May the force be with you.",
+		"neutralLetsHearIt": ["Do or do not. There is no try."],
+		"neutralNo": ["Darker, the coming storm grows. I fear the dark cloud of the Sith shrouds us all."],
+		"neutralYes": ["Feel the force!"],
+
+		"hateHello": "There is a disturbance in the Force.",
+		"hateLetsHearIt": ["I fear the dark cloud of the Sith shrouds us all."],
+		"hateNo": ["Once you start down the dark path, forever will it dominate your destiny. Consume you, it will."],
+		"hateYes": ["Control, control, you must learn control!"],
+		
+		"afterPeace": "Great warrior. Wars not make one great.",
+		"tradeRequest": "Your path you must decide.",
+
+		"outerColor": [255,255,255],
+		"innerColor": [136, 66, 29],
+		"cities": ["Palace of the Jedi","Ban Landing",Knossa","Garang"]
+	}
+]
 ]
