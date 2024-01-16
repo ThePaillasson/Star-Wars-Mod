@@ -31,6 +31,38 @@
 		"innerColor": [255,200,200],
 		"unique": "MANIFEST_DESTINY",
 		"cities": ["Galactic City","Aldera","Hanna City","Kuat City""Coronet City","Bburru Station","Nuba City","Kestro","Knossa","Republic City","Chasin City","iziz","Ta'a Chume'Dan","Pandath",""Ahto City"","Adascopolis","Hyllyard City","Bsellis City","Malidris","Fondor City","Abregado-rae City","Ord Mantell City","Tafanda Bay","Lessu","Pixelito","Pelek Baw","Pinyumb","Eriadu City","Dor'shan",
-			"Q'Theed","Q'Anoat City"
+			"Q'Theed","Q'Anoat City"]
+	}
+	{
+		"name": "Infinite Empire",
+		"leaderName": "Skal'nas",
+		"adjective": ["takatan"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "The Rakata are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
+		"startIntroPart2": "",
+		
+		"declaringWar": "The Gate is mine to command! I am the Infinite Empire and the galaxy belongs to me!",
+		"attacked": "You were not the first to challenge me. I have crushed all who opposed me, as I have crushed you… as I will crush these obstacles to my will—the Je'daii!",
+		"defeated": "By definition, the Infinite Empire cannot "fall",
+		"introduction": "The Gate is mine to command! I am the Infinite Empire and the galaxy belongs to me!",
+		
+		"neutralHello": "I am Rakata—it is the name of my people.",
+		"neutralLetsHearIt": ["We are the victors. We do as we like with you."],
+		"neutralNo": ["You suggest both respect and insolence toward your superior in one bold gesture, slave? You learn will."],
+		"neutralYes": ["The Rakata are by nature a cruel and savage species."],
+
+		"hateHello": "I am Rakata—it is the name of my people.",
+		"hateLetsHearIt": ["We are the victors. We do as we like with you."],
+		"hateNo": ["You suggest both respect and insolence toward your superior in one bold gesture, slave? You learn will."],
+		"hateYes": ["The Rakata are by nature a cruel and savage species."],
+		
+		"afterPeace": "Surely you know the glory of the Builders and our Infinite Empire. The fury of our weapons surpass even my own might.",
+		"tradeRequest": "Surely you know the glory of the Builders and our Infinite Empire. The fury of our weapons surpass even my own might.",
+
+		"outerColor": [255,0,0],
+		"innerColor": [0,0,0],
+		"cities": ["Lehon","Salin","Rhen Var","Alzoc"]
 	}
 ]
