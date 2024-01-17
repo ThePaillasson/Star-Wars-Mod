@@ -71,7 +71,7 @@
 		"name": "Jedi Order",
 		"leaderName": "Yoda",
 		"adjective": ["Jedi"],
-		"startBias": ["grass"],
+		"startBias": ["Grass"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Light Side",
 		
@@ -98,7 +98,39 @@
 
 		"outerColor": [255,255,255],
 		"innerColor": [136, 66, 29],
-		"cities": ["Palace of the Jedi","Ban Landing",Knossa","Garang"]
+		"cities": ["Palace of the Jedi","Ban Landing",Knossa","Garang","Jedha City"]
 	}
-]
+	{
+		"name": "Hutt Clan",
+		"leaderName": "Jabba Desilijic Tiure",
+		"adjective": ["hutt"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "B'omarr Order",
+		
+		"startIntroPart1": "Rejoice, wretched creatures. Your planet is now the property of the glorious Hutt Cartel.",
+		"startIntroPart2": "We represent our people. Their honor. Their power. We are the Hutt Council.",
+		
+		"declaringWar": "Ma bookie, baldo nee anna dodo da eena.",
+		"attacked": "Coos ka. Jee mo da. Di es paakajidik di Jabba.",
+		"defeated": "Neek me chowa, wermo, mo killee ma klounkee! ",
+		"introduction": "De wanna wanga, pateesa. Mah pee kasa Jabba.",
+		
+		"neutralHello": "H'chu apenkee!",
+		"neutralLetsHearIt": ["Hi chuba du naga?"],
+		"neutralNo": ["Ma kee chee zay."],
+		"neutralYes": ["Ma bookie, keel-ee calleya ku kah."],
+
+		"hateHello": "Jee no waba mu ba outmian nudcha.",
+		"hateLetsHearIt": ["Man-tah."],
+		"hateNo": ["Kee baatu baatu."],
+		"hateYes": ["Mee jewz ju!"],
+		
+		"afterPeace": "Ee ya ba ma dookie massa eek bon chee ko pa na green na meeto do buny dunko la cho ya.",
+		"tradeRequest": "Niuta, be cotma.",
+
+		"outerColor": [132, 46, 27],
+		"innerColor": [239, 210, 66],
+		"cities": ["Varl","Bilbousa","Jiguuna","Baratatta","Gebroila","Hutta Town","New Vertica","Wormtown","Wormstew Town"]
+	}
 ]
