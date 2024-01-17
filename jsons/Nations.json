@@ -2,7 +2,7 @@
 	{
 		"name": "Galactic Empire",
 		"leaderName": "Sheev Palpatine",
-		"adjective": ["imperial"],
+		"adjective": ["Imperial"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 		
@@ -66,11 +66,11 @@
 	{
 		"name": "Infinite Empire",
 		"leaderName": "Skal'nas",
-		"adjective": ["takatan"],
+		"adjective": ["Rakatan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "The Rakata are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
+		"startIntroPart1": "The Rakata are a pestilence upon the galaxy that, to their shame, the Kwa, unleashed.",
 		
 		"declaringWar": "The Gate is mine to command! I am the Infinite Empire and the galaxy belongs to me!",
 		"attacked": "You were not the first to challenge me. I have crushed all who opposed me, as I have crushed you… as I will crush these obstacles to my will—the Je'daii!",
@@ -140,7 +140,7 @@
 	{
 		"name": "Hutt Clan",
 		"leaderName": "Jabba Desilijic Tiure",
-		"adjective": ["hutt"],
+		"adjective": ["Hutt"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 		
@@ -184,7 +184,7 @@
 	{
 		"name": "Xim's Empire",
 		"leaderName": "Xim the Despot",
-		"adjective": ["tionese"],
+		"adjective": ["Tionese"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
 
@@ -219,8 +219,147 @@
 			"Thanium",
 			"Yutusk",
 			"Huronom",
-			"Astigone"
+			"Astigone",
+			"Central Station"
 		],
 	},
+		
+	{
+		"name": "Sith Order",
+		"leaderName": "Darth Revan",
+		"adjective": ["Sith"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Cultural",
+
+		
+		"startIntroPart1": "In Eternal Homage to Xim, Whose Fist Shall Enclose the Stars and Whose Name Shall Outlive Time.",
+		
+		"declaringWar": "This world is mine !",
+		"attacked": "I'm not the only one who loathed your poetry.",
+		"defeated": "I did the galaxy a favor. ",
+		"introduction": "Hello, I am Xim the Despote.",
+		
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["What do you want ?"],
+		"neutralNo": ["No."],
+		"neutralYes": ["Yes."],
+
+		"hateHello": "Hello.",
+		"hateLetsHearIt": ["What do you want ?"],
+		"hateNo": ["No."],
+		"hateYes": ["Yes."],
+		
+		"afterPeace": "You recognize my superiority.",
+		"tradeRequest": "I have an offer you can't refuse.",
+
+		"outerColor": [0, 0, 0],
+		"innerColor": [1, 215, 88],
+		"cities": [
+			"Dreshdae",
+			"Kaniset",
+			"Vardin",
+			"New Adasta",
+			"Sith Citadel",
+			"Malachor"
+		],
+	},
+	
+	{
+		"name": "Kwa holdings",
+		"adjective": ["Kwa"],
+		"cityStateType": "Scientific",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
+		"attacked": "Attuned to the Power of the Cosmos, my people traveled the galaxy via Infinity Gates—portals that transported us instantly between great distances. How could you beat us.",
+		"defeated": "We observed many worlds and brought civilization to their people but yours was not included."
+		"outerColor": [34, 66, 124],
+		"innerColor": [0,0,0],
+		"cities": ["Kwa holding"]
+	},
+
+	{
+		"name": "Sharu civilization",
+		"adjective": ["Sharu"],
+		"cityStateType": "Cultured",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [22,184,78],
+		"innerColor": [0,0,0],
+		"cities": ["Tund"]
+	},
+
+	{
+		"name": "Gree Empire",
+		"adjective": ["Gree"],
+		"cityStateType": "Scientific",
+		"startBias": ["Plains"],
+
+		"declaringWar": "Green perpendicular.",
+		"attacked": "Blue nonagon.",
+		"defeated": "Yellow concave"
+		"outerColor": [0, 255, 0],
+		"innerColor": [0,0,0],
+		"cities": ["Capital city"]
+	},
+	
+	{
+		"name": "Killiks",
+		"adjective": ["Killik"],
+		"cityStateType": "Scientific",
+		"startBias": ["Grass"],
+
+		"declaringWar": "*incomprehensible*",
+		"attacked": "*incomprehensible*",
+		"defeated": "*incomprehensible*"
+		"outerColor": [15, 5, 107],
+		"innerColor": [0,0,0],
+		"cities": ["Yoggoy hive"]
+	},
+	
+	{
+		"name": "Celestials",
+		"adjective": ["Celestial"],
+		"cityStateType": "Religious",
+		"startBias": ["Grass"],
+
+		"declaringWar": "We are the ones who guard the power. We are the middle, the beginning, and the end.",
+		"attacked": "Do not do this. Do not become what you should not. Be strong, I implore you, or else I will be forced to contain you.",
+		"defeated": "I have done what is right or what is wrong, depending on your point of view."
+		"outerColor": [0, 255, 255],
+		"innerColor": [0,0,0],
+		"cities": ["Mortis"]
+	},
+
+	{
+		"name": "Herglic Trade Empire",
+		"adjective": ["Herglese"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Coast"],
+
+		"declaringWar": "Your behavior is unacceptable, pison !",
+		"attacked": "You are a big chakk for fighting us !",
+		"defeated": "You don't know what mistake you did, umron !"
+		"outerColor": [136, 77, 167],
+		"innerColor": [0,0,0],
+		"cities": ["Giju"]
+	},
+
+	{
+		"name": "Alsakani Government",
+		"adjective": ["Alsakani"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [75, 0, 130],
+		"innerColor": [0,0,0],
+		"cities": ["Alsakan"]
+	}
 	
 ]
