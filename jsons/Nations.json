@@ -259,7 +259,7 @@
 		"afterPeace": "You recognize my superiority.",
 		"tradeRequest": "I have an offer you can't refuse.",
 
-		"outerColor": [173, 79, 9],
+		"outerColor": [219, 23, 2],
 		"innerColor": [0,0,0],
 		"cities": [
 			"Dreshdae",
@@ -378,7 +378,7 @@
 		"declaringWar": "I'm a Toydarian. Mind tricks don't work on me, only money.",
 		"attacked": "Perhaps you failed to pay attention to the Senate orientation. They should have explained that Toydaria is a neutral system.",
 		"defeated": "Despite what you've heard, we Toydarians are a noble species."
-		"outerColor": [219, 23, 2],
+		"outerColor": [37, 253, 233],
 		"innerColor": [0,0,0],
 		"cities": ["Toydor"]
 	}
