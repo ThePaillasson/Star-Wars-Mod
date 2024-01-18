@@ -5,6 +5,7 @@
 		"adjective": ["Imperial"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "New Order",
 		
 		"startIntroPart1": "The Dark Side of the Force is a pathway to many abilities some consider to be unnatural.",
 		"startIntroPart2": "Did you ever hear the tragedy off Darth Plagueis the Wise?",
@@ -59,7 +60,8 @@
 			"Eriadu City",
 			"Dor'shan",
 			"Theed",
-			"Anoat City"
+			"Anoat City",
+			"Indecta Era"
 		],
 	},
 	
@@ -69,6 +71,7 @@
 		"adjective": ["Rakatan"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Dark side of the Force",
 		
 		"startIntroPart1": "The Rakata are a pestilence upon the galaxy that, to their shame, the Kwa, unleashed.",
 		
@@ -106,6 +109,7 @@
 		"adjective": ["Jedi"],
 		"startBias": ["Grass"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Light side of The Force",
 		
 		"startIntroPart1": "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not. For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.",
 		
@@ -142,7 +146,8 @@
 		"leaderName": "Jabba Desilijic Tiure",
 		"adjective": ["Hutt"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "B'omarr Order",
 		
 		"startIntroPart1": "Rejoice, wretched creatures. Your planet is now the property of the glorious Hutt Cartel.",
 		"startIntroPart2": "We represent our people. Their honor. Their power. We are the Hutt Council.",
@@ -177,7 +182,8 @@
 			"New Vertica",
 			"Wormtown",
 			"Wormstew Town",
-			"Ko Vari"
+			"Ko Vari",
+			"Inner Teth"
 		],
 	},
 	
@@ -230,6 +236,7 @@
 		"adjective": ["Sith"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Dark side of the Force",
 
 		
 		"startIntroPart1": "In Eternal Homage to Xim, Whose Fist Shall Enclose the Stars and Whose Name Shall Outlive Time.",
@@ -266,6 +273,7 @@
 	
 	{
 		"name": "Kwa holdings",
+		"leaderName": "A'nang",
 		"adjective": ["Kwa"],
 		"cityStateType": "Scientific",
 		"startBias": ["Desert"],
@@ -360,6 +368,21 @@
 		"outerColor": [75, 0, 130],
 		"innerColor": [0,0,0],
 		"cities": ["Alsakan"]
+	}
+	
+	{
+		"name": "Toydarian Monarchy",
+		"leaderName": "Katuunko",
+		"adjective": ["Toydarian"],
+		"cityStateType": "Economic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "I'm a Toydarian. Mind tricks don't work on me, only money.",
+		"attacked": "Perhaps you failed to pay attention to the Senate orientation. They should have explained that Toydaria is a neutral system.",
+		"defeated": "Despite what you've heard, we Toydarians are a noble species."
+		"outerColor": [75, 0, 130],
+		"innerColor": [0,0,0],
+		"cities": ["Toydor"]
 	}
 	
 ]
