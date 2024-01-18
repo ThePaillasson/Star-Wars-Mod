@@ -99,7 +99,7 @@
 		"iconRGB": [104, 58, 183]
 	},
   	{
-		"name": "Realization era",
+		"name": "Kymoodon Era",
 		"researchAgreementCost": 300,
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Settler",
@@ -144,7 +144,7 @@
       		]
 	},
   {
-		"name": "Kymoodon Era",
+		"name": "Pius Dea Era",
 		"researchAgreementCost": 350,
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Settler",
@@ -195,7 +195,7 @@
 		]
 	},
 	{
-		"name": "Pius Dea Era",
+		"name": "Ductavis Era and Ranitus Period",
 		"researchAgreementCost": 400,
 		"startingSettlerCount": 3,
 		"startingSettlerUnit": "Settler",
@@ -253,7 +253,7 @@
 		]
 	},
 	{
-		"name": "Ductavis Era and Ranitus Period",
+		"name": "Manderon Period",
 		"researchAgreementCost": 450,
 		"startingSettlerCount": 4,
 		"startingSettlerUnit": "Settler",
@@ -311,7 +311,7 @@
 		]
 	},
 	{
-		"name": "Manderon Period",
+		"name": "Post-Manderon Period",
 		"researchAgreementCost": 450,
 		"startingSettlerCount": 5,
 		"startingSettlerUnit": "Settler",
@@ -369,7 +369,7 @@
 		]
 	},
 	{
-		"name": "Post-Manderon Period",
+		"name": "Old Sith Wars Period",
 		"researchAgreementCost": 500,
 		"startingSettlerCount": 6,
 		"startingSettlerUnit": "Settler",
@@ -427,7 +427,7 @@
 		]
 	},
 	{
-		"name": "Old Sith Wars Period",
+		"name": "Inter-Sith Wars Period",
 		"researchAgreementCost": 550,
 		"startingSettlerCount": 7,
 		"startingSettlerUnit": "Settler",
@@ -485,7 +485,7 @@
 		]
 	},
 	{
-		"name": "Inter-Sith Wars Period",
+		"name": "Draggulch Period",
 		"researchAgreementCost": 600,
 		"startingSettlerCount": 8,
 		"startingSettlerUnit": "Settler",
@@ -543,7 +543,7 @@
 		]
 	},
 	{
-		"name": "Draggulch Period",
+		"name": "The Great Peace Period",
 		"researchAgreementCost": 610,
 		"startingSettlerCount": 8,
 		"startingSettlerUnit": "Settler",
@@ -601,7 +601,7 @@
 		]
 	},
 	{
-		"name": "The Great Peace Period",
+		"name": "The Clone Wars Period",
 		"researchAgreementCost": 620,
 		"startingSettlerCount": 9,
 		"startingSettlerUnit": "Settler",
@@ -659,7 +659,7 @@
 		]
 	},
 	{
-		"name": "The Clone Wars Period",
+		"name": "Imperial Period and Rebellion Era",
 		"researchAgreementCost": 630,
 		"startingSettlerCount": 9,
 		"startingSettlerUnit": "Settler",
@@ -717,7 +717,7 @@
 		]
 	},
 	{
-		"name": "Imperial Period and Rebellion Era",
+		"name": "New Republic and New jedi Order Era",
 		"researchAgreementCost": 640,
 		"startingSettlerCount": 10,
 		"startingSettlerUnit": "Settler",
@@ -775,7 +775,7 @@
 		]
 	},
 	{
-		"name": "New Republic and New Jedi order Era",
+		"name": "Legacy Era",
 		"researchAgreementCost": 650,
 		"startingSettlerCount": 10,
 		"startingSettlerUnit": "Settler",
@@ -829,64 +829,6 @@
 		"embarkDefense": 59,
 		"startPercent": 109,
 		"iconRGB": [115, 8, 0],
-		"uniques": [
-		]
-	},
-	{
-		"name": "Legacy Era",
-		"researchAgreementCost": 655,
-		"startingSettlerCount": 11,
-		"startingSettlerUnit": "Settler",
-		"startingWorkerCount": 11,
-		"startingWorkerUnit": "Worker",
-		"startingMilitaryUnitCount": 13,
-		"startingMilitaryUnit": "Giant Death Robot",
-		"startingGold": 775,
-		"startingCulture": 975,
-		"settlerPopulation": 13,
-		"settlerBuildings": [
-			"Memorial",
-			"Monument"
-		],
-		"startingObsoleteWonders": [
-			"Temple of Artemis",
-			"Stonehenge",
-			"The Great Library",
-			"Mausoleum of Halicarnassus",
-			"The Pyramids",
-			"Statue of Zeus",
-			"The Great Lighthouse",
-			"Hanging Gardens",
-			"Terracotta Army",
-			"The Oracle",
-			"Petra",
-			"Great Wall",
-			"Colossus",
-			"Hagia Sophia",
-			"Chichen Itza",
-			"Machu Picchu",
-			"Angkor Wat",
-			"Alhambra",
-			"Notre Dame",
-			"Sistine Chapel",
-			"Forbidden Palace",
-			"Leaning Tower of Pisa",
-			"Himeji Castle",
-			"Taj Mahal",
-			"Porcelain Tower",
-			"Kremlin",
-			"The Louvre",
-			"Big Ben",
-			"Brandenburg Gate",
-			"Eiffel Tower",
-			"Statue of Liberty",
-			"Neuschwanstein",
-			"Cristo Redentor"
-		],
-                "baseUnitBuyCost": 1400,
-		"embarkDefense": 60,
-		"startPercent": 110,
-		"iconRGB": [88, 41, 0],
 		"uniques": [
 		]
 	},
