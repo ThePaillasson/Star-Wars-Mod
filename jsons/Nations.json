@@ -273,7 +273,6 @@
 	
 	{
 		"name": "Kwa holdings",
-		"leaderName": "A'nang",
 		"adjective": ["Kwa"],
 		"cityStateType": "Scientific",
 		"startBias": ["Desert"],
@@ -372,7 +371,6 @@
 	
 	{
 		"name": "Toydarian Monarchy",
-		"leaderName": "Katuunko",
 		"adjective": ["Toydarian"],
 		"cityStateType": "Economic",
 		"startBias": ["Grass"],
