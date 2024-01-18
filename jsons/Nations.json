@@ -371,6 +371,7 @@
 	
 	{
 		"name": "Toydarian Monarchy",
+		"leaderName": "Katuunko",
 		"adjective": ["Toydarian"],
 		"cityStateType": "Economic",
 		"startBias": ["Grass"],
