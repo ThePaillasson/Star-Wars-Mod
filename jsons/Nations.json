@@ -274,7 +274,7 @@
 	{
 		"name": "Kwa holdings",
 		"adjective": ["Kwa"],
-		"cityStateType": "Scientific",
+		"cityStateType": "Cultured",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
@@ -302,7 +302,7 @@
 	{
 		"name": "Gree Empire",
 		"adjective": ["Gree"],
-		"cityStateType": "Scientific",
+		"cityStateType": "Cultured",
 		"startBias": ["Plains"],
 
 		"declaringWar": "Green perpendicular.",
@@ -316,7 +316,7 @@
 	{
 		"name": "Killiks",
 		"adjective": ["Killik"],
-		"cityStateType": "Scientific",
+		"cityStateType": "Cultured",
 		"startBias": ["Grass"],
 
 		"declaringWar": "*incomprehensible*",
@@ -373,7 +373,7 @@
 		"name": "Toydarian Monarchy",
 		"leaderName": "Katuunko",
 		"adjective": ["Toydarian"],
-		"cityStateType": "Economic",
+		"cityStateType": "Mercantile",
 		"startBias": ["Grass"],
 
 		"declaringWar": "I'm a Toydarian. Mind tricks don't work on me, only money.",
