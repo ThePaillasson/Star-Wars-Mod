@@ -259,8 +259,8 @@
 		"afterPeace": "You recognize my superiority.",
 		"tradeRequest": "I have an offer you can't refuse.",
 
-		"outerColor": [0, 0, 0],
-		"innerColor": [1, 215, 88],
+		"outerColor": [173, 79, 9],
+		"innerColor": [0,0,0],
 		"cities": [
 			"Dreshdae",
 			"Kaniset",
@@ -371,7 +371,6 @@
 	
 	{
 		"name": "Toydarian Monarchy",
-		"leaderName": "Katuunko",
 		"adjective": ["Toydarian"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Grass"],
