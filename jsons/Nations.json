@@ -1,4 +1,5 @@
 [
+	// Nations
 	{
 		"name": "Galactic Empire",
 		"leaderName": "Sheev Palpatine",
@@ -41,7 +42,6 @@
 			"Kestro",
 			"Republic City",
 			"Chasin City",
-			"Ta'a Chume'Dan",
 			"Pandath",
 			"Ahto City",
 			"Hyllyard City",
@@ -245,8 +245,8 @@
 		"favoredReligion": "Mandalorian Religion",
 
 		
-		"startIntroPart1": "We rule the Sith. Here we will build a sovereignty of the dark side to overcome millennia of injustice. But I am the rightful ruler, for I alone possess the curiosity to translate their secrets and apply them to larger patterns of conquest.",
-		"startIntroPart2": "I foresee what will become a magnificent Sith Empire."
+		"startIntroPart1": "Here's why you can't exterminate us, aruetii. We're not huddled in one place—we span the galaxy. We need no lords or leaders—so you can't destroy our command. We can live without technology—so we can fight with our bare hands. We have no species or bloodline—so we can rebuild our ranks with others who want to join us.",
+		"startIntroPart2": "We're more than just a people or an army, aruetii. We're a culture. We're an idea. And you can't kill ideas—but we can certainly kill you."
 		
 		"declaringWar": "I see what you're doing. I see a defense without honor. Let them see what such a defense deserves. Let them burn.",
 		"attacked": "For my people it's the honor and glory of battle that rules us. It's through combat that we prove our worth, gain renown and make our fortunes.",
@@ -329,6 +329,42 @@
 			"Sernpidal City",
 		],
 	},
+	
+	{
+		"name": "Confederacy of Independent Systems",
+		"leaderName": "Count Dooku",
+		"adjective": ["Separatist"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Diplomatique",
+		
+		"startIntroPart1": "It is an honor to stand before you, for you represent the freedom and the future of our galaxy. The once-great Republic and Jedi Order have become victims of their own ambitions, and the Supreme Chancellor is no more than a pawn of corporate monopolies.",
+		"startIntroPart2": "As a people you called out for change, you called out for leadership, and I humbly answered that call."
+		
+		"declaringWar": "I want only to bring peace and order to the galaxy.",
+		"attacked": ""
+		"introduction": "I am the Count Dooku. I am a political idealist, not a murderer.",
+		
+		"neutralHello": "",
+		"neutralLetsHearIt": [""],
+		"neutralNo": ["No."],
+		"neutralYes": ["Yes."],
+
+		"hateHello": "",
+		"hateLetsHearIt": [""],
+		"hateNo": [""],
+		"hateYes": ["Your ideology, while faulty, does have its points."],
+		
+		"afterPeace": "I don't condone your methods, but you had every right to protect your planet.",
+		"tradeRequest": "",
+
+		"outerColor": [165, 38, 10],
+		"innerColor": [237, 127, 16],
+		"cities": [
+			
+		],
+	},
+
+	// City states
 	
 	{
 		"name": "Kwa holdings",
@@ -622,6 +658,33 @@
 		"outerColor": [0,0,0],
 		"innerColor": [157, 62, 12],
 		"cities": ["Kaleela"]
+	},
+
+	{
+		"name": "Hapes Consortium",
+		"adjective": ["Hapan"],
+		"cityStateType": "Cultured",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [240, 195, 0],
+		"innerColor": [44, 117, 255],
+		"cities": ["Ta'a Chume'Dan"]
+	},
+
+	{
+		"name": "Paecian Empire",
+		"adjective": ["Paecian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [159, 232, 85],
+		"cities": ["Paecia"]
 	},
 	
 ]
