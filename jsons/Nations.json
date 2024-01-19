@@ -41,7 +41,6 @@
 			"Kestro",
 			"Republic City",
 			"Chasin City",
-			"iziz",
 			"Ta'a Chume'Dan",
 			"Pandath",
 			"Ahto City",
@@ -111,7 +110,8 @@
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Light side of the Force",
 		
-		"startIntroPart1": "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not. For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.",
+		"startIntroPart1": "Size matters not. Look at me. Judge me by my size, do you? Hmm? Hmm. And well you should not.",
+		"startIntroPart2": "For my ally is the Force, and a powerful ally it is. Life creates it, makes it grow. Its energy surrounds us and binds us. Luminous beings are we, not this crude matter. You must feel the Force around you; here, between you, me, the tree, the rock, everywhere, yes. Even between the land and the ship.",
 		
 		"declaringWar": "Powerful you have become, the dark side I sense in you.",
 		"attacked": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
@@ -137,7 +137,9 @@
 			"Palace of the Jedi",
 			"Ban Landing",
 			Knossa","Garang",
-			"Jedha City"
+			"Jedha City",
+			"Lost City of the Jedi",
+			"Garang",
 		],
 	},
 	
@@ -231,6 +233,51 @@
 	},
 		
 	{
+		"name": "Mandalorians",
+		"leaderName": "Mandalore the Ultimate",
+		"adjective": ["Mandalorian"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Mandalorian Religion",
+
+		
+		"startIntroPart1": "We rule the Sith. Here we will build a sovereignty of the dark side to overcome millennia of injustice. But I am the rightful ruler, for I alone possess the curiosity to translate their secrets and apply them to larger patterns of conquest.",
+		"startIntroPart2": "I foresee what will become a magnificent Sith Empire."
+		
+		"declaringWar": "I see what you're doing. I see a defense without honor. Let them see what such a defense deserves. Let them burn.",
+		"attacked": "For my people it's the honor and glory of battle that rules us. It's through combat that we prove our worth, gain renown and make our fortunes.",
+		"defeated": "It wasn't supposed to end like this.",
+		"introduction": "There is only one answer — and that answer is the word of Mandalore.",
+		
+		"neutralHello": "Politics is simply the continuation of war by other means.",
+		"neutralLetsHearIt": ["Politics is simply the continuation of war by other means."],
+		"neutralNo": ["No."],
+		"neutralYes": ["Yes."],
+
+		"hateHello": "I'm someone you don't want to get on the bad side of.",
+		"hateLetsHearIt": ["I'm someone you don't want to get on the bad side of."],
+		"hateNo": ["A warrior knows nothing of surrender."],
+		"hateYes": ["I think I need something more than killing and fighting in my life."],
+		
+		"afterPeace": "I think I need something more than killing and fighting in my life. I need a purpose or something like that.",
+		"tradeRequest": "Politics is simply the continuation of war by other means.",
+
+		"outerColor": [165, 38, 10],
+		"innerColor": [237, 127, 16],
+		"cities": [
+			"Keldabe",
+			"Sundari",
+			"Enceri",
+			"Norg Bral",
+			"Bralsin",
+			"Shuror",
+			"Dxun",
+			"New Nystao",
+			"Taris City",
+		],
+	},
+
+	{
 		"name": "Sith Order",
 		"leaderName": "Darth Revan",
 		"adjective": ["Sith"],
@@ -239,25 +286,26 @@
 		"favoredReligion": "Dark side of the Force",
 
 		
-		"startIntroPart1": "In Eternal Homage to Xim, Whose Fist Shall Enclose the Stars and Whose Name Shall Outlive Time.",
+		"startIntroPart1": "We rule the Sith. Here we will build a sovereignty of the dark side to overcome millennia of injustice. But I am the rightful ruler, for I alone possess the curiosity to translate their secrets and apply them to larger patterns of conquest.",
+		"startIntroPart2": "I foresee what will become a magnificent Sith Empire."
 		
-		"declaringWar": "This world is mine !",
-		"attacked": "I'm not the only one who loathed your poetry.",
-		"defeated": "I did the galaxy a favor. ",
-		"introduction": "Hello, I am Xim the Despote.",
+		"declaringWar": "Those who use the dark side are also bound to serve it. To understand this is to understand the underlying philosophy of the Sith.",
+		"attacked": "Honor is a fool's prize. Glory is of no use to the dead.",
+		"defeated": "You see that I was right, now, don't you? The truth is written in blood!",
+		"introduction": "Who I am is not important, my message is.",
 		
 		"neutralHello": "Hello.",
 		"neutralLetsHearIt": ["What do you want ?"],
-		"neutralNo": ["No."],
+		"neutralNo": ["Maybe later."],
 		"neutralYes": ["Yes."],
 
 		"hateHello": "Hello.",
-		"hateLetsHearIt": ["What do you want ?"],
-		"hateNo": ["No."],
-		"hateYes": ["Yes."],
+		"hateLetsHearIt": ["Are you deliberately trying to insult me?"],
+		"hateNo": ["You are just a traveling piece of bad luck, aren't you?"],
+		"hateYes": ["I guess you're not all bad."],
 		
-		"afterPeace": "You recognize my superiority.",
-		"tradeRequest": "I have an offer you can't refuse.",
+		"afterPeace": "When did you get all peace-loving on me?",
+		"tradeRequest": "Now, listen here.",
 
 		"outerColor": [219, 23, 2],
 		"innerColor": [0,0,0],
@@ -267,7 +315,12 @@
 			"Vardin",
 			"New Adasta",
 			"Sith Citadel",
-			"Malachor"
+			"Malachor",
+			"Massassi Site",
+			"Bitter End",
+			"Central Station",
+			"Olmondo",
+			"Gamorr Citadel"
 		],
 	},
 	
@@ -397,7 +450,6 @@
 		"cities": ["Kessendra"]
 	},
 	
-	
 	{
 		"name": "Wookiee council",
 		"adjective": ["Wookiee"],
@@ -410,6 +462,105 @@
 		"outerColor": [0,0,0],
 		"innerColor": [34, 120, 15],
 		"cities": ["Rwookrrorro"]
+		
+	},
+	
+	{
+		"name": "Onderon Monarchy",
+		"adjective": ["Onderonian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "Some say that war is the beginning of civilization. On Onderon, this was certainly the case, though it was a civilization that took a very peculiar form.",
+		"attacked": "The people of Onderon are a warriors. Early in their history they built Iziz to protect them from the beasts that swarmed on their world. No matter how far they've progressed, they're fundamentally still warriors standing watch on their battlements.",
+		"defeated": "The Onderonians were certainly brave—but they were disorganized and stupid."
+		"outerColor": [0,0,0],
+		"innerColor": [235, 0, 0],
+		"cities": ["Iziz"]
+		
+	},
+	
+	{
+		"name": "Lorell Raiders",
+		"adjective": ["Lorell Raider"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255, 0, 127],
+		"cities": ["Lorell"]
+	},
+
+	{
+		"name": "Krath",
+		"adjective": ["Krath"],
+		"cityStateType": "Religious",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [169, 17, 1],
+		"cities": ["Cinnagar"]
+	},
+	
+	{
+		"name": "The Wheel",
+		"adjective": ["The Wheel"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,0],
+		"cities": ["The Wheel"]
+	},
+
+	{
+		"name": "Iego council",
+		"adjective": ["Iego"],
+		"cityStateType": "Industrial",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Cliffhold"]
+	},
+	
+	{
+		"name": "Khoonda",
+		"adjective": ["Khoonda"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [145, 40, 59],
+		"cities": ["Khoonda"]
+	},
+
+	{
+		"name": "Chiss Ascendancy",
+		"adjective": ["Chiss"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Snow"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [145, 40, 59],
+		"cities": ["Csaplar"]
 	},
 	
 ]
