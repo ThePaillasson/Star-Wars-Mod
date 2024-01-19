@@ -44,7 +44,6 @@
 			"Ta'a Chume'Dan",
 			"Pandath",
 			"Ahto City",
-			"Adascopolis",
 			"Hyllyard City",
 			"Bsellis City",
 			"Malidris",
@@ -60,7 +59,6 @@
 			"Dor'shan",
 			"Theed",
 			"Anoat City",
-			"Indecta Era"
 		],
 	},
 	
@@ -96,9 +94,11 @@
 		"innerColor": [0,0,0],
 		"cities": [
 			"Lehon",
+			"Generis",
+			"Rakata monument",
 			"Salin",
 			"Rhen Var",
-			"Alzoc"
+			"Alzoc",
 		],
 	},
 	
@@ -136,10 +136,13 @@
 		"cities": [
 			"Palace of the Jedi",
 			"Ban Landing",
-			Knossa","Garang",
+			"Knossa",
+			"Garang",
+			"Obroa-skai",
 			"Jedha City",
 			"Lost City of the Jedi",
-			"Garang",
+			"Ilum Temple",
+			
 		],
 	},
 	
@@ -185,7 +188,8 @@
 			"Wormtown",
 			"Wormstew Town",
 			"Ko Vari",
-			"Inner Teth"
+			"Inner Teth",
+			"Gamorr Citadel",
 		],
 	},
 	
@@ -228,7 +232,7 @@
 			"Yutusk",
 			"Huronom",
 			"Astigone",
-			"Central Station"
+			"Central Station",
 		],
 	},
 		
@@ -316,11 +320,13 @@
 			"New Adasta",
 			"Sith Citadel",
 			"Malachor",
+			"Adascopolis",
 			"Massassi Site",
+			"Sadow'een Temple",
 			"Bitter End",
-			"Central Station",
 			"Olmondo",
-			"Gamorr Citadel"
+			"Kaas City",
+			"Sernpidal City",
 		],
 	},
 	
@@ -559,8 +565,63 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
-		"innerColor": [145, 40, 59],
+		"innerColor": [49, 140, 231],
 		"cities": ["Csaplar"]
+	},
+
+	{
+		"name": "Corporate Sector Authority",
+		"adjective": ["Corporate"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [204, 85, 0],
+		"cities": ["Mondder"]
+	},
+
+	{
+		"name": "Kamino",
+		"adjective": ["Kaminoan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "I have no feelings for your people. Of course, we Kaminoans have few feelings for anything. It is not in our nature.",
+		"attacked": "After all these years, we were beginning to think you weren't coming.",
+		"defeated": "Millions of us were wiped out when the seas rose and engulfed Kamino. We survived as a species because we were willing to think the unthinkable. Some genetic characteristics helped us survive the starvation and overcrowding, and some did not, and there was no room for sentiment or for weaklings. We culled; we refined; we selected. The prospect of extinction forged us into the species we designed ourselves to be, the purest expression of the Kaminoan spirit, and at a level of social maturity that weaker mongrel species will never attain, because they lack the courage to cull. We are the masters of genetics and sole arbiters of our fate, never to be at the mercy of chance again."
+		"outerColor": [0,0,0],
+		"innerColor": [16, 52, 166],
+		"cities": ["Tipoca City"]
+	},
+	
+	{
+		"name": "Adumari Union",
+		"adjective": ["Adumari"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [104, 94, 67],
+		"cities": ["Yedagon City"]
+	},
+
+	{
+		"name": "Kolkpravis",
+		"adjective": ["Kaleesh"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Grass"],
+
+		"declaringWar": "Army or not, you must realize, you are doomed.",
+		"attacked": "You think you can defeat me? You’re nothing.",
+		"defeated": "Time to abandon ship."
+		"outerColor": [0,0,0],
+		"innerColor": [157, 62, 12],
+		"cities": ["Kaleela"]
 	},
 	
 ]
