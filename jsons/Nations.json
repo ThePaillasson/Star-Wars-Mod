@@ -347,8 +347,8 @@
 		"startIntroPart2": "As a people you called out for change, you called out for leadership, and I humbly answered that call."
 		
 		"declaringWar": "I want only to bring peace and order to the galaxy.",
-		"attacked": "Brave of you, boy. But I would have thought you had learned your lesson."
-		"defeated": "",
+		"attacked": "Brave of you, boy. But I would have thought you had learned your lesson.",
+		"defeated": "The Sith control everything, you just don't know it.",
 		"introduction": "I am the Count Dooku of Serenno. I am a political idealist, not a murderer.",
 		
 		"neutralHello": "I am committed to the idea of a galaxy ruled by an enlightened leader, with laws that apply universally—not one set for the Core Worlds, another for the Outer Rim worlds.",
@@ -380,7 +380,59 @@
 			"Dodecapolis",
 			"Triton",
 			"Hypori",
-			"Boz Pity Confederacy base"
+			"Boz Pity Confederacy base",
+			"Salis D'aar",
+		],
+	},
+
+	{
+		"name": "Alliance to Restore the Republic",
+		"leaderName": "Mon Mothma",
+		"adjective": ["Rebel"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "We, the Rebel Alliance, do therefore in the name—and by the authority—of the free beings of the Galaxy, solemnly publish and declare our intentions:",
+		"startIntroPart2": "To fight and oppose you and your forces, by any and all means at our disposal;
+To refuse any Imperial law contrary to the rights of free beings;
+To bring about your destruction and the destruction of the Galactic Empire;
+To make forever free all beings in the galaxy.
+To these ends, we pledge our property, our honor, and our lives."
+		
+		"declaringWar": "We agree that the time for diplomacy and politics has passed. It is now time for action… therefore let this be an official declaration of rebellion! Today, we all vow to change the galaxy, and one day the galaxy will indeed be free!",
+		"attacked": "We have powerful friends. You’re going to regret this.",
+		"defeated": "You can kill me, but you can't kill what I stand for... and you won't stop justice.",
+		"introduction": "We are loyalists, trying to preserve democracy in the Republic.",
+		
+		"neutralHello": "May the Force be with you.",
+		"neutralLetsHearIt": ["What is it? What do you need to tell us?"],
+		"neutralNo": ["You're learning the most powerful lesson of all. You're learning how to fall."],
+		"neutralYes": ["I hope one day we can fight together."],
+
+		"hateHello": "I feel like because I can fight, I have to, for those who cannot. And I think you might be the same way.",
+		"hateLetsHearIt": ["You target civilians, kill those who surrender, break every rule of engagement!"],
+		"hateNo": ["The chancellor has made herself clear. This meeting is over."],
+		"hateYes": ["You have your moments. Not many of them, but you do have them."],
+		
+		"afterPeace": "War is not a state of being. It is meant to be a temporary chaos between periods of peace. Some want it to be the course of things: a default fact of existence. But I will not let that be so.",
+		"tradeRequest": "This is Mon Mothma. I have an assignment for you. The Rebellion needs you and we don't have much time. We must work together.",
+
+		"outerColor": [204, 85, 0],
+		"innerColor": [21, 96, 189],
+		"cities": [
+			"Coral City",
+			"Dantooine base",
+			"Havoc Outpost",
+			"Chopper Base",
+			"Chrellis Base",
+			"Brigia Base",
+			"Base One",
+			"Thila Command",
+			"Echo Base",
+			"Golrath Station",
+			"Haven Base",
+			"5251977 Base",
+			"Derra IV Base"
 		],
 	},
 	
@@ -715,6 +767,32 @@
 		"outerColor": [0,0,0],
 		"innerColor": [15, 5, 107],
 		"cities": ["Otoh Gunga"]
+	},
+
+        {
+		"name": "Ssi-ruuvi Imperium",
+		"adjective": ["Ssi-ruuk"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [173, 79, 9],
+		"cities": ["Lwhekk"]
+	},
+
+        {
+		"name": "Cloud City",
+		"adjective": ["Bespinite"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Cloud City"]
 	},
 
 	
