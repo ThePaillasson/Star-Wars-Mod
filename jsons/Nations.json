@@ -686,5 +686,18 @@
 		"innerColor": [159, 232, 85],
 		"cities": ["Paecia"]
 	},
+
+	{
+		"name": "Eternal Empire of Zakuul",
+		"adjective": ["Zakuulan"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "I have forged this empire to surmount all of my previous works; to span eternity.",
+		"attacked": "You presume limits to my power. There are none.",
+		"defeated": "My life spans millennia. Legions have risen to test me… My ascendance is inevitable. A day, a year, a millennium—it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same."
+		"outerColor": [44, 117, 255],
+		"innerColor": [255, 215, 0],
+		"cities": ["The Spire"]
+	},
 	
 ]
