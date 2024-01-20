@@ -341,17 +341,18 @@
 		"startIntroPart2": "As a people you called out for change, you called out for leadership, and I humbly answered that call."
 		
 		"declaringWar": "I want only to bring peace and order to the galaxy.",
-		"attacked": ""
+		"attacked": "Brave of you, boy. But I would have thought you had learned your lesson."
+		"defeated": "",
 		"introduction": "I am the Count Dooku. I am a political idealist, not a murderer.",
 		
-		"neutralHello": "",
+		"neutralHello": "Anger leads to hate and hate leads to power.",
 		"neutralLetsHearIt": [""],
 		"neutralNo": ["No."],
 		"neutralYes": ["Yes."],
 
-		"hateHello": "",
+		"hateHello": "I am committed to the idea of a galaxy ruled by an enlightened leader, with laws that apply universally—not one set for the Core Worlds, another for the Outer Rim worlds.",
 		"hateLetsHearIt": [""],
-		"hateNo": [""],
+		"hateNo": ["I would kill you right now if I didn't have to drag your body away."],
 		"hateYes": ["Your ideology, while faulty, does have its points."],
 		
 		"afterPeace": "I don't condone your methods, but you had every right to protect your planet.",
