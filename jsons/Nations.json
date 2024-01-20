@@ -570,7 +570,7 @@
 	{
 		"name": "Iego council",
 		"adjective": ["Iego"],
-		"cityStateType": "Industrial",
+		"cityStateType": "Mercantile",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
