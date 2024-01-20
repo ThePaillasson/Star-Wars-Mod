@@ -57,8 +57,11 @@
 			"Pinyumb",
 			"Eriadu City",
 			"Dor'shan",
-			"Theed",
 			"Anoat City",
+			"Theed",
+			"Bestine City",
+			"Ravelin",
+		
 		],
 	},
 	
@@ -190,6 +193,9 @@
 			"Ko Vari",
 			"Inner Teth",
 			"Gamorr Citadel",
+			"Anchorhead",
+			"Mos Eisley",
+			"Mos Espa",
 		],
 	},
 	
@@ -345,22 +351,36 @@
 		"defeated": "",
 		"introduction": "I am the Count Dooku. I am a political idealist, not a murderer.",
 		
-		"neutralHello": "Anger leads to hate and hate leads to power.",
-		"neutralLetsHearIt": [""],
+		"neutralHello": "I am committed to the idea of a galaxy ruled by an enlightened leader, with laws that apply universally—not one set for the Core Worlds, another for the Outer Rim worlds.",
+		"neutralLetsHearIt": ["What?"],
 		"neutralNo": ["No."],
 		"neutralYes": ["Yes."],
 
-		"hateHello": "I am committed to the idea of a galaxy ruled by an enlightened leader, with laws that apply universally—not one set for the Core Worlds, another for the Outer Rim worlds.",
-		"hateLetsHearIt": [""],
+		"hateHello": "Anger leads to hate and hate leads to power.",
+		"hateLetsHearIt": ["I sense great fear in you. You have hate. You have anger. But you don’t use them."],
 		"hateNo": ["I would kill you right now if I didn't have to drag your body away."],
 		"hateYes": ["Your ideology, while faulty, does have its points."],
 		
 		"afterPeace": "I don't condone your methods, but you had every right to protect your planet.",
-		"tradeRequest": "",
+		"tradeRequest": "I am a man of great wealth, and I can be very generous to my allies.",
 
 		"outerColor": [165, 38, 10],
 		"innerColor": [237, 127, 16],
 		"cities": [
+			"Raxulon",
+			"Stalgasin hive",
+			"Koto-Si",
+			"Zarra",
+			"Skako City",
+			"Fralideja",
+			"Harnaidan",
+			"Taleucema",
+			"Jygat",
+			"Falleen Throne",
+			"Dodecapolis",
+			"Triton",
+			"Hypori",
+			"Boz Pity Confederacy base",
 			
 		],
 	},
@@ -423,20 +443,6 @@
 		"cities": ["Yoggoy hive"]
 	},
 	
-	{
-		"name": "Celestials",
-		"adjective": ["Celestial"],
-		"cityStateType": "Religious",
-		"startBias": ["Grass"],
-
-		"declaringWar": "We are the ones who guard the power. We are the middle, the beginning, and the end.",
-		"attacked": "Do not do this. Do not become what you should not. Be strong, I implore you, or else I will be forced to contain you.",
-		"defeated": "I have done what is right or what is wrong, depending on your point of view."
-		"outerColor": [0,0,0],
-		"innerColor": [0, 255, 255],
-		"cities": ["Mortis"]
-	},
-
 	{
 		"name": "Herglic Trade Empire",
 		"adjective": ["Herglese"],
@@ -700,5 +706,19 @@
 		"innerColor": [255, 215, 0],
 		"cities": ["The Spire"]
 	},
+
+	{
+		"name": "Gungan Society",
+		"adjective": ["Gungan"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
+		"attacked": "Muy wellen, dis shall notsa besa forgotten.",
+		"defeated": "Wesa nebber fully trusted yousa from da start."
+		"outerColor": [0,0,0],
+		"innerColor": [15, 5, 107],
+		"cities": ["Otoh Gunga"]
+	},
+
 	
 ]
