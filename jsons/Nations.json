@@ -393,11 +393,7 @@
 		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "We, the Rebel Alliance, do therefore in the name—and by the authority—of the free beings of the Galaxy, solemnly publish and declare our intentions:",
-		"startIntroPart2": "To fight and oppose you and your forces, by any and all means at our disposal;
-To refuse any Imperial law contrary to the rights of free beings;
-To bring about your destruction and the destruction of the Galactic Empire;
-To make forever free all beings in the galaxy.
-To these ends, we pledge our property, our honor, and our lives."
+		"startIntroPart2": "To fight and oppose you and your forces, by any and all means at our disposal; to refuse any Imperial law contrary to the rights of free beings; to bring about your destruction and the destruction of the Galactic Empire; to make forever free all beings in the galaxy. To these ends, we pledge our property, our honor, and our lives."
 		
 		"declaringWar": "We agree that the time for diplomacy and politics has passed. It is now time for action… therefore let this be an official declaration of rebellion! Today, we all vow to change the galaxy, and one day the galaxy will indeed be free!",
 		"attacked": "We have powerful friends. You’re going to regret this.",
