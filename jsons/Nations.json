@@ -349,7 +349,7 @@
 		"declaringWar": "I want only to bring peace and order to the galaxy.",
 		"attacked": "Brave of you, boy. But I would have thought you had learned your lesson."
 		"defeated": "",
-		"introduction": "I am the Count Dooku. I am a political idealist, not a murderer.",
+		"introduction": "I am the Count Dooku of Serenno. I am a political idealist, not a murderer.",
 		
 		"neutralHello": "I am committed to the idea of a galaxy ruled by an enlightened leader, with laws that apply universally—not one set for the Core Worlds, another for the Outer Rim worlds.",
 		"neutralLetsHearIt": ["What?"],
@@ -364,8 +364,8 @@
 		"afterPeace": "I don't condone your methods, but you had every right to protect your planet.",
 		"tradeRequest": "I am a man of great wealth, and I can be very generous to my allies.",
 
-		"outerColor": [165, 38, 10],
-		"innerColor": [237, 127, 16],
+		"outerColor": [204, 85, 0],
+		"innerColor": [21, 96, 189],
 		"cities": [
 			"Raxulon",
 			"Stalgasin hive",
