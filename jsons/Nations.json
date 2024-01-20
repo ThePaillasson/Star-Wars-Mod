@@ -1,5 +1,4 @@
 [
-	// Nations
 	{
 		"name": "Galactic Empire",
 		"leaderName": "Sheev Palpatine",
@@ -340,8 +339,8 @@
 		"name": "Confederacy of Independent Systems",
 		"leaderName": "Count Dooku",
 		"adjective": ["Separatist"],
-		"startBias": ["Desert"],
-		"preferredVictoryType": "Diplomatique",
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "It is an honor to stand before you, for you represent the freedom and the future of our galaxy. The once-great Republic and Jedi Order have become victims of their own ambitions, and the Supreme Chancellor is no more than a pawn of corporate monopolies.",
 		"startIntroPart2": "As a people you called out for change, you called out for leadership, and I humbly answered that call."
@@ -384,8 +383,6 @@
 			
 		],
 	},
-
-	// City states
 	
 	{
 		"name": "Kwa holdings",
