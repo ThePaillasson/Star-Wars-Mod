@@ -1008,4 +1008,108 @@
 		"cities": ["Stronghold of the Morubas Crime Family"]
 	},
 
+	{
+		"name": "Hondo Ohnaka Pirate Gang",
+		"adjective": ["Weequay"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Insolence?!' We are pirates! We don't even know what that means. Open fire!",
+		"attacked": "You don't survive in the Outer Rim by being stupid!",
+		"defeated": "You are devious and deceitful and, most importantly, stupid."
+		"outerColor": [0,0,0],
+		"innerColor": [132, 46, 27],
+		"cities": ["Hondo's complex"]
+	},
+
+	{
+		"name": "Zeffo",
+		"adjective": ["Zeffo"],
+		"cityStateType": "Religious",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [223, 115, 255],
+		"cities": ["Stronghold of the Morubas Crime Family"]
+	},
+
+	{
+		"name": "Haxion Brood",
+		"adjective": ["Haxion Brood"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
+		"attacked": "The Haxion Brood is gunning for ya.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [252, 93, 93],
+		"cities": ["Zeffo"]
+	},
+
+	{
+		"name": "Bedlam Raiders",
+		"adjective": ["Bedlam Raider"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Let this be a reminder of what happens when you cross the Bedlam Raiders.",
+		"attacked": "Hmm. The galaxy has changed. There are many wars, but little honor to be won from them.",
+		"defeated": "I've been waiting for this… for two hundred years!"
+		"outerColor": [0,0,0],
+		"innerColor": [167, 85, 2],
+		"cities": ["Koboh"]
+	},
+
+	{
+		"name": "Narkis Anchorites",
+		"adjective": ["Narkis Anchorite"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [250, 234, 115],
+		"cities": ["The Archive"]
+	},
+
+	{
+		"name": "Kanjiklub",
+		"adjective": ["Kanji"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
+		"attacked": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
+		"defeated": "All right. All right. I suppose some of this is my fault."
+		"outerColor": [0,0,0],
+		"innerColor": [218, 179, 10],
+		"cities": ["Nar Kanji"]
+	},
+
+	
+	{
+		"name": "Guavian Death Gang",
+		"adjective": ["Guavian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You're a dead man.",
+		"attacked": "Your game is old. There's no one left in the galaxy for you to swindle.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [198, 8, 0],
+		"cities": ["Guavian Death Space"]
+	},
+
+	{
+		"name": "Pirates",
+		"outerColor": [0, 0, 0],
+		"innerColor": [115, 8, 0],
+		"uniques": ["Can only heal by pillaging"]
+	}
+
 ]
