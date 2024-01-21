@@ -1104,11 +1104,4 @@
 		"innerColor": [198, 8, 0],
 		"cities": ["Guavian Death Space"]
 	},
-
-	{
-		"name": "Pirates",
-		"outerColor": [0, 0, 0],
-		"innerColor": [115, 8, 0],
-		"uniques": ["Can only heal by pillaging"]
-	}
 ]
