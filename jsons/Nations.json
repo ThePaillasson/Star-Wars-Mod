@@ -987,7 +987,7 @@
 		"startBias": ["Desert"],
 
 		"declaringWar": "I'm gonna make you pay for what you've done.",
-		"attacked": "You missed something else. I already have a love. And it's called money.,
+		"attacked": "You missed something else. I already have a love. And it's called money.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [247, 226, 105],
@@ -1104,4 +1104,11 @@
 		"innerColor": [198, 8, 0],
 		"cities": ["Guavian Death Space"]
 	},
+
+	{
+		"name": "Pirates",
+		"outerColor": [0, 0, 0],
+		"innerColor": [164, 36, 36],
+		"uniques": ["Can only heal by pillaging"]
+	}
 ]
