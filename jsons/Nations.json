@@ -494,9 +494,8 @@
 
 	{
 		"name": "Shadow Collective",
-		"leaderName": "Shimrra Jamaane",
-		"adjective": ["Yuuzhan Vong"],
-		"startBias": ["Grass"],
+		"leaderName": "Darth Maul",
+		"adjective": ["Shadow Collective"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Dark side of the Force",
 		
