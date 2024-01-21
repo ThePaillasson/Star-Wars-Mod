@@ -1109,6 +1109,6 @@
 		"name": "Pirates",
 		"outerColor": [0, 0, 0],
 		"innerColor": [164, 36, 36],
-		"uniques": ["Can only heal by pillaging, "Excluded from map editor"]
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 ]
