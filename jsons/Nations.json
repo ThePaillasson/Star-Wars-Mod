@@ -407,7 +407,7 @@
 		"name": "Alliance to Restore the Republic",
 		"leaderName": "Mon Mothma",
 		"adjective": ["Rebel"],
-		"startBias": ["Plains"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "We, the Rebel Alliance, do therefore in the name—and by the authority—of the free beings of the Galaxy, solemnly publish and declare our intentions:",
