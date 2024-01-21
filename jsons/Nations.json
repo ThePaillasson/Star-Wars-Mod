@@ -50,6 +50,8 @@
 			"Abregado-rae City",
 			"Ord Mantell City",
 			"Tafanda Bay",
+			"Muracie",
+			"Nexus City",
 			"Lessu",
 			"Pixelito",
 			"Pelek Baw",
@@ -59,7 +61,13 @@
 			"Anoat City",
 			"Theed",
 			"Bestine City",
-			"Ravelin"
+			"Ravelin",
+			"Emperor's ruling city",
+			"Kalist Base",
+			"Delvardus's fortress",
+			"Nirauan",
+			"Hakassi",
+			"Orinda",
 		
 		],
 	},
@@ -97,7 +105,7 @@
 		"cities": [
 			"Lehon",
 			"Generis",
-			"Rakata monument",
+			"Hoth",
 			"Salin",
 			"Rhen Var",
 			"Alzoc"
@@ -190,6 +198,8 @@
 			"Wormtown",
 			"Wormstew Town",
 			"Ko Vari",
+			"Da Soocha",
+			"Sleheyron",
 			"Inner Teth",
 			"Gamorr Citadel",
 			"Anchorhead",
@@ -368,6 +378,7 @@
 		"innerColor": [21, 96, 189],
 		"cities": [
 			"Raxulon",
+			"Carannia",
 			"Stalgasin hive",
 			"Koto-Si",
 			"Zarra",
@@ -378,12 +389,13 @@
 			"Jygat",
 			"Falleen Throne",
 			"Dodecapolis",
+			"Pau City",
 			"Triton",
 			"Hypori",
 			"Boz Pity Confederacy base",
 			"Salis D'aar",
 		],
-	},
+	}
 
 	{
 		"name": "Alliance to Restore the Republic",
@@ -429,6 +441,44 @@
 			"Haven Base",
 			"5251977 Base",
 			"Derra IV Base"
+		],
+	},
+
+	{
+		"name": "Yuuzhan Vong Empire",
+		"leaderName": "Shimrra Jamaane",
+		"adjective": ["Yuuzhan Vong"],
+		"startBias": ["Grass"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Yun-Yammka and Yun-Harla",
+		
+		"startIntroPart1": "This is not about your little planet. We will take your whole galaxy. We will destroy your machines; they are an abomination.",
+		"startIntroPart2": "We will share our ways, we will share our beliefs. We will share pain, like us, you will come to embrace it.",
+		"declaringWar": "It is not your galaxy. You have merely infested it for a time. We have come to end the infection, in the name of glorious Yun-Yuuzhan. Tchurokk Yun'tchilat!",
+		"attacked": "We shall teach you the glory of the gods. Do-ro'ik vong pratte! ",
+		"defeated": "Al' tanna Shimrra knotte Yun'o!",
+		"introduction": "Long life to Shimrra, beloved of the gods!",
+		
+		"neutralHello": "Qe'u.",
+		"neutralLetsHearIt": ["Bos sos si?"],
+		"neutralNo": ["Puul."],
+		"neutralYes": ["Rrush'hok ichnar vinim'hok!"],
+
+		"hateHello": "You will learn the glory of the Praetorite Vong.",
+		"hateLetsHearIt": ["Bos?"],
+		"hateNo": ["Yadag dakl, ignot!"],
+		"hateYes": ["Dwi."],
+		
+		"afterPeace": "Welcome my home. You see my home, I be-bel-believe. You come me there. I show you splendor Yuuzhan Vong.",
+		"tradeRequest": "Welcome my home. You see my home, I be-bel-believe. You come me there. I show you splendor Yuuzhan Vong.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [220, 20, 60],
+		"cities": [
+			"Yuuzhan'tar",
+			"Zonama Sekot",
+			"Helska",
+			"Bimmiel",
 		],
 	},
 	
@@ -730,6 +780,7 @@
 		"name": "Paecian Empire",
 		"adjective": ["Paecian"],
 		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -743,6 +794,7 @@
 		"name": "Eternal Empire of Zakuul",
 		"adjective": ["Zakuulan"],
 		"cityStateType": "Militaristic",
+                "startBias": ["Grass"],
 
 		"declaringWar": "I have forged this empire to surmount all of my previous works; to span eternity.",
 		"attacked": "You presume limits to my power. There are none.",
@@ -756,6 +808,7 @@
 		"name": "Gungan Society",
 		"adjective": ["Gungan"],
 		"cityStateType": "Cultured",
+		"startBias": ["Grass"],
 
 		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
 		"attacked": "Muy wellen, dis shall notsa besa forgotten.",
@@ -769,6 +822,7 @@
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
 		"cityStateType": "Religious",
+		"startBias": ["Grass"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -790,6 +844,35 @@
 		"innerColor": [255,255,255],
 		"cities": ["Cloud City"]
 	},
+
+	{
+		"name": "Duskhan League",
+		"adjective": ["Yevetha"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [237, 0, 0],
+		"cities": ["Giat Nor"]
+	},
+
+	{
+		"name": "Joruus C'baoth's kingdom",
+		"adjective": ["Waylandian"],
+		"cityStateType": "Religious",
+		"startBias": ["Grass"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [110, 11, 20],
+		"cities": ["Mount Tantiss city"]
+	},
+
 
 	
 ]
