@@ -60,6 +60,8 @@
 			"Dor'shan",
 			"Anoat City",
 			"Theed",
+			"Scarif",
+			"Lothal City",
 			"Bestine City",
 			"Ravelin",
 			"Emperor's ruling city",
@@ -68,6 +70,7 @@
 			"Nirauan",
 			"Hakassi",
 			"Orinda",
+			"Sartinaynian City",
 		
 		],
 	},
@@ -144,14 +147,16 @@
 		"outerColor": [255,255,255],
 		"innerColor": [136, 66, 29],
 		"cities": [
-			"Palace of the Jedi",
+			"Palace of the Jedi",",
+			"Jedi village",
 			"Ban Landing",
 			"Knossa",
 			"Garang",
 			"Obroa-skai",
 			"Jedha City",
 			"Lost City of the Jedi",
-			"Ilum Temple"
+			"Ilum Temple",
+			"Tuanul",
 			
 		],
 	},
@@ -334,7 +339,7 @@
 			"Kaniset",
 			"Vardin",
 			"New Adasta",
-			"Sith Citadel",
+			"Great Citadel",
 			"Malachor",
 			"Adascopolis",
 			"Massassi Site",
@@ -342,7 +347,8 @@
 			"Bitter End",
 			"Olmondo",
 			"Kaas City",
-			"Sernpidal City"
+			"Sernpidal City",
+			"The Citadel",
 		],
 	},
 	
@@ -440,7 +446,11 @@
 			"Golrath Station",
 			"Haven Base",
 			"5251977 Base",
-			"Derra IV Base"
+			"Derra IV Base",
+			"D'Qar Base",
+			"Crait Outpost",
+			"Anoat Camp",
+			"Ajan Klos Base",
 		],
 	},
 
@@ -807,7 +817,7 @@
 	{
 		"name": "Gungan Society",
 		"adjective": ["Gungan"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Maritime",
 		"startBias": ["Grass"],
 
 		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
@@ -872,6 +882,89 @@
 		"innerColor": [110, 11, 20],
 		"cities": ["Mount Tantiss city"]
 	},
+
+	{
+		"name": "Blood Monarchy",
+		"adjective": ["Thisspiasian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [110, 11, 20],
+		"cities": ["Thisspias"]
+	},
+
+	{
+		"name": "Zygerrian Slave Empire",
+		"adjective": ["Thisspiasian"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Plains"],
+
+		"declaringWar": "My queen is going to bring back the royal slave auction as in the days before. Zygerria will be rich and powerful again.",
+		"attacked": "Slavery is the natural order of things. The weak deserve nothing more than to kneel before the strong, bound to our service.",
+		"defeated": "For thousands of years, Zygerria supplied slave labor to the galaxy. We prospered. Our customers prospered. Then you came."
+		"outerColor": [0,0,0],
+		"innerColor": [255, 0, 127],
+		"cities": ["Thisspias"]
+	},
+
+	{
+		"name": "Frangawl Cult",
+		"adjective": ["Frangawl"],
+		"cityStateType": "Religious",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [47, 27, 12],
+		"cities": ["Bardotta Capital City"]
+	},
+
+	{
+		"name": "Pyke Syndicate",
+		"adjective": ["Pyke"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Open the bank. We're here for a withdrawal.",
+		"attacked": "Did you honestly think you'd get away with fooling a Pyke?",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [253, 238, 0],
+		"cities": ["High fortress of the Pyke Syndicate"]
+	},
+
+	{
+		"name": "Bright Tree Tribe",
+		"adjective": ["Ewok"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "Chiba chiba sohpa.",
+		"attacked": "Pritka pritka",
+		"defeated": "Coatee-cha tu yub nub!"
+		"outerColor": [0,0,0],
+		"innerColor": [9, 82, 40],
+		"cities": ["Bright Tree Village"]
+	},
+
+	{
+		"name": "Unkar Plutt's Gang",
+		"adjective": ["Unkar's Thug"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+
+		"declaringWar": "I'm gonna make you pay for what you've done.",
+		"attacked": "You missed something else. I already have a love. And it's called money.,
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [247, 226, 105],
+		"cities": ["Niima Outpost"]
+	},
+
 
 
 	
