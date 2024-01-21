@@ -119,7 +119,7 @@
 		"name": "Jedi Order",
 		"leaderName": "Yoda",
 		"adjective": ["Jedi"],
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Light side of the Force",
 		
@@ -458,7 +458,7 @@
 		"name": "Yuuzhan Vong Empire",
 		"leaderName": "Shimrra Jamaane",
 		"adjective": ["Yuuzhan Vong"],
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Yun-Yammka and Yun-Harla",
 		
@@ -579,7 +579,7 @@
 		"name": "Killiks",
 		"adjective": ["Killik"],
 		"cityStateType": "Cultured",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "*incomprehensible*",
 		"attacked": "*incomprehensible*",
@@ -607,7 +607,7 @@
 		"name": "Alsakani Government",
 		"adjective": ["Alsakani"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -621,7 +621,7 @@
 		"name": "Toydarian Monarchy",
 		"adjective": ["Toydarian"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "I'm a Toydarian. Mind tricks don't work on me, only money.",
 		"attacked": "Perhaps you failed to pay attention to the Senate orientation. They should have explained that Toydaria is a neutral system.",
@@ -649,7 +649,7 @@
 		"name": "Wookiee council",
 		"adjective": ["Wookiee"],
 		"cityStateType": "Cultured",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "RRRrrruurgh! Arrggg!",
 		"attacked": "Grroooogrrraaaawrrrrrrrrmph.",
@@ -664,7 +664,7 @@
 		"name": "Onderon Monarchy",
 		"adjective": ["Onderonian"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "Some say that war is the beginning of civilization. On Onderon, this was certainly the case, though it was a civilization that took a very peculiar form.",
 		"attacked": "The people of Onderon are a warriors. Early in their history they built Iziz to protect them from the beasts that swarmed on their world. No matter how far they've progressed, they're fundamentally still warriors standing watch on their battlements.",
@@ -679,7 +679,7 @@
 		"name": "Lorell Raiders",
 		"adjective": ["Lorell Raider"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -693,7 +693,7 @@
 		"name": "Krath",
 		"adjective": ["Krath"],
 		"cityStateType": "Religious",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -734,7 +734,7 @@
 		"name": "Khoonda",
 		"adjective": ["Khoonda"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -789,7 +789,7 @@
 		"name": "Adumari Union",
 		"adjective": ["Adumari"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -803,7 +803,7 @@
 		"name": "Kolkpravis",
 		"adjective": ["Kaleesh"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grass"],
+		"startBias": ["Desert"],
 
 		"declaringWar": "Army or not, you must realize, you are doomed.",
 		"attacked": "You think you can defeat me? You’re nothing.",
@@ -817,7 +817,7 @@
 		"name": "Hapes Consortium",
 		"adjective": ["Hapan"],
 		"cityStateType": "Cultured",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -845,7 +845,7 @@
 		"name": "Eternal Empire of Zakuul",
 		"adjective": ["Zakuulan"],
 		"cityStateType": "Militaristic",
-                "startBias": ["Grass"],
+                "startBias": ["Grassland"],
 
 		"declaringWar": "I have forged this empire to surmount all of my previous works; to span eternity.",
 		"attacked": "You presume limits to my power. There are none.",
@@ -859,7 +859,7 @@
 		"name": "Gungan Society",
 		"adjective": ["Gungan"],
 		"cityStateType": "Maritime",
-		"startBias": ["Grass"],
+		"startBias": ["Marsh"],
 
 		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
 		"attacked": "Muy wellen, dis shall notsa besa forgotten.",
@@ -873,7 +873,7 @@
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
 		"cityStateType": "Religious",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -914,7 +914,7 @@
 		"name": "Joruus C'baoth's kingdom",
 		"adjective": ["Waylandian"],
 		"cityStateType": "Religious",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -949,7 +949,7 @@
 		"defeated": "For thousands of years, Zygerria supplied slave labor to the galaxy. We prospered. Our customers prospered. Then you came."
 		"outerColor": [0,0,0],
 		"innerColor": [255, 0, 127],
-		"cities": ["Thisspias"]
+		"cities": ["Zygerria"]
 	},
 
 	{
@@ -970,6 +970,7 @@
 		"name": "Bright Tree Tribe",
 		"adjective": ["Ewok"],
 		"cityStateType": "Religious",
+		"startBias": ["Forest"],
 
 		"declaringWar": "Chiba chiba sohpa.",
 		"attacked": "Pritka pritka",
@@ -997,7 +998,7 @@
 		"name": "Morubas Crime Family",
 		"adjective": ["Morubas"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Grass"],
+		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1025,7 +1026,7 @@
 		"name": "Zeffo",
 		"adjective": ["Zeffo"],
 		"cityStateType": "Religious",
-		"startBias": ["Grass"],
+		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1052,7 +1053,7 @@
 		"name": "Bedlam Raiders",
 		"adjective": ["Bedlam Raider"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Desert"],
+		"startBias": ["Hill"],
 
 		"declaringWar": "Let this be a reminder of what happens when you cross the Bedlam Raiders.",
 		"attacked": "Hmm. The galaxy has changed. There are many wars, but little honor to be won from them.",
