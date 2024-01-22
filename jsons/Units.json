@@ -1,0 +1,20 @@
+[
+	{
+		"name": "Rakata Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Infinite Empire",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"range": 1,
+		"cost": 40,
+    "promotions": ["Blitz"],
+    "obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Long ago the Rakata ruled all the known galaxy; all species bowed down to them"}
+		]
+	}
+]
