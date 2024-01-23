@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/Units/Rakata Warrior
+Images/TileSets/Units/Rakata Warrior
   rotate: false
   xy: 725, 1428
   size: 95, 81
