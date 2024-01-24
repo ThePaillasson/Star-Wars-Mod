@@ -4,6 +4,13 @@ size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+TileSets/Units/Rakata Warrior
+  rotate: false
+  xy: 4, 4
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 NationIcons/Hutt Clan
   rotate: false
   xy: 212, 212
@@ -11,7 +18,8 @@ NationIcons/Hutt Clan
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/Rebel Alliance
+NationIcons/NationIcons
+/Alliance to Restore the Republic
   rotate: false
   xy: 420, 212
   size: 200, 200
@@ -32,11 +40,11 @@ NationIcons/Jedi Order
   orig: 200, 200
   offset: 0, 0
   index: -1
-NationIcons/The Separatists
+NationIcons/Confederacy of Independant Systems
   rotate: false
   xy: 836, 212
   size: 200, 200
-  orig: 200, 200
+  orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sith Order
