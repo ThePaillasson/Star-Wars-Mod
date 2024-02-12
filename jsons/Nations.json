@@ -532,6 +532,41 @@
 			"Nightsister fortress",
 		],
 	},
+
+	{
+		"name": "Eternal Empire of Zakuul",
+		"leaderName": "Valkorion the Immortal Emperor",
+		"adjective": ["Zakuulan"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Old Six Gods",
+		
+		"startIntroPart1": "Look around you. Zakuul is poised to become the greatest civilization in the history of the galaxy.",
+		"startIntroPart2": "I have forged this empire to surmount all of my previous works. To span eternity.",
+		"declaringWar": "I see futures in you. Futures I will not allow. Your future ends here.",
+		"attacked": "You presume limits to my power. There are none.",
+		"defeated": "My life spans millennia. Legions have risen to test me… My ascendance is inevitable. A day, a year, a millennium—it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same.",
+		"introduction": "Look around you. Zakuul is poised to become the greatest civilization in the history of the galaxy. I have forged this empire to surmount all of my previous works. To span eternity.",
+		
+		"neutralHello": "Kneel before the dragon of Zakuul.",
+		"neutralLetsHearIt": ["Kneel before the dragon of Zakuul."],
+		"neutralNo": ["Rules are for people who lack the creativity to break them."],
+		"neutralYes": ["Kneel before the dragon of Zakuul."],
+
+		"hateHello": "I am the wrath of the dragon's fire. I am your Eternal Emperor.",
+		"hateLetsHearIt": ["I am the wrath of the dragon's fire. I am your Eternal Emperor."],
+		"hateNo": ["The deaths you've caused. The war you've fueled. It is all mine. This galaxy is mine. It's time I claimed it once more."],
+		"hateYes": ["Kneel before the dragon of Zakuul."],
+		
+		"afterPeace": "These petty conflicts mean nothing. The concerns of this galaxy are meaningless. Once I ascend, all will be tranquil in this galaxy. It is my promise to you.",
+		"tradeRequest": "You are mine. Servants. Slaves. Weapons. And you will obey…",
+
+		"outerColor": [179, 103, 0],
+		"innerColor": [48, 48, 48],
+		"cities": [
+			"The Spire of Zakuul",
+			"Odessen",
+		],
+	},
 	
 	{
 		"name": "Kwa holdings",
@@ -702,19 +737,6 @@
 		"innerColor": [169, 17, 1],
 		"cities": ["Cinnagar"]
 	},
-	
-	{
-		"name": "The Wheel",
-		"adjective": ["The Wheel"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [0,0,0],
-		"cities": ["The Wheel"]
-	},
 
 	{
 		"name": "Iego council",
@@ -839,20 +861,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [159, 232, 85],
 		"cities": ["Paecia"]
-	},
-
-	{
-		"name": "Eternal Empire of Zakuul",
-		"adjective": ["Zakuulan"],
-		"cityStateType": "Militaristic",
-                "startBias": ["Grassland"],
-
-		"declaringWar": "I have forged this empire to surmount all of my previous works; to span eternity.",
-		"attacked": "You presume limits to my power. There are none.",
-		"defeated": "My life spans millennia. Legions have risen to test me… My ascendance is inevitable. A day, a year, a millennium—it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same."
-		"outerColor": [44, 117, 255],
-		"innerColor": [255, 215, 0],
-		"cities": ["The Spire"]
 	},
 
 	{
