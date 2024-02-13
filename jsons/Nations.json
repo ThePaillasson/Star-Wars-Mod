@@ -1114,9 +1114,61 @@
 	},
 
 	{
+		"name": "The Exchange",
+		"adjective": ["Exchange"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Exchange Headquarter"]
+	},
+
+	{
+		"name": "White Maw",
+		"adjective": ["White Maw"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [96, 96, 96],
+		"cities": ["Coldstone Canyon"]
+	},
+
+	{
+		"name": "Voss",
+		"adjective": ["Voss"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We serve the will of the Mystics. Our names will be joined forever in song",
+		"attacked": "No Voss is perfect. No Voss is above vision.",
+		"defeated": "The sky changes. War rages. Seasons pass. Voss die. Voss remains."
+		"outerColor": [0, 142, 142],
+		"innerColor": [96, 96, 96],
+		"cities": ["Voss-Ka"]
+	},
+
+	{
+		"name": "Gormak",
+		"adjective": ["Gormak"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Do you think I am afraid to die? I am the Gormak King. I walk where Voss do not dare go.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [121, 137, 51],
+		"innerColor": [165, 38, 10],
+		"cities": ["Gorma-Koss"]
+	},
+
+	{
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
-		"innerColor": [164, 36, 36],
+		"innerColor": [220, 20, 60],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 ]
