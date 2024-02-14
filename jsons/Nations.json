@@ -1166,9 +1166,61 @@
 	},
 
 	{
+		"name": "Ancient Order of Pessimists",
+		"adjective": ["Pessimist"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "There are so many terrible things that may happen to you, Brother. It is the burden you must bear.",
+		"attacked": "Woe be unto us!",
+		"defeated": "I cast the bones this morning and the portents were grave!"
+		"outerColor": [44, 117, 255],
+		"innerColor": [121, 137, 51],
+		"cities": ["Ancient Order of Pessimists' hermitage"]
+	},
+
+	{
+		"name": "Icarii",
+		"adjective": ["Icarii"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [86, 115, 154],
+		"innerColor": [169, 17, 1],
+		"cities": ["Vestar"]
+	},
+
+	{
+		"name": "Czerka Arms",
+		"adjective": ["Czerka Arms"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Anytime, anywhere… we're there."
+		"outerColor": [131, 166, 151],
+		"innerColor": [0,0,0],
+		"cities": ["Czerka Arms Headquarter"]
+	},
+
+	{
+		"name": "Ahto High Court",
+		"adjective": ["Selkath"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [128, 109, 90],
+		"innerColor": [38, 97, 156],
+		"cities": ["Ahto City"]
+	},
+
+	{
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
-		"innerColor": [220, 20, 60],
+		"innerColor": [116, 208, 241],
 		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 ]
