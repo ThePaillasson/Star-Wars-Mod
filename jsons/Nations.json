@@ -103,6 +103,7 @@
 		"outerColor": [255,0,0],
 		"innerColor": [0,0,0],
 		"cities": [
+			"Rakata Prime",
 			"Lehon",
 			"Generis",
 			"Hoth",
@@ -144,16 +145,11 @@
 		"outerColor": [255,255,255],
 		"innerColor": [136, 66, 29],
 		"cities": [
-			"Palace of the Jedi",
-			"Jedi village",
-			"Ban Landing",
-			"Knossa",
-			"Garang",
-			"Obroa-skai",
-			"Jedha City",
-			"Lost City of the Jedi",
-			"Ilum Temple",
-			"Tuanul",
+			"Tython",
+			"Ossus",
+			"Ach-to",
+			"Dantooine",
+			"Ilum",
 			
 		],
 	},
@@ -243,7 +239,6 @@
 			"Tion",
 			"Jaminere",
 			"Galuch",
-			"Rhen Var",
 			"Idux",
 			"Pesegam",
 			"Maelibo",
@@ -286,16 +281,13 @@
 		"outerColor": [165, 38, 10],
 		"innerColor": [237, 127, 16],
 		"cities": [
-			"Keldabe",
-			"Enceri",
-			"Norg Bral",
-			"Bralsin",
-			"Shuror",
-			"Concordia City",
-			"Dxun",
-			"New Nystao",
-			"Taris City",
-			"Sundari",
+			"Mandalore",
+			"Concordia",
+			"Ordo",
+			"Concord Down",
+			"Kalevala",
+			"Zanbar",
+			"Krownest"
 		],
 	},
 
@@ -332,20 +324,9 @@
 		"outerColor": [219, 23, 2],
 		"innerColor": [0,0,0],
 		"cities": [
-			"Dreshdae",
-			"Kaniset",
-			"Vardin",
-			"New Adasta",
-			"Great Citadel",
-			"Malachor",
-			"Adascopolis",
-			"Massassi Site",
-			"Sadow'een Temple",
-			"Bitter End",
-			"Olmondo",
-			"Kaas City",
-			"Sernpidal City",
-			"The Citadel",
+			"Korriban",
+			"Ziost",
+			"Lettow",
 		],
 	},
 	
@@ -380,23 +361,41 @@
 		"outerColor": [204, 85, 0],
 		"innerColor": [21, 96, 189],
 		"cities": [
-			"Raxulon",
-			"Carannia",
-			"Stalgasin hive",
-			"Koto-Si",
-			"Zarra",
-			"Skako City",
-			"Fralideja",
-			"Harnaidan",
-			"Taleucema",
-			"Jygat",
-			"Falleen Throne",
-			"Dodecapolis",
-			"Pau City",
-			"Triton",
-			"Hypori",
-			"Boz Pity Confederacy base",
-			"Salis D'aar",
+			"Raxus",
+			"Geonosis",
+			"Serenno",
+			"Cato Neimodia",
+			"Skako",
+			"Felucia",
+			"Muunilinst",
+			"Murkhana",
+			"Kerkoidia",
+			"Ando",
+			"Alliga",
+			"Mustafar",
+			"Scipio",
+			"Sullust",
+			"Falleen",
+			"Mygeeto",
+			"Yag'Dhul",
+			"Sluis Van",
+			"Clak'dor VII",
+			"Minntooine",
+			"Sy Myrth",
+			"Neimodia",
+			"Tibrin",
+			"Devaron",
+			"Karkaris",
+			"Thustra",
+			"Abrion Major",
+			"Agamar",
+			"Yir Tangee",
+			"Riflor",
+			"Ansion",
+			"Caramm V",
+			"Orto",
+			"Emberlene",
+			"Khorm",
 		],
 	}
 
@@ -431,23 +430,16 @@
 		"outerColor": [204, 85, 0],
 		"innerColor": [21, 96, 189],
 		"cities": [
-			"Coral City",
-			"Dantooine base",
-			"Havoc Outpost",
-			"Chopper Base",
-			"Chrellis Base",
-			"Brigia Base",
-			"Base One",
-			"Thila Command",
-			"Echo Base",
-			"Golrath Station",
-			"Haven Base",
-			"5251977 Base",
-			"Derra IV Base",
-			"D'Qar Base",
-			"Crait Outpost",
-			"Anoat Camp",
-			"Ajan Klos Base",
+			"Mon Calamari",
+			"Chrellis",
+			"Brigia",
+			"Orion IV",
+			"Yavin 4",
+			"Thila",
+			"Hoth",
+			"Golrath",
+			"Arbra"
+
 		],
 	},
 
@@ -519,7 +511,7 @@
 		"outerColor": [179, 103, 0],
 		"innerColor": [48, 48, 48],
 		"cities": [
-			"The Spire of Zakuul",
+			"Zakuul",
 			"Odessen",
 		],
 	},
@@ -593,20 +585,6 @@
 		"innerColor": [136, 77, 167],
 		"cities": ["Giju"]
 	},
-
-	{
-		"name": "Alsakani Government",
-		"adjective": ["Alsakani"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [75, 0, 130],
-		"cities": ["Alsakan"]
-	},
 	
 	{
 		"name": "Toydarian Monarchy",
@@ -633,7 +611,7 @@
 		"defeated": "The Yaruba Family of Kessel has always been a promoter of health and happiness across the stars."
 		"outerColor": [0,0,0],
 		"innerColor": [239, 210, 66],
-		"cities": ["Kessendra"]
+		"cities": ["Kessel"]
 	},
 	
 	{
@@ -647,7 +625,7 @@
 		"defeated": "Mu waa waa."
 		"outerColor": [0,0,0],
 		"innerColor": [34, 120, 15],
-		"cities": ["Rwookrrorro"]
+		"cities": ["Kashyyyk"]
 		
 	},
 	
@@ -662,7 +640,7 @@
 		"defeated": "The Onderonians were certainly brave—but they were disorganized and stupid."
 		"outerColor": [0,0,0],
 		"innerColor": [235, 0, 0],
-		"cities": ["Iziz"]
+		"cities": ["Onderon"]
 		
 	},
 	
@@ -681,20 +659,6 @@
 	},
 
 	{
-		"name": "Krath",
-		"adjective": ["Krath"],
-		"cityStateType": "Religious",
-		"startBias": ["Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [169, 17, 1],
-		"cities": ["Cinnagar"]
-	},
-
-	{
 		"name": "Iego council",
 		"adjective": ["Iego"],
 		"cityStateType": "Mercantile",
@@ -705,21 +669,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
-		"cities": ["Cliffhold"]
-	},
-	
-	{
-		"name": "Khoonda",
-		"adjective": ["Khoonda"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [145, 40, 59],
-		"cities": ["Khoonda"]
+		"cities": ["Iego"]
 	},
 
 	{
@@ -733,7 +683,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [49, 140, 231],
-		"cities": ["Csaplar"]
+		"cities": ["Csilla"]
 	},
 
 	{
@@ -747,11 +697,11 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [204, 85, 0],
-		"cities": ["Mondder"]
+		"cities": ["Etti IV"]
 	},
 
 	{
-		"name": "Kamino",
+		"name": "Kaminoan Ruling Council",
 		"adjective": ["Kaminoan"],
 		"cityStateType": "Cultured",
 
@@ -760,7 +710,7 @@
 		"defeated": "Millions of us were wiped out when the seas rose and engulfed Kamino. We survived as a species because we were willing to think the unthinkable. Some genetic characteristics helped us survive the starvation and overcrowding, and some did not, and there was no room for sentiment or for weaklings. We culled; we refined; we selected. The prospect of extinction forged us into the species we designed ourselves to be, the purest expression of the Kaminoan spirit, and at a level of social maturity that weaker mongrel species will never attain, because they lack the courage to cull. We are the masters of genetics and sole arbiters of our fate, never to be at the mercy of chance again."
 		"outerColor": [0,0,0],
 		"innerColor": [16, 52, 166],
-		"cities": ["Tipoca City"]
+		"cities": ["Kamino"]
 	},
 	
 	{
@@ -774,7 +724,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [104, 94, 67],
-		"cities": ["Yedagon City"]
+		"cities": ["Adumar"]
 	},
 
 	{
@@ -788,7 +738,7 @@
 		"defeated": "Time to abandon ship."
 		"outerColor": [0,0,0],
 		"innerColor": [157, 62, 12],
-		"cities": ["Kaleela"]
+		"cities": ["Kalee"]
 	},
 
 	{
@@ -802,7 +752,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [240, 195, 0],
 		"innerColor": [44, 117, 255],
-		"cities": ["Ta'a Chume'Dan"]
+		"cities": ["Hapes"]
 	},
 
 	{
@@ -830,7 +780,7 @@
 		"defeated": "Wesa nebber fully trusted yousa from da start."
 		"outerColor": [0,0,0],
 		"innerColor": [15, 5, 107],
-		"cities": ["Otoh Gunga"]
+		"cities": ["Naboo"]
 	},
 
         {
@@ -871,7 +821,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [237, 0, 0],
-		"cities": ["Giat Nor"]
+		"cities": ["N'zoth"]
 	},
 
 	{
@@ -885,7 +835,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [110, 11, 20],
-		"cities": ["Mount Tantiss city"]
+		"cities": ["Wayland"]
 	},
 
 	{
@@ -927,11 +877,11 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [47, 27, 12],
-		"cities": ["Bardotta Capital City"]
+		"cities": ["Bardotta"]
 	},
 
 	{
-		"name": "Bright Tree Tribe",
+		"name": "Ewoks",
 		"adjective": ["Ewok"],
 		"cityStateType": "Religious",
 		"startBias": ["Forest"],
@@ -941,7 +891,7 @@
 		"defeated": "Coatee-cha tu yub nub!"
 		"outerColor": [0,0,0],
 		"innerColor": [9, 82, 40],
-		"cities": ["Bright Tree Village"]
+		"cities": ["Endor"]
 	},
 
 	{
@@ -955,7 +905,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [247, 226, 105],
-		"cities": ["Niima Outpost"]
+		"cities": ["Jakuu"]
 	},
 
 	{
@@ -969,7 +919,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [223, 115, 255],
-		"cities": ["Stronghold of the Morubas Crime Family"]
+		"cities": ["Bahlah"]
 	},
 
 	{
@@ -983,11 +933,11 @@
 		"defeated": "You are devious and deceitful and, most importantly, stupid."
 		"outerColor": [0,0,0],
 		"innerColor": [132, 46, 27],
-		"cities": ["Hondo's complex"]
+		"cities": ["Florrum"]
 	},
 
 	{
-		"name": "Zeffo",
+		"name": "Zeffo sages",
 		"adjective": ["Zeffo"],
 		"cityStateType": "Religious",
 		"startBias": ["Hill"],
@@ -997,7 +947,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [223, 115, 255],
-		"cities": ["Stronghold of the Morubas Crime Family"]
+		"cities": ["Zeffo"]
 	},
 
 	{
@@ -1010,7 +960,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [252, 93, 93],
-		"cities": ["Zeffo"]
+		"cities": ["Ordo Eris"]
 	},
 
 	{
@@ -1025,20 +975,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [167, 85, 2],
 		"cities": ["Koboh"]
-	},
-
-	{
-		"name": "Narkis Anchorites",
-		"adjective": ["Narkis Anchorite"],
-		"cityStateType": "Religious",
-		"startBias": ["Desert"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [250, 234, 115],
-		"cities": ["The Archive"]
 	},
 
 	{
@@ -1131,7 +1067,7 @@
 		"defeated": "I cast the bones this morning and the portents were grave!"
 		"outerColor": [44, 117, 255],
 		"innerColor": [121, 137, 51],
-		"cities": ["Ancient Order of Pessimists' hermitage"]
+		"cities": ["Maryx Minor"]
 	},
 
 	{
@@ -1170,7 +1106,7 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [128, 109, 90],
 		"innerColor": [38, 97, 156],
-		"cities": ["Ahto City"]
+		"cities": ["Manaan"]
 	},
 
 	{
