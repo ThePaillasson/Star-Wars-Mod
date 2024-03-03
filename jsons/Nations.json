@@ -397,7 +397,7 @@
 			"Emberlene",
 			"Khorm",
 		],
-	}
+	},
 
 	{
 		"name": "Alliance to Restore the Republic",
@@ -514,8 +514,9 @@
 			"Zakuul",
 			"Odessen",
 		],
+	},	
 
-		{
+	{
 		"name": "Chiss Ascendancy",
 		"leaderName": "Mitth'raw'nuruodo",
 		"adjective": ["Chiss"],
@@ -1039,7 +1040,6 @@
 		"cities": ["Nar Kanji"]
 	},
 
-	
 	{
 		"name": "Guavian Death Gang",
 		"adjective": ["Guavian"],
