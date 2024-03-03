@@ -1189,7 +1189,7 @@
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": ""Very well, this shall not be forgotten.",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
@@ -1202,7 +1202,7 @@
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": ""Very well, this shall not be forgotten.",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
