@@ -514,6 +514,68 @@
 			"Zakuul",
 			"Odessen",
 		],
+
+		{
+		"name": "Chiss Ascendancy",
+		"leaderName": "Mitth'raw'nuruodo",
+		"adjective": ["Chiss"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "The Chiss must be approached from a position of strength and respect.",
+		"startIntroPart2": "One must have strength, for the Chiss will deal only with those capable of keeping their promises. One must have respect, for the Chiss must believe that those promises will be kept.",
+		"declaringWar": "I see futures in you. Futures I will not allow. Your future ends here.",
+		"attacked": "You presume limits to my power. There are none.",
+		"defeated": "My life spans millennia. Legions have risen to test me… My ascendance is inevitable. A day, a year, a millennium—it matters not. I hold the patience of stone and the will of stars. Your striving is insignificant. Let your death be the same.",
+		"introduction": "Look around you. Zakuul is poised to become the greatest civilization in the history of the galaxy. I have forged this empire to surmount all of my previous works. To span eternity.",
+		
+		"neutralHello": "Kneel before the dragon of Zakuul.",
+		"neutralLetsHearIt": ["Kneel before the dragon of Zakuul."],
+		"neutralNo": ["We Chiss are accustomed to formulating our own policies."],
+		"neutralYes": ["Kneel before the dragon of Zakuul."],
+
+		"hateHello": "I am the wrath of the dragon's fire. I am your Eternal Emperor.",
+		"hateLetsHearIt": ["I am the wrath of the dragon's fire. I am your Eternal Emperor."],
+		"hateNo": ["The Chiss do not simply accept alien concepts without careful consideration. We certainly do not submit to domination. By anyone."],
+		"hateYes": ["Kneel before the dragon of Zakuul."],
+		
+		"afterPeace": "These petty conflicts mean nothing. The concerns of this galaxy are meaningless. Once I ascend, all will be tranquil in this galaxy. It is my promise to you.",
+		"tradeRequest": "You are mine. Servants. Slaves. Weapons. And you will obey…",
+
+		"outerColor": [255,255,255],
+		"innerColor": [0, 0, 255],
+		"cities": [
+			"Csilla",
+			"Cioral",
+			"Copero",
+			"Naporar",
+			"Csaus",
+			"Sposia",
+			"Sarvchi",
+			"Cormit",
+			"Kinoss",
+			"Rhigar",
+			"Oyokal",
+			"Crustai",
+			"Celwis",
+			"Rentor",
+			"Thrago",
+			"Avidich",
+			"Pesfavri",
+			"Jamiron",
+			"Ool",
+			"Shihon",
+			"Yashuvhu",
+			"Thearterra",
+			"Tenupe",
+			"Catlia",
+			"Massoss",
+			"Sharb",
+			"Noris",
+			"Schesa",
+			"Ornfra"
+			
+			
+		],
 	},
 	
 	{
@@ -670,20 +732,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"cities": ["Iego"]
-	},
-
-	{
-		"name": "Chiss Ascendancy",
-		"adjective": ["Chiss"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Snow"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [49, 140, 231],
-		"cities": ["Csilla"]
 	},
 
 	{
@@ -1099,7 +1147,7 @@
 	{
 		"name": "Ahto High Court",
 		"adjective": ["Selkath"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Mercantile",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1107,6 +1155,58 @@
 		"outerColor": [128, 109, 90],
 		"innerColor": [38, 97, 156],
 		"cities": ["Manaan"]
+	},
+
+	{
+		"name": "Nikardun Destiny",
+		"adjective": ["Nikardun"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Your people will die for this. Not just you. Not just your pitiable fleet. All the Chiss. The Ascendancy will die, shredded like grain, ground down like stone, burned like withered grass. Every last cub will die… and you will die here and now, with the certain knowledge that you and you alone were the root and cause of their destruction.",
+		"defeated": "It's amazing how the presence of Battle Dreadnoughts can smooth out a round of negotiations."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Nikardun Destiny"]
+	},
+
+	{
+		"name": "Paataatus Hiveborn",
+		"adjective": ["Paataatus"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "This is the Prince Militaire. You are trespassing within holy Paataatus space. Do you make threats against the Paataatus Hiveborn ?",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Nettehi"]
+	},
+
+	{
+		"name": "Lioaoin Regime",
+		"adjective": ["Lioaoi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": ""Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Lioaoin heartworld"]
+	},
+
+	{
+		"name": "Tower Dimension",
+		"adjective": ["Urchiv-ki"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": ""Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Urch"]
 	},
 
 	{
