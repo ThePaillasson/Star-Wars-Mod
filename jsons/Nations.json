@@ -69,6 +69,19 @@
 			"Bothawui",
 			"Saleucami",
 			"Rodia",
+			"Iridonia",
+			"Fondor",
+			"Abregado-rae",
+			"Ord Mantell",
+			"Ithor",
+			"Omwat",
+			"Ryloth",
+			"ruusan",
+			"Malastare",
+			"Haruun Kal",
+			"Eriadu",
+			"Telos"
+			"Peragus",
 		],
 	},
 	
@@ -106,7 +119,6 @@
 			"Rakata Prime",
 			"Lehon",
 			"Generis",
-			"Hoth",
 			"Salin",
 			"Rhen Var",
 			"Alzoc",
@@ -194,6 +206,7 @@
 			"Sleheyron",
 			"Boonta",
 			"Vontor",
+			"Teth",
 		],
 	},
 	
@@ -327,6 +340,8 @@
 			"Korriban",
 			"Ziost",
 			"Lettow",
+			"Vjun",
+			"Empress Teta",
 		],
 	},
 	
@@ -380,6 +395,7 @@
 			"Yag'Dhul",
 			"Sluis Van",
 			"Clak'dor VII",
+			"Triton",
 			"Minntooine",
 			"Sy Myrth",
 			"Neimodia",
@@ -701,7 +717,7 @@
 		"declaringWar": "Some say that war is the beginning of civilization. On Onderon, this was certainly the case, though it was a civilization that took a very peculiar form.",
 		"attacked": "The people of Onderon are a warriors. Early in their history they built Iziz to protect them from the beasts that swarmed on their world. No matter how far they've progressed, they're fundamentally still warriors standing watch on their battlements.",
 		"defeated": "The Onderonians were certainly brave—but they were disorganized and stupid."
-		"outerColor": [0,0,0],
+		"outerColor": [255, 255, 0],
 		"innerColor": [235, 0, 0],
 		"cities": ["Onderon"]
 		
@@ -1207,6 +1223,19 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"cities": ["Urch"]
+	},
+
+	{
+		"name": "Yinchorri Council of Elders",
+		"adjective": ["Yinchorri"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [30, 127, 203],
+		"innerColor": [1, 215, 88],
+		"cities": ["Yinchorr"]
 	},
 
 	{
