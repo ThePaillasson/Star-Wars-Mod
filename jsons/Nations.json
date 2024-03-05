@@ -52,6 +52,7 @@
 			"Foundry",
 			"Humbarine",
 			"Commenor",
+			"Koros Major",
 			"Devaron",
 			"Arkania",
 			"Taanab",
@@ -592,6 +593,52 @@
 			"Ornfra"
 			
 			
+		],
+	},
+	
+	{
+		"name": "Shadow Collective",
+		"leaderName": "Maul",
+		"adjective": ["Shadow Collective"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Dark side of the Force",
+
+		"startIntroPart1": "During the Clone Wars, a Shadow Collective emerged, uniting much of the underworld.",
+		"startIntroPart2": "Imagine getting Black Sun, the Pykes and the Mandalorian Death Watch to work together without killing one another. Someone did.",
+		"declaringWar": "Silence! You think you know me? It was I who languished for years thinking of nothing but you! Nothing but this moment! And now, the perfect tool for my vengeance is in front of us. I never planned on killing you, but I will make you share my pain.",
+		"attacked": "The war you have waited your entire lives to fight is upon us, my brothers. Victory or death!",
+		"defeated": "He...will...avenge us!",
+		"introduction": "The Sith took everything from me. Ripped me from my mother's arms, murdered my brother, used me as a weapon and then cast me aside. Abandoned me. Once, I had power, now I have nothing. Nothing.",
+
+		"neutralHello": "Hello.",
+		"neutralLetsHearIt": ["What?"],
+		"neutralNo": ["You are but one small piece moving in this mechanism which I have designed, and yet, when you falter, it jeopardizes everything."],
+		"neutralYes": ["Yes."],
+
+		"hateHello": "It has been so long, and my path has been so dark. Darker than I ever dreamed it could be!",
+		"hateLetsHearIt": ["At last, the great deceiver comes to rescue his pawn."],
+		"hateNo": ["You have forgotten me, but I will never forget you! You cannot imagine the depths I would go to stay alive, fueled by my singular hatred for you!"],
+		"hateYes": ["You may think I am evil. I am not. I am efficient."],
+
+		"afterPeace": "Always remember, I am fear! Always remember, I am hunter! Always remember, I am filth! Always remember, I am nothing!",
+		"tradeRequest": "I have an offer for you.",
+
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": [
+			"Zanbar",
+			"Ord Mantell",
+			"Concordia",
+			"Vizsla Keep 09",
+			"Carlac",
+			"Korda Six",
+			"Smarab",
+			"Quantxi",
+			"Cataract Base",
+			"Savareen",
+			"Laecor",
+			"Athus Klee",
+			"Jekara",
 		],
 	},
 	
@@ -1236,6 +1283,33 @@
 		"outerColor": [30, 127, 203],
 		"innerColor": [1, 215, 88],
 		"cities": ["Yinchorr"]
+	},
+
+	{
+		"name": "Pyke Syndicate",
+		"adjective": ["Pyke"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 0)],
+		"innerColor": [0,0,0],
+		"cities": ["Oba Diah"]
+	},
+
+	{
+		"name": "Canto Bight legislative body",
+		"adjective": ["Cantonican"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [96, 96, 96],
+		"innerColor": [255,255,255],
+		"cities": ["Cantonica"]
 	},
 
 	{
