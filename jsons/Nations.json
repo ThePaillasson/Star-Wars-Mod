@@ -296,6 +296,7 @@
 		"innerColor": [237, 127, 16],
 		"cities": [
 			"Mandalore",
+			"Concordia",
 			"Kalevala",
 			"Ordo",
 			"Concord Dawn",
@@ -304,6 +305,7 @@
 			"Kuar",
 			"Shogun",
 			"Dxun",
+			"Zanbar",
 		],
 	},
 
@@ -312,30 +314,29 @@
 		"leaderName": "Darth Revan",
 		"adjective": ["Sith"],
 		"startBias": ["Desert"],
-		"preferredVictoryType": "Cultural",
+		"preferredVictoryType": "Domination",
 		"favoredReligion": "Dark side of the Force",
 
 		
-		"startIntroPart1": "We rule the Sith. Here we will build a sovereignty of the dark side to overcome millennia of injustice. But I am the rightful ruler, for I alone possess the curiosity to translate their secrets and apply them to larger patterns of conquest.",
-		"startIntroPart2": "I foresee what will become a magnificent Sith Empire."
+		"startIntroPart1": "Evil is a word used by the ignorant and the weak. The Dark Side is about survival. It's about unleashing your inner power. It glorifies the strength of the individual.",
 		
-		"declaringWar": "Those who use the dark side are also bound to serve it. To understand this is to understand the underlying philosophy of the Sith.",
-		"attacked": "Honor is a fool's prize. Glory is of no use to the dead.",
-		"defeated": "You see that I was right, now, don't you? The truth is written in blood!",
-		"introduction": "Who I am is not important, my message is.",
+		"declaringWar": "Peace is a lie. There is only Passion. Through Passion, I gain Strength. Through Strength, I gain Power.",
+		"attacked": "There will be no truce. There will be no surrender. I don't care how many die. An example will be made of the deserters.",
+		"defeated": "Life… death… the one is the same as the other.",
+		"introduction": "The galaxy writhes in chaos and disorder. It requires a man of vision. I am that man of vision. I am the new Emperor.",
 		
-		"neutralHello": "Hello.",
-		"neutralLetsHearIt": ["What do you want ?"],
-		"neutralNo": ["Maybe later."],
-		"neutralYes": ["Yes."],
+		"neutralHello": "True power can come only to those who embrace the transformation.",
+		"neutralLetsHearIt": ["Equality is a myth to protect the weak. some of us are strong in the Force, others are not. Only a fool believes otherwise."],
+		"neutralNo": ["Through Power I gain Victory. Through Victory my chains are Broken. The Force shall free me."],
+		"neutralYes": ["Remember why the Sith are more powerful than the Jedi,because we are not afraid to feel."],
 
-		"hateHello": "Hello.",
-		"hateLetsHearIt": ["Are you deliberately trying to insult me?"],
-		"hateNo": ["You are just a traveling piece of bad luck, aren't you?"],
-		"hateYes": ["I guess you're not all bad."],
+		"hateHello": "We take what we desire because we can. We can because we have power. We have power because we are Sith.",
+		"hateLetsHearIt": ["Fear attracts the fearful…the strong…the weak…the innocent…the corrupt. Fear. Fear is my ally."],
+		"hateNo": ["To understand the dark side you must suffer through hardship and struggle."],
+		"hateYes": ["If the leader grows weak another must rise to seize the mantle."],
 		
-		"afterPeace": "When did you get all peace-loving on me?",
-		"tradeRequest": "Now, listen here.",
+		"afterPeace": "I am not a man of words. But I respect the power of words, for that is what transformed me. The words of the Sith Code...",
+		"tradeRequest": "The strong rule; the weak are meant to serve. This is the way it must be.",
 
 		"outerColor": [219, 23, 2],
 		"innerColor": [0,0,0],
@@ -603,52 +604,6 @@
 			"Ornfra"
 			
 			
-		],
-	},
-	
-	{
-		"name": "Shadow Collective",
-		"leaderName": "Maul",
-		"adjective": ["Shadow Collective"],
-		"preferredVictoryType": "Diplomatic",
-		"favoredReligion": "Dark side of the Force",
-
-		"startIntroPart1": "During the Clone Wars, a Shadow Collective emerged, uniting much of the underworld.",
-		"startIntroPart2": "Imagine getting Black Sun, the Pykes and the Mandalorian Death Watch to work together without killing one another. Someone did.",
-		"declaringWar": "Silence! You think you know me? It was I who languished for years thinking of nothing but you! Nothing but this moment! And now, the perfect tool for my vengeance is in front of us. I never planned on killing you, but I will make you share my pain.",
-		"attacked": "The war you have waited your entire lives to fight is upon us, my brothers. Victory or death!",
-		"defeated": "He...will...avenge us!",
-		"introduction": "The Sith took everything from me. Ripped me from my mother's arms, murdered my brother, used me as a weapon and then cast me aside. Abandoned me. Once, I had power, now I have nothing. Nothing.",
-
-		"neutralHello": "Hello.",
-		"neutralLetsHearIt": ["What?"],
-		"neutralNo": ["You are but one small piece moving in this mechanism which I have designed, and yet, when you falter, it jeopardizes everything."],
-		"neutralYes": ["Yes."],
-
-		"hateHello": "It has been so long, and my path has been so dark. Darker than I ever dreamed it could be!",
-		"hateLetsHearIt": ["At last, the great deceiver comes to rescue his pawn."],
-		"hateNo": ["You have forgotten me, but I will never forget you! You cannot imagine the depths I would go to stay alive, fueled by my singular hatred for you!"],
-		"hateYes": ["You may think I am evil. I am not. I am efficient."],
-
-		"afterPeace": "Always remember, I am fear! Always remember, I am hunter! Always remember, I am filth! Always remember, I am nothing!",
-		"tradeRequest": "I have an offer for you.",
-
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": [
-			"Zanbar",
-			"Ord Mantell",
-			"Concordia",
-			"Vizsla Keep 09",
-			"Carlac",
-			"Korda Six",
-			"Smarab",
-			"Quantxi",
-			"Cataract Base",
-			"Savareen",
-			"Laecor",
-			"Athus Klee",
-			"Jekara",
 		],
 	},
 	
