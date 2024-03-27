@@ -220,8 +220,20 @@
 			"Tython",
 			"Ossus",
 			"Ach-to",
+			"Thape",
+			"Ando Prime",
+			"Kalimahr",
+			"Palawa",
 			"Dantooine",
 			"Ilum",
+			"Ledeve",
+			"Lothal",
+			"Elphrona",
+			"Batuu",
+			"Tanalorr",
+			"Caragon-Viner",
+			"Hynestia",
+			"Vrogas Vas",
 			
 		],
 	},
@@ -641,6 +653,7 @@
 		"name": "Eternal Empire of Zakuul",
 		"leaderName": "Valkorion the Immortal Emperor",
 		"adjective": ["Zakuulan"],
+		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Old Six Gods",
 		
@@ -668,6 +681,7 @@
 		"innerColor": [48, 48, 48],
 		"cities": [
 			"Zakuul",
+			"Iokath"
 			"Odessen",
 		],
 	},	
@@ -676,6 +690,7 @@
 		"name": "Chiss Ascendancy",
 		"leaderName": "Mitth'raw'nuruodo",
 		"adjective": ["Chiss"],
+		"startBias": ["Tundra"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "The Chiss must be approached from a position of strength and respect.",
