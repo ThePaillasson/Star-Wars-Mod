@@ -239,7 +239,7 @@
 	},
 	
 	{
-		"name": "Hutt Clan",
+		"name": "Hutt Cartel",
 		"leaderName": "Jabba Desilijic Tiure",
 		"adjective": ["Hutt"],
 		"startBias": ["Desert"],
@@ -482,13 +482,14 @@
 			"Svolten",
 			"Bhargebba",
 			"Nfolgai",
+			"Medriaas",
 			"Iliabath",
 			"Corbos",
 			"Ambria",
 			"Kesh",
 			"Tund",
 			"Vjun",
-			"Yavin"
+			"Yavin",
 			"Exegol",
 			"Asog",
 			"Empress Teta",
@@ -595,8 +596,8 @@
 		"afterPeace": "War is not a state of being. It is meant to be a temporary chaos between periods of peace. Some want it to be the course of things: a default fact of existence. But I will not let that be so.",
 		"tradeRequest": "This is Mon Mothma. I have an assignment for you. The Rebellion needs you and we don't have much time. We must work together.",
 
-		"outerColor": [204, 85, 0],
-		"innerColor": [21, 96, 189],
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
 		"cities": [
 			"Yavin 4",
 			"Generis",
@@ -785,8 +786,14 @@
 		"innerColor": [48, 48, 48],
 		"cities": [
 			"Zakuul",
-			"Iokath"
+			"Nathema",
+			"Asylum",
+			"Darvannis",
 			"Odessen",
+			"Denova",
+			"Port Nowhere",
+			"X7-Cratus",
+			"Iokath",
 		],
 	},	
 
