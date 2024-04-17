@@ -247,7 +247,7 @@
 		"name": "Hutt Cartel",
 		"leaderName": "Jabba Desilijic Tiure",
 		"adjective": ["Hutt"],
-		"startBias": ["Desert"],
+		"startBias": ["Marsh"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "B'omarr Order",
 		
@@ -433,7 +433,7 @@
 		"name": "Mandalorians",
 		"leaderName": "Mandalore the Ultimate",
 		"adjective": ["Mandalorian"],
-		"startBias": ["Desert"],
+		"startBias": ["Avoid Tundra"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Mandalorian Religion",
 
@@ -472,13 +472,22 @@
 			"Bonagal",
 			"Shukut",
 			"Werda",
+			"Fenel",
+			"Concord Dawn",
 			"Breshig",
+			"Cheravh",
+			"Draboon",
 			"Basilisk",
+			"Dxun",
+			"Cathar",
+			"Flashpoint",
+			"Caillte",
 			"Althir",
 			"Anteevy",
 			"Alzar",
 			"Anarak",
 			"Boonta",
+			"Duro",
 		],
 	},
 
@@ -1602,6 +1611,20 @@
 		"outerColor": [20, 148, 20],
 		"innerColor": [223, 109, 20],
 		"cities": ["Alzar"]
+	},
+
+	{
+		"name": "Duros High House",
+		"adjective": ["Duro"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0, 142, 142],
+		"innerColor": [76, 166, 107],
+		"cities": ["Duro"]
 	},
 
 	{
