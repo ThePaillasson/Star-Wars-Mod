@@ -319,6 +319,7 @@
 			"Rishi",
 			"Foroon",
 			"Teth",
+			"Gamorr",
 			"Sedri Minor",
 			"Shola",
 			"Gyndine",
@@ -463,6 +464,7 @@
 		"innerColor": [237, 127, 16],
 		"cities": [
 			"Mandalore",
+			"Roon",
 			"Concordia",
 			"Mandallia",
 			"Kalevala",
@@ -472,14 +474,17 @@
 			"Bonagal",
 			"Shukut",
 			"Werda",
+			"Concord Dawn",
+			"Ordo",
+			"Fenel",
 			"Basilisk",
 			"Krownest",
+			"Shogun",
 			"Kuar",
 			"Dxun",
-			"Althir",
 			"Cathar",
-			"Fenel",
-			"Concord Dawn",
+			"Sy Myrth",
+			"Althir",
 			"Breshig",
 			"Cheravh",
 			"Draboon",
@@ -488,13 +493,16 @@
 			"Jebble",
 			"Caillte",
 			"Anteevy",
+			"Onderon",
 			"Anarak",
 			"Alzar",
 			"Boonta",
 			"Iridonia",
 			"Duro",
 			"Halthor",
+			"Rekkiad",
 			"Geonosis",
+			"Ruhnuk",
 			"Gargon",
 		],
 	},
@@ -1633,6 +1641,33 @@
 		"outerColor": [0, 142, 142],
 		"innerColor": [76, 166, 107],
 		"cities": ["Duro"]
+	},
+
+	{
+		"name": "Baobab Merchant Fleet",
+		"adjective": ["Baobab"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Hill"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 0, 0],
+		"innerColor": [255, 255, 0],
+		"cities": ["Manda"]
+	},
+
+	{
+		"name": "Gatressa Mining Conglomerate",
+		"adjective": ["Gatressa"],
+		"cityStateType": "Mercantile",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Ruhnuk"]
 	},
 
 	{
