@@ -479,6 +479,7 @@
 			"Fenel",
 			"Basilisk",
 			"Krownest",
+			"Vorpa'ya",
 			"Shogun",
 			"Kuar",
 			"Dxun",
@@ -490,12 +491,17 @@
 			"Draboon",
 			"Hrthging",
 			"Flashpoint",
+			"Taris",
 			"Jebble",
+			"Vanquo",
 			"Caillte",
 			"Anteevy",
 			"Onderon",
 			"Anarak",
+			"Vur",
+			"Toprawa",
 			"Alzar",
+			"Togoria",
 			"Boonta",
 			"Iridonia",
 			"Duro",
@@ -1668,6 +1674,33 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"cities": ["Ruhnuk"]
+	},
+	
+	{
+		"name": "Taris Civil Authority",
+		"adjective": ["Tarisian"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [38, 97, 156],
+		"innerColor": [136, 66, 29],
+		"cities": ["Taris"]
+	},
+
+	{
+		"name": "Nuso Esva's realm",
+		"adjective": ["Storm-hair"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "Allies? You have allies. All to me except the Chosen are mere tools. They can be useful tools, or they can be broken tools.",
+		"attacked": "Your cleverness is wasted. Once we've dealt with you, my fleet will travel to your homeworld and I will make you useful tools. Your time is ended. My ships are now in their places.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,255],
+		"cities": ["Oristrom"]
 	},
 
 	{
