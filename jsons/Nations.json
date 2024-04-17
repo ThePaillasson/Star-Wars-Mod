@@ -132,7 +132,7 @@
 		"outerColor": [255,0,0],
 		"innerColor": [0,0,0],
 		"cities": [
-				"Rakata Prime",
+			"Rakata Prime",
 			"Lehon",
 			"Nirauan",
 			"Mygeeto",
@@ -464,15 +464,21 @@
 		"cities": [
 			"Mandalore",
 			"Concordia",
+			"Mandallia",
 			"Kalevala",
-			"Ordo",
-			"Concord Dawn",
-			"Krownest",
+			"Tracyn",
+			"Akaan",
+			"Nog",
+			"Bonagal",
+			"Shukut",
+			"Werda",
+			"Breshig",
 			"Basilisk",
-			"Kuar",
-			"Shogun",
-			"Dxun",
-			"Zanbar",
+			"Althir",
+			"Anteevy",
+			"Alzar",
+			"Anarak",
+			"Boonta",
 		],
 	},
 
@@ -1082,6 +1088,7 @@
 		"name": "Kaminoan Ruling Council",
 		"adjective": ["Kaminoan"],
 		"cityStateType": "Cultured",
+		"startBias": ["Coast"],
 
 		"declaringWar": "I have no feelings for your people. Of course, we Kaminoans have few feelings for anything. It is not in our nature.",
 		"attacked": "After all these years, we were beginning to think you weren't coming.",
@@ -1398,6 +1405,7 @@
 	{
 		"name": "White Maw",
 		"adjective": ["White Maw"],
+		"startBias": ["Tundra"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1450,6 +1458,7 @@
 	{
 		"name": "Icarii",
 		"adjective": ["Icarii"],
+		"startBias": ["Jungle"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1476,6 +1485,7 @@
 	{
 		"name": "Ahto High Court",
 		"adjective": ["Selkath"],
+		"startBias": ["Coast"],
 		"cityStateType": "Mercantile",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1542,6 +1552,7 @@
 		"name": "Yinchorri Council of Elders",
 		"adjective": ["Yinchorri"],
 		"cityStateType": "Maritime",
+		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1555,6 +1566,7 @@
 		"name": "Pyke Syndicate",
 		"adjective": ["Pyke"],
 		"cityStateType": "Mercantile",
+		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1568,7 +1580,7 @@
 		"name": "Canto Bight legislative body",
 		"adjective": ["Cantonican"],
 		"cityStateType": "Mercantile",
-		"startBias": ["Desert"],
+		"startBias": ["Coast"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1576,6 +1588,20 @@
 		"outerColor": [96, 96, 96],
 		"innerColor": [255,255,255],
 		"cities": ["Cantonica"]
+	},
+
+	{
+		"name": "Alzarian Monarchy",
+		"adjective": ["Alzarian"],
+		"cityStateType": "Maritime",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [20, 148, 20],
+		"innerColor": [223, 109, 20],
+		"cities": ["Alzar"]
 	},
 
 	{
