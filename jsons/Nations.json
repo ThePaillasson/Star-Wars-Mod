@@ -477,6 +477,7 @@
 			"Breshig",
 			"Cheravh",
 			"Draboon",
+			"Hrthging",
 			"Basilisk",
 			"Dxun",
 			"Cathar",
@@ -488,6 +489,9 @@
 			"Anarak",
 			"Boonta",
 			"Duro",
+			"Halthor",
+			"Geonosis",
+			"Gargon",
 		],
 	},
 
@@ -634,7 +638,7 @@
 		"name": "Alliance to Restore the Republic",
 		"leaderName": "Mon Mothma",
 		"adjective": ["Rebel"],
-		"startBias": ["Coast"],
+		"startBias": ["Jungle"],
 		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "We, the Rebel Alliance, do therefore in the name—and by the authority—of the free beings of the Galaxy, solemnly publish and declare our intentions:",
