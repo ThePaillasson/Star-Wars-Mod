@@ -948,7 +948,7 @@
 	{
 		"name": "Kwa holdings",
 		"adjective": ["Kwa"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
@@ -962,7 +962,7 @@
 	{
 		"name": "Sharu civilization",
 		"adjective": ["Sharu"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Tundra"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -976,7 +976,7 @@
 	{
 		"name": "Gree Empire",
 		"adjective": ["Gree"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Plains"],
 
 		"declaringWar": "Green perpendicular.",
@@ -986,12 +986,25 @@
 		"innerColor": [0, 255, 0],
 		"cities": ["Gree"]
 	},
+
+	{
+		"name": "Kaminoan Ruling Council",
+		"adjective": ["Kaminoan"],
+		"cityStateType": "Scientific",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I have no feelings for your people. Of course, we Kaminoans have few feelings for anything. It is not in our nature.",
+		"attacked": "After all these years, we were beginning to think you weren't coming.",
+		"defeated": "Millions of us were wiped out when the seas rose and engulfed Kamino. We survived as a species because we were willing to think the unthinkable. Some genetic characteristics helped us survive the starvation and overcrowding, and some did not, and there was no room for sentiment or for weaklings. We culled; we refined; we selected. The prospect of extinction forged us into the species we designed ourselves to be, the purest expression of the Kaminoan spirit, and at a level of social maturity that weaker mongrel species will never attain, because they lack the courage to cull. We are the masters of genetics and sole arbiters of our fate, never to be at the mercy of chance again."
+		"outerColor": [0,0,0],
+		"innerColor": [16, 52, 166],
+		"cities": ["Kamino"]
+	},
 	
 	{
-		"name": "Killiks",
+		"name": "The Colony",
 		"adjective": ["Killik"],
-		"cityStateType": "Cultured",
-		"startBias": ["Grassland"],
+		"cityStateType": "Agricultural",
 
 		"declaringWar": "*incomprehensible*",
 		"attacked": "*incomprehensible*",
@@ -1000,11 +1013,25 @@
 		"innerColor": [15, 5, 107],
 		"cities": ["Yoggoy"]
 	},
+
+	{
+		"name": "Gungan Society",
+		"adjective": ["Gungan"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Marsh"],
+
+		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
+		"attacked": "Muy wellen, dis shall notsa besa forgotten.",
+		"defeated": "Wesa nebber fully trusted yousa from da start."
+		"outerColor": [0,0,0],
+		"innerColor": [15, 5, 107],
+		"cities": ["Naboo"]
+	},
 	
 	{
 		"name": "Herglic Trade Empire",
-		"adjective": ["Herglese"],
-		"cityStateType": "Mercantile",
+		"adjective": ["Herglic"],
+		"cityStateType": "Commercial",
 		"startBias": ["Coast"],
 
 		"declaringWar": "Your behavior is unacceptable, pison !",
@@ -1018,21 +1045,76 @@
 	{
 		"name": "Toydarian Monarchy",
 		"adjective": ["Toydarian"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Grassland"],
+		"cityStateType": "Commercial",
+		"startBias": ["Marsh"],
 
 		"declaringWar": "I'm a Toydarian. Mind tricks don't work on me, only money.",
 		"attacked": "Perhaps you failed to pay attention to the Senate orientation. They should have explained that Toydaria is a neutral system.",
 		"defeated": "Despite what you've heard, we Toydarians are a noble species."
 		"outerColor": [0,0,0],
 		"innerColor": [37, 253, 233],
-		"cities": ["Toydor"]
+		"cities": ["Toydaria"]
+	},
+
+	{
+		"name": "Corporate Sector Authority",
+		"adjective": ["Corporate"],
+		"cityStateType": "Commercial",
+		"startBias": ["Plains"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [204, 85, 0],
+		"cities": ["Etti"]
+	},
+
+	{
+		"name": "Cloud City",
+		"adjective": ["Bespinite"],
+		"cityStateType": "Commercial",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Cloud City"]
+	},
+
+	{
+		"name": "Zygerrian Slave Empire",
+		"adjective": ["Zygerrian"],
+		"cityStateType": "Commercial",
+		"startBias": ["Plains"],
+
+		"declaringWar": "My queen is going to bring back the royal slave auction as in the days before. Zygerria will be rich and powerful again.",
+		"attacked": "Slavery is the natural order of things. The weak deserve nothing more than to kneel before the strong, bound to our service.",
+		"defeated": "For thousands of years, Zygerria supplied slave labor to the galaxy. We prospered. Our customers prospered. Then you came."
+		"outerColor": [0,0,0],
+		"innerColor": [255, 0, 127],
+		"cities": ["Zygerria"]
+	},
+
+	{
+		"name": "Unkar Plutt's Gang",
+		"adjective": ["Unkar's Thug"],
+		"cityStateType": "Commercial",
+		"startBias": ["Desert"],
+
+		"declaringWar": "I'm gonna make you pay for what you've done.",
+		"attacked": "You missed something else. I already have a love. And it's called money.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [247, 226, 105],
+		"cities": ["Jakuu"]
 	},
 	
 	{
 		"name": "Royal Family of Kessel",
 		"adjective": ["Kesselian"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Industrial",
 		"startBias": ["Desert"],
 
 		"declaringWar": "Have you heard of the spice mines of Kessel? Slaves sent there last a few months. Maybe a year.",
@@ -1042,27 +1124,82 @@
 		"innerColor": [239, 210, 66],
 		"cities": ["Kessel"]
 	},
+
+	{
+		"name": "Iego council",
+		"adjective": ["Iego"],
+		"cityStateType": "Industrial",
+		"startBias": ["Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Iego"]
+	},
 	
 	{
 		"name": "Wookiee council",
 		"adjective": ["Wookiee"],
-		"cityStateType": "Cultured",
-		"startBias": ["Grassland"],
+		"cityStateType": "Cultural",
+		"startBias": ["Jungle"],
 
 		"declaringWar": "RRRrrruurgh! Arrggg!",
 		"attacked": "Grroooogrrraaaawrrrrrrrrmph.",
 		"defeated": "Mu waa waa."
-		"outerColor": [0,0,0],
+		"outerColor": [91, 60, 17],
 		"innerColor": [34, 120, 15],
 		"cities": ["Kashyyyk"]
 		
+	},
+
+        {
+		"name": "Hapes Consortium",
+		"adjective": ["Hapan"],
+		"cityStateType": "Cultural",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [240, 195, 0],
+		"innerColor": [44, 117, 255],
+		"cities": ["Hapes"]
+	},
+
+	{
+		"name": "Blood Monarchy",
+		"adjective": ["Thisspiasian"],
+		"cityStateType": "Cultural",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [110, 11, 20],
+		"cities": ["Thisspias"]
+	},
+
+	{
+		"name": "Ewoks",
+		"adjective": ["Ewok"],
+		"cityStateType": "Cultural",
+		"startBias": ["Forest"],
+
+		"declaringWar": "Chiba chiba sohpa.",
+		"attacked": "Pritka pritka",
+		"defeated": "Coatee-cha tu yub nub!"
+		"outerColor": [0,0,0],
+		"innerColor": [9, 82, 40],
+		"cities": ["Endor"]
 	},
 	
 	{
 		"name": "Onderon Monarchy",
 		"adjective": ["Onderonian"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grassland"],
+		"startBias": ["Jungle"],
 
 		"declaringWar": "Some say that war is the beginning of civilization. On Onderon, this was certainly the case, though it was a civilization that took a very peculiar form.",
 		"attacked": "The people of Onderon are a warriors. Early in their history they built Iziz to protect them from the beasts that swarmed on their world. No matter how far they've progressed, they're fundamentally still warriors standing watch on their battlements.",
@@ -1075,9 +1212,8 @@
 	
 	{
 		"name": "Lorell Raiders",
-		"adjective": ["Lorell Raider"],
+		"adjective": ["Lorell"],
 		"cityStateType": "Militaristic",
-		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1087,48 +1223,6 @@
 		"cities": ["Lorell"]
 	},
 
-	{
-		"name": "Iego council",
-		"adjective": ["Iego"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Desert"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Iego"]
-	},
-
-	{
-		"name": "Corporate Sector Authority",
-		"adjective": ["Corporate"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [204, 85, 0],
-		"cities": ["Etti IV"]
-	},
-
-	{
-		"name": "Kaminoan Ruling Council",
-		"adjective": ["Kaminoan"],
-		"cityStateType": "Cultured",
-		"startBias": ["Coast"],
-
-		"declaringWar": "I have no feelings for your people. Of course, we Kaminoans have few feelings for anything. It is not in our nature.",
-		"attacked": "After all these years, we were beginning to think you weren't coming.",
-		"defeated": "Millions of us were wiped out when the seas rose and engulfed Kamino. We survived as a species because we were willing to think the unthinkable. Some genetic characteristics helped us survive the starvation and overcrowding, and some did not, and there was no room for sentiment or for weaklings. We culled; we refined; we selected. The prospect of extinction forged us into the species we designed ourselves to be, the purest expression of the Kaminoan spirit, and at a level of social maturity that weaker mongrel species will never attain, because they lack the courage to cull. We are the masters of genetics and sole arbiters of our fate, never to be at the mercy of chance again."
-		"outerColor": [0,0,0],
-		"innerColor": [16, 52, 166],
-		"cities": ["Kamino"]
-	},
-	
 	{
 		"name": "Adumari Union",
 		"adjective": ["Adumari"],
@@ -1142,7 +1236,7 @@
 		"innerColor": [104, 94, 67],
 		"cities": ["Adumar"]
 	},
-
+	
 	{
 		"name": "Kolkpravis",
 		"adjective": ["Kaleesh"],
@@ -1155,20 +1249,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [157, 62, 12],
 		"cities": ["Kalee"]
-	},
-
-	{
-		"name": "Hapes Consortium",
-		"adjective": ["Hapan"],
-		"cityStateType": "Cultured",
-		"startBias": ["Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [240, 195, 0],
-		"innerColor": [44, 117, 255],
-		"cities": ["Hapes"]
 	},
 
 	{
@@ -1185,20 +1265,6 @@
 		"cities": ["Paecia"]
 	},
 
-	{
-		"name": "Gungan Society",
-		"adjective": ["Gungan"],
-		"cityStateType": "Maritime",
-		"startBias": ["Marsh"],
-
-		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
-		"attacked": "Muy wellen, dis shall notsa besa forgotten.",
-		"defeated": "Wesa nebber fully trusted yousa from da start."
-		"outerColor": [0,0,0],
-		"innerColor": [15, 5, 107],
-		"cities": ["Naboo"]
-	},
-
         {
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
@@ -1211,19 +1277,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [173, 79, 9],
 		"cities": ["Lwhekk"]
-	},
-
-        {
-		"name": "Cloud City",
-		"adjective": ["Bespinite"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Cloud City"]
 	},
 
 	{
@@ -1255,36 +1308,8 @@
 	},
 
 	{
-		"name": "Blood Monarchy",
-		"adjective": ["Thisspiasian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Plains"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [110, 11, 20],
-		"cities": ["Thisspias"]
-	},
-
-	{
-		"name": "Zygerrian Slave Empire",
-		"adjective": ["Thisspiasian"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Plains"],
-
-		"declaringWar": "My queen is going to bring back the royal slave auction as in the days before. Zygerria will be rich and powerful again.",
-		"attacked": "Slavery is the natural order of things. The weak deserve nothing more than to kneel before the strong, bound to our service.",
-		"defeated": "For thousands of years, Zygerria supplied slave labor to the galaxy. We prospered. Our customers prospered. Then you came."
-		"outerColor": [0,0,0],
-		"innerColor": [255, 0, 127],
-		"cities": ["Zygerria"]
-	},
-
-	{
 		"name": "Frangawl Cult",
-		"adjective": ["Frangawl"],
+		"adjective": ["Bardottan"],
 		"cityStateType": "Religious",
 		"startBias": ["Plains"],
 
@@ -1294,34 +1319,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [47, 27, 12],
 		"cities": ["Bardotta"]
-	},
-
-	{
-		"name": "Ewoks",
-		"adjective": ["Ewok"],
-		"cityStateType": "Religious",
-		"startBias": ["Forest"],
-
-		"declaringWar": "Chiba chiba sohpa.",
-		"attacked": "Pritka pritka",
-		"defeated": "Coatee-cha tu yub nub!"
-		"outerColor": [0,0,0],
-		"innerColor": [9, 82, 40],
-		"cities": ["Endor"]
-	},
-
-	{
-		"name": "Unkar Plutt's Gang",
-		"adjective": ["Unkar's Thug"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Desert"],
-
-		"declaringWar": "I'm gonna make you pay for what you've done.",
-		"attacked": "You missed something else. I already have a love. And it's called money.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [247, 226, 105],
-		"cities": ["Jakuu"]
 	},
 
 	{
