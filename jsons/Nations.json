@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Galactic Empire",
-		"leaderName": "Sheev Palpatine",
+		"leaderName": "Emperor Palpatine",
 		"adjective": ["Imperial"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
@@ -1000,6 +1000,60 @@
 		"innerColor": [16, 52, 166],
 		"cities": ["Kamino"]
 	},
+
+	{
+		"name": "Czerka Arms",
+		"adjective": ["Czerka Arms"],
+		"cityStateType": "Industrial",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Anytime, anywhere… we're there."
+		"outerColor": [131, 166, 151],
+		"innerColor": [0,0,0],
+		"cities": ["Czerka Arms Headquarter"]
+	},
+
+	{
+		"name": "Royal Family of Kessel",
+		"adjective": ["Kesselian"],
+		"cityStateType": "Industrial",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Have you heard of the spice mines of Kessel? Slaves sent there last a few months. Maybe a year.",
+		"attacked": "Fear is as much a part of life on Kessel as spice or air. Control it and you'll do fine.",
+		"defeated": "The Yaruba Family of Kessel has always been a promoter of health and happiness across the stars."
+		"outerColor": [0,0,0],
+		"innerColor": [239, 210, 66],
+		"cities": ["Kessel"]
+	},
+
+	{
+		"name": "Iego council",
+		"adjective": ["Iego"],
+		"cityStateType": "Industrial",
+		"startBias": ["Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Iego"]
+	},
+
+	{
+		"name": "Gatressa Mining Conglomerate",
+		"adjective": ["Gatressa"],
+		"cityStateType": "Industrial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Ruhnuk"]
+	},
 	
 	{
 		"name": "The Colony",
@@ -1027,6 +1081,49 @@
 		"innerColor": [15, 5, 107],
 		"cities": ["Naboo"]
 	},
+
+	{
+		"name": "Icarii",
+		"adjective": ["Icarii"],
+		"startBias": ["Jungle"],
+		"cityStateType": "Agricultural",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [86, 115, 154],
+		"innerColor": [169, 17, 1],
+		"cities": ["Vestar"]
+	},
+
+	{
+		"name": "Yinchorri Council of Elders",
+		"adjective": ["Yinchorri"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [30, 127, 203],
+		"innerColor": [1, 215, 88],
+		"cities": ["Yinchorr"]
+	},
+
+	{
+		"name": "Alzarian Monarchy",
+		"adjective": ["Alzarian"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [20, 148, 20],
+		"innerColor": [223, 109, 20],
+		"cities": ["Alzar"]
+	},
+
 	
 	{
 		"name": "Herglic Trade Empire",
@@ -1110,33 +1207,102 @@
 		"innerColor": [247, 226, 105],
 		"cities": ["Jakuu"]
 	},
-	
-	{
-		"name": "Royal Family of Kessel",
-		"adjective": ["Kesselian"],
-		"cityStateType": "Industrial",
-		"startBias": ["Desert"],
 
-		"declaringWar": "Have you heard of the spice mines of Kessel? Slaves sent there last a few months. Maybe a year.",
-		"attacked": "Fear is as much a part of life on Kessel as spice or air. Control it and you'll do fine.",
-		"defeated": "The Yaruba Family of Kessel has always been a promoter of health and happiness across the stars."
+	{
+		"name": "Morubas Crime Family",
+		"adjective": ["Morubas"],
+		"cityStateType": "Commercial",
+		"startBias": ["Grassland"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
-		"innerColor": [239, 210, 66],
-		"cities": ["Kessel"]
+		"innerColor": [223, 115, 255],
+		"cities": ["Bahlah"]
 	},
 
 	{
-		"name": "Iego council",
-		"adjective": ["Iego"],
-		"cityStateType": "Industrial",
-		"startBias": ["Hill"],
+		"name": "The Exchange",
+		"adjective": ["Exchange"],
+		"cityStateType": "Commercial",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
-		"cities": ["Iego"]
+		"cities": ["Exchange Headquarter"]
+	},
+
+	{
+		"name": "Ahto High Court",
+		"adjective": ["Selkath"],
+		"cityStateType": "Commercial",
+		"startBias": ["Coast"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [128, 109, 90],
+		"innerColor": [38, 97, 156],
+		"cities": ["Manaan"]
+	},
+
+	{
+		"name": "Pyke Syndicate",
+		"adjective": ["Pyke"],
+		"cityStateType": "Commercial",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 0)],
+		"innerColor": [0,0,0],
+		"cities": ["Oba Diah"]
+	},
+
+	{
+		"name": "Canto Bight legislative body",
+		"adjective": ["Cantonican"],
+		"cityStateType": "Commercial",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [96, 96, 96],
+		"innerColor": [255,255,255],
+		"cities": ["Cantonica"]
+	},
+
+	{
+		"name": "Duros High House",
+		"adjective": ["Duro"],
+		"cityStateType": "Commercial",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0, 142, 142],
+		"innerColor": [76, 166, 107],
+		"cities": ["Duro"]
+	},
+
+	{
+		"name": "Baobab Merchant Fleet",
+		"adjective": ["Baobab"],
+		"cityStateType": "Commercial",
+		"startBias": ["Hill"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 0, 0],
+		"innerColor": [255, 255, 0],
+		"cities": ["Manda"]
 	},
 	
 	{
@@ -1265,6 +1431,153 @@
 		"cities": ["Paecia"]
 	},
 
+	{
+		"name": "Hondo Ohnaka Pirate Gang",
+		"adjective": ["Pirate"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "Insolence?!' We are pirates! We don't even know what that means. Open fire!",
+		"attacked": "You don't survive in the Outer Rim by being stupid!",
+		"defeated": "You are devious and deceitful and, most importantly, stupid."
+		"outerColor": [0,0,0],
+		"innerColor": [132, 46, 27],
+		"cities": ["Florrum"]
+	},
+
+	{
+		"name": "Haxion Brood",
+		"adjective": ["Haxion"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
+		"attacked": "The Haxion Brood is gunning for ya.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [252, 93, 93],
+		"cities": ["Ordo Eris"]
+	},
+
+	{
+		"name": "Bedlam Raiders",
+		"adjective": ["Bedlam Raider"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill"],
+
+		"declaringWar": "Let this be a reminder of what happens when you cross the Bedlam Raiders.",
+		"attacked": "Hmm. The galaxy has changed. There are many wars, but little honor to be won from them.",
+		"defeated": "I've been waiting for this… for two hundred years!"
+		"outerColor": [0,0,0],
+		"innerColor": [167, 85, 2],
+		"cities": ["Koboh"]
+	},
+
+	{
+		"name": "Kanjiklub",
+		"adjective": ["Kanji"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Desert"],
+
+		"declaringWar": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
+		"attacked": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
+		"defeated": "All right. All right. I suppose some of this is my fault."
+		"outerColor": [0,0,0],
+		"innerColor": [218, 179, 10],
+		"cities": ["Nar Kanji"]
+	},
+
+	{
+		"name": "White Maw",
+		"adjective": ["White Maw"],
+		"startBias": ["Tundra"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [96, 96, 96],
+		"cities": ["Coldstone Canyon"]
+	},
+
+	{
+		"name": "Guavian Death Gang",
+		"adjective": ["Guavian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You're a dead man.",
+		"attacked": "Your game is old. There's no one left in the galaxy for you to swindle.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [198, 8, 0],
+		"cities": ["Guavian Death Space"]
+	},
+
+		{
+		"name": "Paataatus Hiveborn",
+		"adjective": ["Paataatus"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "This is the Prince Militaire. You are trespassing within holy Paataatus space. Do you make threats against the Paataatus Hiveborn ?",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Nettehi"]
+	},
+
+	{
+		"name": "Lioaoin Regime",
+		"adjective": ["Lioaoi"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Lioaoin heartworld"]
+	},
+
+	{
+		"name": "Tower Dimension",
+		"adjective": ["Urchiv-ki"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Urch"]
+	},
+
+	{
+		"name": "Nikardun Destiny",
+		"adjective": ["Nikardun"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Your people will die for this. Not just you. Not just your pitiable fleet. All the Chiss. The Ascendancy will die, shredded like grain, ground down like stone, burned like withered grass. Every last cub will die… and you will die here and now, with the certain knowledge that you and you alone were the root and cause of their destruction.",
+		"defeated": "It's amazing how the presence of Battle Dreadnoughts can smooth out a round of negotiations."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Nikardun Destiny"]
+	},
+
+	{
+		"name": "Nuso Esva's realm",
+		"adjective": ["Storm-hair"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "Allies? You have allies. All to me except the Chosen are mere tools. They can be useful tools, or they can be broken tools.",
+		"attacked": "Your cleverness is wasted. Once we've dealt with you, my fleet will travel to your homeworld and I will make you useful tools. Your time is ended. My ships are now in their places.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,255],
+		"cities": ["Oristrom"]
+	},
+
         {
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
@@ -1322,34 +1635,6 @@
 	},
 
 	{
-		"name": "Morubas Crime Family",
-		"adjective": ["Morubas"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Grassland"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [223, 115, 255],
-		"cities": ["Bahlah"]
-	},
-
-	{
-		"name": "Hondo Ohnaka Pirate Gang",
-		"adjective": ["Weequay"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Desert"],
-
-		"declaringWar": "Insolence?!' We are pirates! We don't even know what that means. Open fire!",
-		"attacked": "You don't survive in the Outer Rim by being stupid!",
-		"defeated": "You are devious and deceitful and, most importantly, stupid."
-		"outerColor": [0,0,0],
-		"innerColor": [132, 46, 27],
-		"cities": ["Florrum"]
-	},
-
-	{
 		"name": "Zeffo sages",
 		"adjective": ["Zeffo"],
 		"cityStateType": "Religious",
@@ -1364,110 +1649,16 @@
 	},
 
 	{
-		"name": "Haxion Brood",
-		"adjective": ["Haxion Brood"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
-		"attacked": "The Haxion Brood is gunning for ya.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [252, 93, 93],
-		"cities": ["Ordo Eris"]
-	},
-
-	{
-		"name": "Bedlam Raiders",
-		"adjective": ["Bedlam Raider"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Hill"],
-
-		"declaringWar": "Let this be a reminder of what happens when you cross the Bedlam Raiders.",
-		"attacked": "Hmm. The galaxy has changed. There are many wars, but little honor to be won from them.",
-		"defeated": "I've been waiting for this… for two hundred years!"
-		"outerColor": [0,0,0],
-		"innerColor": [167, 85, 2],
-		"cities": ["Koboh"]
-	},
-
-	{
-		"name": "Kanjiklub",
-		"adjective": ["Kanji"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Desert"],
-
-		"declaringWar": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
-		"attacked": "It is always an honor to test one's mettle against the best. By that I mean, an honor for you, of course. Not exactly much of a test for me.",
-		"defeated": "All right. All right. I suppose some of this is my fault."
-		"outerColor": [0,0,0],
-		"innerColor": [218, 179, 10],
-		"cities": ["Nar Kanji"]
-	},
-
-	{
-		"name": "Guavian Death Gang",
-		"adjective": ["Guavian"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You're a dead man.",
-		"attacked": "Your game is old. There's no one left in the galaxy for you to swindle.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [198, 8, 0],
-		"cities": ["Guavian Death Space"]
-	},
-
-	{
-		"name": "The Exchange",
-		"adjective": ["Exchange"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Exchange Headquarter"]
-	},
-
-	{
-		"name": "White Maw",
-		"adjective": ["White Maw"],
-		"startBias": ["Tundra"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [255,255,255],
-		"innerColor": [96, 96, 96],
-		"cities": ["Coldstone Canyon"]
-	},
-
-	{
-		"name": "Voss",
+		"name": "The Three",
 		"adjective": ["Voss"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Religious",
 
 		"declaringWar": "We serve the will of the Mystics. Our names will be joined forever in song",
 		"attacked": "No Voss is perfect. No Voss is above vision.",
 		"defeated": "The sky changes. War rages. Seasons pass. Voss die. Voss remains."
 		"outerColor": [0, 142, 142],
 		"innerColor": [96, 96, 96],
-		"cities": ["Voss-Ka"]
-	},
-
-	{
-		"name": "Gormak",
-		"adjective": ["Gormak"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Do you think I am afraid to die? I am the Gormak King. I walk where Voss do not dare go.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [121, 137, 51],
-		"innerColor": [165, 38, 10],
-		"cities": ["Gorma-Koss"]
+		"cities": ["Voss"]
 	},
 
 	{
@@ -1481,223 +1672,6 @@
 		"outerColor": [44, 117, 255],
 		"innerColor": [121, 137, 51],
 		"cities": ["Maryx Minor"]
-	},
-
-	{
-		"name": "Icarii",
-		"adjective": ["Icarii"],
-		"startBias": ["Jungle"],
-		"cityStateType": "Cultured",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [86, 115, 154],
-		"innerColor": [169, 17, 1],
-		"cities": ["Vestar"]
-	},
-
-	{
-		"name": "Czerka Arms",
-		"adjective": ["Czerka Arms"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Anytime, anywhere… we're there."
-		"outerColor": [131, 166, 151],
-		"innerColor": [0,0,0],
-		"cities": ["Czerka Arms Headquarter"]
-	},
-
-	{
-		"name": "Ahto High Court",
-		"adjective": ["Selkath"],
-		"startBias": ["Coast"],
-		"cityStateType": "Mercantile",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [128, 109, 90],
-		"innerColor": [38, 97, 156],
-		"cities": ["Manaan"]
-	},
-
-	{
-		"name": "Nikardun Destiny",
-		"adjective": ["Nikardun"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Your people will die for this. Not just you. Not just your pitiable fleet. All the Chiss. The Ascendancy will die, shredded like grain, ground down like stone, burned like withered grass. Every last cub will die… and you will die here and now, with the certain knowledge that you and you alone were the root and cause of their destruction.",
-		"defeated": "It's amazing how the presence of Battle Dreadnoughts can smooth out a round of negotiations."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Nikardun Destiny"]
-	},
-
-	{
-		"name": "Paataatus Hiveborn",
-		"adjective": ["Paataatus"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "This is the Prince Militaire. You are trespassing within holy Paataatus space. Do you make threats against the Paataatus Hiveborn ?",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Nettehi"]
-	},
-
-	{
-		"name": "Lioaoin Regime",
-		"adjective": ["Lioaoi"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Lioaoin heartworld"]
-	},
-
-	{
-		"name": "Tower Dimension",
-		"adjective": ["Urchiv-ki"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Urch"]
-	},
-
-	{
-		"name": "Yinchorri Council of Elders",
-		"adjective": ["Yinchorri"],
-		"cityStateType": "Maritime",
-		"startBias": ["Desert"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [30, 127, 203],
-		"innerColor": [1, 215, 88],
-		"cities": ["Yinchorr"]
-	},
-
-	{
-		"name": "Pyke Syndicate",
-		"adjective": ["Pyke"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Desert"],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [255, 255, 0)],
-		"innerColor": [0,0,0],
-		"cities": ["Oba Diah"]
-	},
-
-	{
-		"name": "Canto Bight legislative body",
-		"adjective": ["Cantonican"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Coast"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [96, 96, 96],
-		"innerColor": [255,255,255],
-		"cities": ["Cantonica"]
-	},
-
-	{
-		"name": "Alzarian Monarchy",
-		"adjective": ["Alzarian"],
-		"cityStateType": "Maritime",
-		"startBias": ["Plains"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [20, 148, 20],
-		"innerColor": [223, 109, 20],
-		"cities": ["Alzar"]
-	},
-
-	{
-		"name": "Duros High House",
-		"adjective": ["Duro"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Jungle"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0, 142, 142],
-		"innerColor": [76, 166, 107],
-		"cities": ["Duro"]
-	},
-
-	{
-		"name": "Baobab Merchant Fleet",
-		"adjective": ["Baobab"],
-		"cityStateType": "Mercantile",
-		"startBias": ["Hill"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [255, 0, 0],
-		"innerColor": [255, 255, 0],
-		"cities": ["Manda"]
-	},
-
-	{
-		"name": "Gatressa Mining Conglomerate",
-		"adjective": ["Gatressa"],
-		"cityStateType": "Mercantile",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0, 0, 0],
-		"innerColor": [255, 255, 255],
-		"cities": ["Ruhnuk"]
-	},
-	
-	{
-		"name": "Taris Civil Authority",
-		"adjective": ["Tarisian"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [38, 97, 156],
-		"innerColor": [136, 66, 29],
-		"cities": ["Taris"]
-	},
-
-	{
-		"name": "Nuso Esva's realm",
-		"adjective": ["Storm-hair"],
-		"cityStateType": "Militaristic",
-		
-		"declaringWar": "Allies? You have allies. All to me except the Chosen are mere tools. They can be useful tools, or they can be broken tools.",
-		"attacked": "Your cleverness is wasted. Once we've dealt with you, my fleet will travel to your homeworld and I will make you useful tools. Your time is ended. My ships are now in their places.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [0,0,255],
-		"cities": ["Oristrom"]
 	},
 
 	{
