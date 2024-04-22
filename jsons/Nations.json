@@ -220,8 +220,8 @@
 		"afterPeace": "Great warrior. Wars not make one great.",
 		"tradeRequest": "Your path you must decide.",
 
-		"outerColor": [255,255,255],
-		"innerColor": [136, 66, 29],
+		"outerColor": [0,0,0],
+		"innerColor": [83,40,20],
 		"cities": [
 			"Tython",
 			"Ossus",
@@ -273,8 +273,8 @@
 		"afterPeace": "Ee ya ba ma dookie massa eek bon chee ko pa na green na meeto do buny dunko la cho ya.",
 		"tradeRequest": "Niuta, be cotma.",
 
-		"outerColor": [132, 46, 27],
-		"innerColor": [239, 210, 66],
+		"outerColor": [208,177,128],
+		"innerColor": [143,17,29],
 		"cities": [
 			"Nal Hutta",
 			"Nar Shadda",
@@ -610,8 +610,8 @@
 		"afterPeace": "I don't condone your methods, but you had every right to protect your planet.",
 		"tradeRequest": "I am a man of great wealth, and I can be very generous to my allies.",
 
-		"outerColor": [204, 85, 0],
-		"innerColor": [21, 96, 189],
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,85],
 		"cities": [
 			"Raxus Secundus",
 			"Geonosis",
@@ -682,7 +682,7 @@
 		"tradeRequest": "This is Mon Mothma. I have an assignment for you. The Rebellion needs you and we don't have much time. We must work together.",
 
 		"outerColor": [255,255,255],
-		"innerColor": [255,0,0],
+		"innerColor": [213,0,0],
 		"cities": [
 			"Yavin 4",
 			"Generis",
@@ -830,7 +830,7 @@
 		"tradeRequest": "Welcome my home. You see my home, I be-bel-believe. You come me there. I show you splendor Yuuzhan Vong.",
 
 		"outerColor": [0,0,0],
-		"innerColor": [220, 20, 60],
+		"innerColor": [192,98,98],
 		"cities": [
 			"Yuuzhan'tar",
 			"Zonama Sekot",
@@ -1031,8 +1031,8 @@
 		"afterPeace": "These petty conflicts mean nothing. The concerns of this galaxy are meaningless. Once I ascend, all will be tranquil in this galaxy. It is my promise to you.",
 		"tradeRequest": "You are mine. Servants. Slaves. Weapons. And you will obey…",
 
-		"outerColor": [179, 103, 0],
-		"innerColor": [48, 48, 48],
+		"outerColor": [255,255,255],
+		"innerColor": [130,93,17],
 		"cities": [
 			"Zakuul",
 			"Nathema",
@@ -1074,7 +1074,7 @@
 		"tradeRequest": "There's a degree of risk involved. But risk has always been an inescapable part of warfare. In this case, the potential benefits far outweigh the potential dangers.",
 
 		"outerColor": [255,255,255],
-		"innerColor": [0, 0, 255],
+		"innerColor": [55,72,110],
 		"cities": [
 			"Csilla",
 			"Cioral",
