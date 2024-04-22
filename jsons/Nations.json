@@ -1520,6 +1520,20 @@
 		"innerColor": [0, 0, 0],
 		"cities": ["Columex"]
 	},
+
+	{
+		"name": "Federation of the Double Worlds",
+		"adjective": ["Talusian"],
+		"cityStateType": "Commercial",
+		"startBias": ["Grassland"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [166,193,184],
+		"innerColor": [119,176,200],
+		"cities": ["Talus-Tralus"]
+	},
 	
 	{
 		"name": "Wookiee council",
@@ -1601,6 +1615,20 @@
 		"outerColor": [0, 149, 182],
 		"innerColor": [240, 227, 107],
 		"cities": ["Ryloth"]
+	},
+
+	{
+		"name": "Esselian Empire",
+		"adjective": ["Esselian"],
+		"cityStateType": "Cultural",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Esseles"]
 	},
 	
 	{
@@ -1859,6 +1887,47 @@
 		"innerColor": [255,255,255],
 		"cities": ["Cygnus"]
 	},
+
+	{
+		"name": "Daupherm Planet States",
+		"adjective": ["Dauferim"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Daupherm"]
+	},
+
+	{
+		"name": "Echani Command",
+		"adjective": ["Echani"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [20, 148, 20],
+		"innerColor": [223, 109, 20],
+		"cities": ["Eshan"]
+	},
+
+	{
+		"name": "The Empire",
+		"adjective": ["The Empire"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hill"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,0,0],
+		"cities": ["Rei'izu"]
+	},
+	
         {
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
@@ -1968,6 +2037,18 @@
 		"cities": ["Argazda"]
 	},
 
+	{
+		"name": "Domains of Triton",
+		"adjective": ["Tritonite"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [118, 111, 100],
+		"innerColor": [0,0,0],
+		"cities": ["Triton"]
+	},
 	{
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
