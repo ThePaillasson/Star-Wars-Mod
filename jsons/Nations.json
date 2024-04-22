@@ -1167,6 +1167,18 @@
 	},
 
 	{
+		"name": "400100500260026",
+		"adjective": ["G0-T0"],
+		"cityStateType": "Scientific",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"innerColor": [255,255,255],
+		"cities": ["Gordian Reach"]
+	},
+
+	{
 		"name": "Czerka Arms",
 		"adjective": ["Czerka Arms"],
 		"cityStateType": "Industrial",
@@ -1218,6 +1230,19 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"cities": ["Ruhnuk"]
+	},
+
+	{
+		"name": "The Centrality",
+		"adjective": ["Centrality"],
+		"cityStateType": "Industrial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"cities": ["Erilnar"]
 	},
 	
 	{
@@ -1288,7 +1313,6 @@
 		"innerColor": [223, 109, 20],
 		"cities": ["Alzar"]
 	},
-
 	
 	{
 		"name": "Herglic Trade Empire",
@@ -1469,6 +1493,33 @@
 		"innerColor": [255, 255, 0],
 		"cities": ["Manda"]
 	},
+
+	{
+		"name": "Brentaal League",
+		"adjective": ["Brentaalan"],
+		"cityStateType": "Commercial",
+		"startBias": ["Tundra"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"cities": ["Brentaal"]
+	},
+
+	{
+		"name": "Commonality",
+		"adjective": ["Commonality"],
+		"cityStateType": "Commercial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"cities": ["Columex"]
+	},
 	
 	{
 		"name": "Wookiee council",
@@ -1524,6 +1575,32 @@
 		"outerColor": [0,0,0],
 		"innerColor": [9, 82, 40],
 		"cities": ["Endor"]
+	},
+
+	{
+		"name": "Atrisian Commonwealth",
+		"adjective": ["Atrisian"],
+		"cityStateType": "Cultural",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [15, 5, 107],
+		"innerColor": [0,0,0],
+		"cities": ["Atrisia"]
+	},
+
+	{
+		"name": "Clan Assembly",
+		"adjective": ["Twi'lek"],
+		"cityStateType": "Cultural",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0, 149, 182],
+		"innerColor": [240, 227, 107],
+		"cities": ["Ryloth"]
 	},
 	
 	{
@@ -1743,6 +1820,45 @@
 		"cities": ["Oristrom"]
 	},
 
+	{
+		"name": "Azure Imperium",
+		"adjective": ["Axumite"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"cities": ["Axum"]
+	},
+
+	{
+		"name": "Botor Enclave",
+		"adjective": ["Botori"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"cities": ["Botor"]
+	},
+
+
+	{
+		"name": "Cygnus Star Empire",
+		"adjective": ["Cygnus"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Cygnus"]
+	},
         {
 		"name": "Ssi-ruuvi Imperium",
 		"adjective": ["Ssi-ruuk"],
@@ -1837,6 +1953,19 @@
 		"outerColor": [44, 117, 255],
 		"innerColor": [121, 137, 51],
 		"cities": ["Maryx Minor"]
+	},
+
+	{
+		"name": "Argazdan Redoubt",
+		"adjective": ["Argazdan"],
+		"cityStateType": "Religious",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [44,74,64],
+		"innerColor": [226,26,39],
+		"cities": ["Argazda"]
 	},
 
 	{
