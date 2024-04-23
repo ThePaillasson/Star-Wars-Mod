@@ -1547,6 +1547,74 @@
 		"innerColor": [201,181,43],
 		"cities": ["Xolu"]
 	},
+
+	{
+		"name": "Jalorian Sodality",
+		"adjective": ["Jalorian Sodality"],
+		"cityStateType": "Commercial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Jalorian"]
+	},
+
+	{
+		"name": "Kathol Republic",
+		"adjective": ["Kathol"],
+		"cityStateType": "Commercial",
+		"startBias": ["Marsh"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Dayark"]
+	},
+
+	{
+		"name": "Koboth Union",
+		"adjective": ["Kobok"],
+		"cityStateType": "Commercial",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [100,136,150],
+		"innerColor": [221,178,104],
+		"cities": ["Koboth"]
+	},
+
+	{
+		"name": "League of Tapani Freeworlds",
+		"adjective": ["Tapani"],
+		"cityStateType": "Commercial",
+		"startBias": ["Forest"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [31,60,110],
+		"innerColor": [243,81,31],
+		"cities": ["Tallaan"]
+	},
+
+	{
+		"name": "Marzoon Confederation",
+		"adjective": ["Marzoon"],
+		"cityStateType": "Commercial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
+		"cities": ["Marzoon"]
+	},
 	
 	{
 		"name": "Wookiee council",
@@ -1642,6 +1710,19 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"cities": ["Esseles"]
+	},
+
+	{
+		"name": "Induparan Monarchy",
+		"adjective": ["Induparan"],
+		"cityStateType": "Cultural",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Indupar"]
 	},
 	
 	{
@@ -1979,6 +2060,20 @@
 		"innerColor": [240,191,54],
 		"cities": ["Hiromi"]
 	},
+
+	{
+		"name": "Kumauri Empire",
+		"adjective": ["Kumauri"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Marsh"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
+		"cities": ["Kumauri Empire"]
+	},
 	
         {
 		"name": "Ssi-ruuvi Imperium",
@@ -2067,6 +2162,7 @@
 		"name": "Ancient Order of Pessimists",
 		"adjective": ["Pessimist"],
 		"cityStateType": "Religious",
+		"startBias": ["Avoid Grassland"],
 
 		"declaringWar": "There are so many terrible things that may happen to you, Brother. It is the burden you must bear.",
 		"attacked": "Woe be unto us!",
@@ -2093,6 +2189,7 @@
 		"name": "Domains of Triton",
 		"adjective": ["Tritonite"],
 		"cityStateType": "Religious",
+		"startBias": ["Avoid Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2101,6 +2198,21 @@
 		"innerColor": [0,0,0],
 		"cities": ["Triton"]
 	},
+
+	{
+		"name": "Machinist Theocracy",
+		"adjective": ["Machinist"],
+		"cityStateType": "Religious",
+		"startBias": ["Hill"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [132, 132, 132],
+		"innerColor": [0,0,0],
+		"cities": ["Karlatt"]
+	},
+	
 	{
 		"name": "Barbarians",
 		"outerColor": [0, 0, 0],
