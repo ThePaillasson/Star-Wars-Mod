@@ -1231,19 +1231,6 @@
 		"innerColor": [255, 255, 255],
 		"cities": ["Ruhnuk"]
 	},
-
-	{
-		"name": "The Centrality",
-		"adjective": ["Centrality"],
-		"cityStateType": "Industrial",
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [255, 255, 255],
-		"innerColor": [0, 0, 0],
-		"cities": ["Erilnar"]
-	},
 	
 	{
 		"name": "The Colony",
@@ -1357,19 +1344,6 @@
 	},
 
 	{
-		"name": "Cloud City",
-		"adjective": ["Bespinite"],
-		"cityStateType": "Commercial",
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255],
-		"cities": ["Cloud City"]
-	},
-
-	{
 		"name": "Zygerrian Slave Empire",
 		"adjective": ["Zygerrian"],
 		"cityStateType": "Commercial",
@@ -1450,20 +1424,6 @@
 		"outerColor": [255, 255, 0)],
 		"innerColor": [0,0,0],
 		"cities": ["Oba Diah"]
-	},
-
-	{
-		"name": "Canto Bight legislative body",
-		"adjective": ["Cantonican"],
-		"cityStateType": "Commercial",
-		"startBias": ["Coast"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [96, 96, 96],
-		"innerColor": [255,255,255],
-		"cities": ["Cantonica"]
 	},
 
 	{
@@ -1724,6 +1684,45 @@
 		"innerColor": [255,255,255],
 		"cities": ["Indupar"]
 	},
+
+	{
+		"name": "Noble Court",
+		"adjective": ["Nothoiin"],
+		"cityStateType": "Cultural",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [178,190,190],
+		"innerColor": [32,147,172],
+		"cities": ["Council"]
+	},
+
+	{
+		"name": "Norat Sovereignty",
+		"adjective": ["Norat"],
+		"cityStateType": "Cultural",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Norat"]
+	},
+
+	{
+		"name": "Nouane",
+		"adjective": ["Nouanese"],
+		"cityStateType": "Cultural",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"cities": ["Nouane"]
+	},
 	
 	{
 		"name": "Onderon Monarchy",
@@ -1807,19 +1806,6 @@
 		"outerColor": [0,0,0],
 		"innerColor": [132, 46, 27],
 		"cities": ["Florrum"]
-	},
-
-	{
-		"name": "Haxion Brood",
-		"adjective": ["Haxion"],
-		"cityStateType": "Militaristic",
-
-		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
-		"attacked": "The Haxion Brood is gunning for ya.",
-		"defeated": "We never fully trusted you from the start."
-		"outerColor": [0,0,0],
-		"innerColor": [252, 93, 93],
-		"cities": ["Ordo Eris"]
 	},
 
 	{
@@ -2212,6 +2198,60 @@
 		"innerColor": [0,0,0],
 		"cities": ["Karlatt"]
 	},
+
+	{
+		"name": "Cloud City",
+		"adjective": ["Bespinite"],
+		"cityStateType": "Tourist",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Cloud City"]
+	},
+
+	{
+		"name": "Canto Bight legislative body",
+		"adjective": ["Cantonican"],
+		"cityStateType": "Tourist",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [96, 96, 96],
+		"innerColor": [255,255,255],
+		"cities": ["Cantonica"]
+	},
+
+	{
+		"name": "Haxion Brood",
+		"adjective": ["Haxion"],
+		"cityStateType": "Tourist",
+
+		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
+		"attacked": "The Haxion Brood is gunning for ya.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [252, 93, 93],
+		"cities": ["Ordo Eris"]
+	},
+
+	{
+		"name": "Centrality",
+		"adjective": ["Centrality"],
+		"cityStateType": "Tourist",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"cities": ["Erilnar"]
+	},
+
 	
 	{
 		"name": "Barbarians",
