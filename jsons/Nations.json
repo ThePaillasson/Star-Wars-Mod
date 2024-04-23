@@ -1536,6 +1536,19 @@
 	},
 	
 	{
+		"name": "Gar-Oth's Empire",
+		"adjective": ["Yahk-Tosh"],
+		"cityStateType": "Commercial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [104,80,102],
+		"innerColor": [201,181,43],
+		"cities": ["Xolu"]
+	},
+	
+	{
 		"name": "Wookiee council",
 		"adjective": ["Wookiee"],
 		"cityStateType": "Cultural",
@@ -1835,6 +1848,19 @@
 		"cities": ["Nikardun Destiny"]
 	},
 
+	"{
+		"name": "Garwian Unity",
+		"adjective": ["Garwian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Solitair"]
+	},
+
 	{
 		"name": "Nuso Esva's realm",
 		"adjective": ["Storm-hair"],
@@ -1926,6 +1952,32 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,0,0],
 		"cities": ["Rei'izu"]
+	},
+
+	{
+		"name": "Grysk Hegemony",
+		"adjective": ["Grysk"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [82,156,167],
+		"innerColor": [216,217,185],
+		"cities": ["Grysk"]
+	},
+
+	{
+		"name": "Hiromi Empire",
+		"adjective": ["Hiromi"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "Nothing can stop us now! The glory of the Hiromi is assured! Yaayyy!",
+		"attacked": "Let's hear it for not getting hurt!",
+		"defeated": "Perhaps the glorious destiny of the Hiromi would be best served if we were to strategically withdraw…at once!"
+		"outerColor": [182,164,217],
+		"innerColor": [240,191,54],
+		"cities": ["Hiromi"]
 	},
 	
         {
