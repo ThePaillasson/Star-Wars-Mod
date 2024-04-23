@@ -112,7 +112,7 @@
         "color": [220, 100, 15]
     }
  {
-        "name": "Neutral",
+        "name": "Tourist",
         "friendBonusUniques": [
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>"
