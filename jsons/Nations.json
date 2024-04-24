@@ -1575,6 +1575,19 @@
 		"innerColor": [255,0,0],
 		"cities": ["Marzoon"]
 	},
+
+	{
+		"name": "Ubdurians' empire",
+		"adjective": ["Ubdurian"],
+		"cityStateType": "Commercial",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [255,0,0],
+		"cities": ["Nag Ubdur-Ubduria"]
+	},
 	
 	{
 		"name": "Wookiee council",
@@ -2058,7 +2071,89 @@
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [255,255,255],
 		"innerColor": [255,0,0],
-		"cities": ["Kumauri Empire"]
+		"cities": ["Kumauri"]
+	},
+
+	{
+		"name": "Predori",
+		"adjective": ["Predori"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [190, 245, 116],
+		"cities": ["Predori"]
+	},
+
+	{
+		"name": "Sovereign Latitudes of Maracavanya",
+		"adjective": ["Maracavanya"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [107, 13, 13],
+		"cities": ["Maracavanya"]
+	},
+
+	{
+		"name": "Spiverelda",
+		"adjective": ["Aqualish"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [113,116,138],
+		"innerColor": [121,59,27],
+		"cities": ["Ando"]
+	},
+
+	{
+		"name": "Tapani Empire",
+		"adjective": ["Tapani"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [31,60,110],
+		"innerColor": [243,81,31],
+		"cities": ["Procopia"]
+	},
+
+	{
+		"name": "Tof Kingdom",
+		"adjective": ["Tof"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [191,235,35],
+		"innerColor": [155,72,52],
+		"cities": ["Tof"]
+	},
+
+	{
+		"name": "Vagaari Empire",
+		"adjective": ["Vagaari"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "We are the Vagaari. We take what we want.",
+		"attacked": "I am the Miskara of the Vagaari people. […] You will address me as Your Eminence. I'm told you have the insolence to demand that I bargain with you.",
+		"defeated": "Speech is for drones and prey. The conversation of warriors is in their actions."
+		"outerColor": [0, 86, 27],
+		"innerColor": [255, 215, 0],
+		"cities": ["Vagar Praxut"]
 	},
 	
         {
@@ -2197,6 +2292,20 @@
 		"outerColor": [132, 132, 132],
 		"innerColor": [0,0,0],
 		"cities": ["Karlatt"]
+	},
+
+	{
+		"name": "Pimbrellan League",
+		"adjective": ["Pimbrellan"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Dolstan"]
 	},
 
 	{
