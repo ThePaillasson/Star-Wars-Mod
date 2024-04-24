@@ -130,7 +130,7 @@
 		"afterPeace": "Surely you know the glory of the Builders and our Infinite Empire. The fury of our weapons surpass even my own might.",
 		"tradeRequest": "Surely you know the glory of the Builders and our Infinite Empire. The fury of our weapons surpass even my own might.",
 
-		"outerColor": [255,0,0],
+		"outerColor": [158,25,25],
 		"innerColor": [0,0,0],
 		"cities": [
 			"Rakata Prime",
@@ -193,7 +193,7 @@
 	
 	{
 		"name": "Jedi Order",
-		"leaderName": "Yoda",
+		"leaderName": "Grand Master Yoda",
 		"adjective": ["Jedi"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Cultural",
@@ -225,14 +225,22 @@
 		"cities": [
 			"Caamas (-25 053)",
 			"Ahch-To (-25 025)",
+			"Ossus (-25 000)",
+			"Rhinnal (-25 000)",
+			"Phemis (-25 000)",
 			"Haashimut (-24 000)",
 			"Falang Minor (-23 900)",
 			"Ilum (-22 800)",
+			"Phateem (-10 000)",
 			"Dorin (-5975)",
+			"Mustafar (-5300)",
 			"H'ratth (-4100)",
 			"Ambria (-4000)",
 			"Dantooine (-3997)",
+			"Marfa (-3653)",
 			"Gatalenta (-3628)",
+			"Lothal (-3277)",
+			"Pelgrin (-3000)",
 			"Aleen (-3000)",
 			"Aleen Minor (-3000)",
 			"Auratera (-2000)",
@@ -242,6 +250,8 @@
 			"Cobal",
 			"Korba",
 			"Anoat",
+			"Obroa-skai (-990)",
+			"Masposhani (-500)",
 			"Koboh (-500)",
 			"Devaron (-412)",
 			"Geptish (-390)",
@@ -251,6 +261,7 @@
 			"Banchii (-232)",
 			"Chespea (-230)",
 			"Belsavis (-88)",
+			"Mestare (-22)",
 			"Eclipse (26)",
 			
 		],
@@ -555,8 +566,8 @@
 		"afterPeace": "I am not a man of words. But I respect the power of words, for that is what transformed me. The words of the Sith Code...",
 		"tradeRequest": "The strong rule; the weak are meant to serve. This is the way it must be.",
 
-		"outerColor": [219, 23, 2],
-		"innerColor": [0,0,0],
+		"outerColor": [0,0,0],
+		"innerColor": [158,25,25],
 		"cities": [
 			"Korriban",
 			"Ziost",
