@@ -1543,7 +1543,7 @@
 		"startBias": ["Grassland"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [166,193,184],
 		"innerColor": [119,176,200],
@@ -1556,7 +1556,7 @@
 		"cityStateType": "Commercial",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [104,80,102],
 		"innerColor": [201,181,43],
@@ -1583,7 +1583,7 @@
 		"cityStateType": "Commercial",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "I now represent a number of planets—the Commonality—and their votes represent the swing votes in a badly divided Senate.",
+		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
