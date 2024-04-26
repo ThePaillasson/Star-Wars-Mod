@@ -1302,6 +1302,34 @@
 		"innerColor": [83,58,42],
 		"cities": ["Makem Te"]
 	},
+
+	{
+		"name": "Corellian Republic",
+		"adjective": ["Corellian"],
+		"cityStateType": "Industrial",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [231,136,72],
+		"innerColor": [254,250,110],
+		"cities": ["Corellia"]
+	},
+
+	{
+		"name": "Council of Eckless",
+		"adjective": ["Eckless"],
+		"cityStateType": "Industrial",
+		"startBias": ["Forest"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Eckless"]
+	},
 	
 	{
 		"name": "Czerka Arms",
@@ -1369,6 +1397,34 @@
 		"outerColor": [20, 148, 20],
 		"innerColor": [223, 109, 20],
 		"cities": ["Alzar"]
+	},
+
+	{
+		"name": "Cyphar Government",
+		"adjective": ["Cyphari"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Plains"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [31,120,188],
+		"innerColor": [206,199,118],
+		"cities": ["Cyphar"]
+	},
+
+	{
+		"name": "Glee Anselm Council of Elders",
+		"adjective": ["Elder"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [94,116,148],
+		"innerColor": [131,193,113],
+		"cities": ["Glee Anselm"]
 	},
 
 	{
@@ -2154,6 +2210,47 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"cities": ["Concord Dawn"]
+	},
+
+	{
+		"name": "Constitutional Protectorate of Prakith",
+		"adjective": ["Prakith"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Hills"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"cities": ["Prakith"]
+	},
+
+	{
+		"name": "Coruscanti Government",
+		"adjective": ["Coruscanti"],
+		"cityStateType": "Militaristic",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [255,255,255],
+		"innerColor": [0,0,0],
+		"cities": ["Coruscant"]
+	},
+
+	{
+		"name": "Cularin Government",
+		"adjective": ["Cularin"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Jungle"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start."
+		"outerColor": [0,0,0],
+		"innerColor": [158,25,25],
+		"cities": ["Cularin"]
 	},
 
 	{
