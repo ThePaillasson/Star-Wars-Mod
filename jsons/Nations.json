@@ -1547,7 +1547,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
-		"outerColor": [194,177,174,],
+		"outerColor": [194,177,174],
 		"innerColor": [157,131,110],
 		"cities": ["Arkania"]
 	},
@@ -1808,7 +1808,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "We never fully trusted you from the start."
-		"outerColor": [255, 255, 0)],
+		"outerColor": [255, 255, 0],
 		"innerColor": [0,0,0],
 		"cities": ["Oba Diah"]
 	},
