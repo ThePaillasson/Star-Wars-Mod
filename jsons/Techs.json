@@ -1,0 +1,51 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Pre-Republic Era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "'I think we're on farmland, and where there is a farm, there is usually a farmer. Let's find his homestead.' - Jesse",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+  {
+		"columnNumber": 1,
+		"era": "Pre-Republic Era",
+		"techCost": 35,
+		"buildingCost": 60,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Pottery",
+				"row": 2,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?'"
+			},
+			{
+				"name": "Animal Husbandry",
+				"row": 5,
+				"prerequisites": ["Agriculture"],
+				"quote": "'We are lowly farmers from a village in the poorer parts of this planet...' - Ramiz"
+			},
+			{
+				"name": "Slugthrower",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": "'Slugthrowers. I hate 'em. But they're easy to maintain. Day or two in the jungle and your blaster'll never fire again. A good slug rifle, keep 'em wiped and oiled, they last forever. The guerrillas have pretty good luck with them, even though they take a lot of practice—slugs are ballistic, y'know? You have to plot the trajectory in your head. Shee, gimme a blaster anytime.' - Phloremirlla Tenk"
+			},
+			{
+				"name": "Mining",
+				"row": 9,
+				"prerequisites": ["Agriculture"],
+				"quote": "'We'll be sent to the spice mines of Kessel, smashed into who-knows-what!' - C-3PO"
+			}
+
+		]
+	},
+]
