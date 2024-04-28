@@ -220,7 +220,7 @@
 		"afterPeace": "Great warrior. Wars not make one great.",
 		"tradeRequest": "Your path you must decide.",
 
-		"outerColor": [0,0,0],
+		"outerColor": [255,255,255],
 		"innerColor": [83,40,20],
 		"cities": [
 			"Tython",
