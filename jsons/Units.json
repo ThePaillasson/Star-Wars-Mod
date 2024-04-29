@@ -92,6 +92,19 @@
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "shot"
 	},
+
+	{
+		"name": "Ancient Starship",
+		"unitType": "Helicopter",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "machinegun"
+	},
 	
 	{
 		"name": "Great Artist",
