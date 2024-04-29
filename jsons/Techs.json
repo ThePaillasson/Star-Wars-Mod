@@ -22,7 +22,7 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Study of Force",
+				"name": "Study of the Force",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
 				"quote": "'The Force is what gives a Jedi his power. It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.' - Obi-Wan Kenobi"
@@ -48,4 +48,23 @@
 
 		]
 	},
+	{
+		"columnNumber": 2,
+		"era": "Pre-Republic Era",
+		"techCost": 55,
+		"buildingCost": 75,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Interstellar flight",
+				"row": 1,
+				"prerequisites": ["Study of the Force"],
+				"quote": "'A starship is a weapon, but it's the rust that makes it deadly.' - An old spacer's line"
+			},
+			{
+				"name": "Calendar",
+				"row": 2,
+				"prerequisites": ["Study of the Force"],
+				"quote": "'Time. That's what's left when you strip away everything else. From a certain perspective, time's the only thing a thief ever really steals. And it's the only gift an irredeemable disaster can give to anyone.' - Chelli Lona Aphra"
+			},
 ]
