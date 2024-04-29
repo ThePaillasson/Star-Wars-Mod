@@ -33,7 +33,7 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Study of Force",
+		"requiredTech": "Study of the Force",
 		"uniques": ["Hidden when religion is disabled"]
 	},
   {
@@ -44,7 +44,7 @@
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Study of Force",
+		"requiredTech": "Study of the Force",
 		"uniques": ["Hidden when religion is disabled"]
 	},
   {
@@ -52,6 +52,18 @@
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Prophet": 1},
-		"requiredTech": "Study of Force",
+		"requiredTech": "Study of the Force",
 		"quote": "'People who knew him best think he went looking for the first Jedi temple.' - Han Solo"
+	},
+{
+		"name": "Stone Works",
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
 	},
