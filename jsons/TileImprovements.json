@@ -54,6 +54,14 @@
 		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
 		"shortcutKey": "P"
 	},
+{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "P"
+	},
   
   {
 		"name": "Remove Forest",
