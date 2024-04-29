@@ -22,10 +22,10 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Pottery",
+				"name": "Study of Force",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?'"
+				"quote": "'The Force is what gives a Jedi his power. It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.' - Obi-Wan Kenobi"
 			},
 			{
 				"name": "Animal Husbandry",
