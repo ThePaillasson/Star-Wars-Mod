@@ -67,4 +67,35 @@
 				"prerequisites": ["Study of the Force"],
 				"quote": "'Time. That's what's left when you strip away everything else. From a certain perspective, time's the only thing a thief ever really steals. And it's the only gift an irredeemable disaster can give to anyone.' - Chelli Lona Aphra"
 			},
+			{
+				"name": "Computer",
+				"row": 3,
+				"prerequisites": ["Study of the Force"],
+				"quote": "'It's amazing what computers can do these days.' - Garin"
+			},
+			{
+				"name": "Forcesaber",
+				"row": 4,
+				"prerequisites": ["Study of the Force"],
+				"quote": "'It's a Forcesaber, weapons of the Force Hounds of the Rakata.' - Xesh"
+			},
+			{
+				"name": "Hunting",
+				"row": 5,
+				"prerequisites": ["Animal Husbandry"],
+				"quote": "'True hunting is in the eye. Stare at prey. Make the prey cower. Know you can eat it alive. Victory without weapons… but only if you are stronger, yes?' - Jagraan"
+			},
+			{
+				"name": "Beam tube",
+				"row": 7,
+				"prerequisites": ["Animal Husbandry", "Slugthrower"],
+				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+			},
+			{
+				"name": "Masonry",
+				"row": 9,
+				"prerequisites": ["Mining"],
+				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			}
+		]
 ]
