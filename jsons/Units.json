@@ -65,7 +65,25 @@
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "Long ago the Rakata ruled all the known galaxy; all species bowed down to them"}
+			{"text": "Long ago the Rakata ruled all the known galaxy; all species bowed down to them - Keeper Orsaa"}
+		]
+	},
+	{
+		"name": "Sith Pureblood Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Sith Order",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"range": 1,
+		"cost": 40,
+    "promotions": ["Blitz"],
+    "obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "The term Sith actually refers to a species of red-skinned beings who were native to Korriban. - Vestara Khai"}
 		]
 	},
 	{
@@ -91,6 +109,49 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "shot"
+		"civilopediaText": [
+			{"text": "It's like a projectile from a slugthrower. Like someone whipped a rock real fast. - Joss Adren"}
+		]
+	},
+	{
+		"name": "Beam-tuber",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Beam tube",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mounted Warrior",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 6,
+		"cost": 56,
+		"requiredTech": "Beam tube",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Force Hound",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 66,
+		"requiredTech": "Forcesaber",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+		"civilopediaText": [
+			{"text": "I am as I was made. Born to be a Force Hound. Fated to serve my masters. - Xesh"}
+		]
 	},
 
 	{
@@ -99,7 +160,7 @@
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
-		"requiredTech": "Sailing",
+		"requiredTech": "Interstellar flight",
 		"uniques": ["No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
