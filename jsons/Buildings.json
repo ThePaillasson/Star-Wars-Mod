@@ -67,3 +67,71 @@
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Computer"
+	},
+	{
+		"name": "Temple of the Ancients",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Computer",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'There is little I can tell you about the Temple. I know the secrets of our ancestors are contained within.' - An Elder councilor"
+	},
+	{
+		"name": "Circus",
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Hunting"
+	},
+	{
+		"name": "Petranaki arena",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"greatPersonPoints": {"Great General": 1},
+		"isNationalWonder": true,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Hunting"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Rakata Monument",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"requiredTech": "Masonry",
+		"quote": "'I exist to proclaim the glory of the Builders and the Infinite Empire, by recording the imprisonment of the Esh-kha.' - Rakata Monument hologram"
+	},
+	{
+		"name": "Eternity Vault",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'Its alien builders, the Rakata, called it the Eternity Vault; it's where they kept the prisoners and technology they could never afford to release.' - General Threnoldt"
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Forcesaber"
+	},
