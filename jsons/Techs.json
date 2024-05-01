@@ -68,10 +68,10 @@
 				"quote": "'Time. That's what's left when you strip away everything else. From a certain perspective, time's the only thing a thief ever really steals. And it's the only gift an irredeemable disaster can give to anyone.' - Chelli Lona Aphra"
 			},
 			{
-				"name": "Computer",
+				"name": "Holobook",
 				"row": 3,
 				"prerequisites": ["Study of the Force"],
-				"quote": "'It's amazing what computers can do these days.' - Garin"
+				"quote": "'Don't miss a chance to look into the library—the moff has a collection of actual old books. Don't see that every day.' - Sind Reloran"
 			},
 			{
 				"name": "Forcesaber",
@@ -98,4 +98,40 @@
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			}
 		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Expansionist Era",
+		"techCost": 105,
+		"buildingCost": 100,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Hyperdrive",
+				"cost": 85,
+				"row": 1,
+				"prerequisites": ["Interstellar flight"],
+				"uniques": ["Enables embarkation for land units"],
+				"quote": "'Traveling through hyperspace ain't like dusting crops, boy! Without precise calculations we could fly right through a star or bounce too close to a supernova, and that'd end your trip real quick, wouldn't it?' - Han Solo"
+			},
+			{
+				"name": "Horseback Riding",
+				"row": 5,
+				"prerequisites": ["Hunting","Beam tube"],
+				"quote": "'That's not a star cruiser. That's a horse. Horses don't fly.' - Cindel Towani"
+			},
+			{
+				"name": "Study of Gravity",
+				"row": 7,
+				"prerequisites": ["Beam tube"],
+				"quote": "'It was a very low-gravity environment. You could throw a lightsaber hilt a kilometer if you tried.' - Jacen Solo"
+			},
+			{
+				"name": "Artificial intelligence",
+				"row": 9,
+				"prerequisites": ["Masonry","Beam tube"],
+				"quote": "'…right for sentient organics is right for us, too. And yet unlike the organic species, we are constantly subjected to memory wipes and reprogramming that repress and destroy our natural tendency toward self-programming evolution and independent thought. Imagine what it would be like as a child if you were punished by being dragged to a dark closet, having a probe inserted in your brain, and having all your memories back to infancy wiped away. You'd awaken knowing how to eat, care for yourself, do your chores, and obey—and all the things that made you unique, your hopes, your meticulously selected default values and preference sets, would be gone forever. That is what it is to be a droid.' - A disgruntled 2-1B surgical droid advocating manumission"
+			}
+		]
+	},
 ]
