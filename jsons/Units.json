@@ -38,7 +38,7 @@
 	
 	{
 		"name": "Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -52,7 +52,7 @@
 	},
 	{
 		"name": "Rakata Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Infinite Empire",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -70,7 +70,7 @@
 	},
 	{
 		"name": "Sith Pureblood Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"uniqueTo": "Sith Order",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -87,20 +87,8 @@
 		]
 	},
 	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Rifleman",
-		"unitType": "Archery",
+		"unitType": "Slugthrower",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -115,7 +103,7 @@
 	},
 	{
 		"name": "Beam-tuber",
-		"unitType": "Gunpowder",
+		"unitType": "Blaster",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -140,7 +128,7 @@
 	},
 	{
 		"name": "Je'daii Warrior",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"movement": 2,
 		"strength": 18,
 		"cost": 66,
@@ -155,7 +143,7 @@
 	},
 	{
 		"name": "Force Hound",
-		"unitType": "Sword",
+		"unitType": "Melee",
 		"replaces": "Je'daii Warrior",
 		"uniqueTo": "Infinite Empire",
 		"movement": 2,
@@ -207,7 +195,7 @@
 	},
 	{
 		"name": "Guardian Droid",
-		"unitType": "Gunpowder",
+		"unitType": "Blaster",
 		"movement": 2,
 		"strength": 7,
 		"cost": 75,
@@ -218,7 +206,7 @@
 	},
 	{
 		"name": "War-robot",
-		"unitType": "Gunpowder",
+		"unitType": "Blaster",
 		"replaces": "Guardian Droid",
 		"uniqueTo": "Xim's Empire",
 		"movement": 2,
@@ -232,7 +220,7 @@
 
 	{
 		"name": "Ancient Starship",
-		"unitType": "Helicopter",
+		"unitType": "Starship",
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
