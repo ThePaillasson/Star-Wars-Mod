@@ -47,15 +47,6 @@
 		"requiredTech": "Study of the Force",
 		"uniques": ["Hidden when religion is disabled"]
 	},
-	
-  {
-		"name": "First Temple",
-		"faith": 5,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Prophet": 1},
-		"requiredTech": "Study of the Force",
-		"quote": "'People who knew him best think he went looking for the first Jedi temple.' - Han Solo"
-	},
 {
 		"name": "Stone Works",
 		"happiness": 1,
@@ -76,30 +67,10 @@
 		"requiredTech": "Holobook"
 	},
 {
-		"name": "Great Library",
-		"science": 3,
-		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 1},
-		"isWonder": true,
-		"requiredTech": "Holobook",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
-		"quote": "'Can you smell the history, the power here?' - Exar Kun"
-	},
-{
 		"name": "Circus",
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Hunting"
-	},
-{
-		"name": "Petranaki arena",
-		"cost": 125,
-		"happiness": 5,
-		"culture": 1,
-		"greatPersonPoints": {"Great General": 1},
-		"isNationalWonder": true,
-		"uniques": ["Cost increases by [30] per owned city"],
 		"requiredTech": "Hunting"
 	},
 {
@@ -111,25 +82,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 {
-		"name": "Rakata Monument",
-		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
-		"requiredTech": "Masonry",
-		"quote": "'I exist to proclaim the glory of the Builders and the Infinite Empire, by recording the imprisonment of the Esh-kha.' - Rakata Monument hologram"
-	},
-{
-		"name": "Eternity Vault",
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
-		"quote": "'Its alien builders, the Rakata, called it the Eternity Vault; it's where they kept the prisoners and technology they could never afford to release.' - General Threnoldt"
-	},
-{
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -137,14 +89,14 @@
 		"requiredTech": "Forcesaber"
 	},
 {
-		"name": "Temple of the Ancients",
-		"culture": 1,
-		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"requiredTech": "Bronze Working",
-		"quote": "'There is little I can tell you about the Temple. I know the secrets of our ancestors are contained within.' - An Elder councilor"
+		"name": "Hyperspace beacon",
+	        "food": 1,
+	        "production": 1,
+		"cost": 75,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Hyperdrive"
 	},
-	
 {
 		"name": "Stable",
 		"maintenance": 1,
@@ -171,11 +123,88 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Artificial intelligence"
 	},
+	
 {
-		"name": "Mother Machine",
+		"name": "First Temple",
+		"faith": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"requiredTech": "Study of the Force",
+		"quote": "'People who knew him best think he went looking for the first Jedi temple.' - Han Solo"
+	},
+{
+		"name": "Great Library",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Holobook",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Can you smell the history, the power here?' - Exar Kun"
+	},
+{
+         	"name": "Petranaki arena",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["Cost increases by [30] per owned city"],
+		"requiredTech": "Hunting"
+	        "quote": "'Let the executions begin.' - Archduke Poggle the Lesser"
+	},
+	{
+		"name": "Temple of the Ancients",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% construction time for [All] improvements","[2] free [Worker] units appear"],
+		"requiredTech": "Masonry",
+		"quote": "'There is little I can tell you about the Temple. I know the secrets of our ancestors are contained within.' - An Elder councilor"
+	},
+{
+		"name": "Shawken Spire",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY. Thousands of years later, in 10,000 BBY, the historian Vicendi included the Spire in his list of the Twenty Wonders of the Galaxy. By 43 ABY, the skyscraper had been rebuilt with more modern components."
+	},
+{
+		"name": "Statue of Xim",
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Forcesaber",
+		"quote": "The Statue of Xim was a large metal and stone sculpture of the tyrant Xim the Despot on the planet of Desevro. It originally stood one hundred meters high and contained treasure chambers that had protective traps to fend off looters. During the end of Xim's reign, it was toppled by a groundquake. Nevertheless, it was included in the list of the Twenty Wonders of the Galaxy by the historian Vicendi in his 10,000 BBY publication Arturum Galactinum."
+	},
+{
+		"name": "Belgoth's Beacon",
+		"cost": 185,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Hyperspace beacon] [in this city]"],
+		"requiredTech": "Optics",
+		"quote": "Belgoth's Beacon was a hyperspace beacon commissioned by Borte Belgoth in approximately 25,100 BBY. The satellite, one of the original beacons, was placed on the Perlemian Trade Route. Sculpted on the beacon were the faces of a Columi, cacodemon, and a molator from Alderaan. It was destroyed, however, during the Second Alsakan Conflict. In 10,000 BBY, Vicendi included the beacon in his work Arturum Galactinum as one of the Twenty Wonders of the Galaxy."
+	},
+{
+		"name": "Brass Soldiers",
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"requiredTech": "Artificial intelligence",
-		"quote": "'It's like those Rakata freaks were taking existing species and picking and choosing useful parts. Modular life form adaptation. You can't make this stuff up.' - Bolan"
+		"requiredTech": "Masonry",
+		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. The Brass Soldiers of Axum shared their name with Axum, a Core Worlds planet and once-capital of the Azure Imperium state that predated the formation of the Galactic Republic."
+	},
+{
+		"name": "Forbidden Gardens of Nuswatta",
+		"greatPersonPoints": {"Great Artist": 1},
+		"food": 6,
+		"culture": 1,
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+		"uniques": ["Gain a free [Garden] [in this city]"],
+		"quote": "The Forbidden Gardens of Nuswatta was a complex of gardens located on the planet of Nuswatta. The Gardens, located in a caldera of an extinct volcano, were originally cultivated as a royal retreat for the court of the Empire of Xim the Despot. All who entered without permission were put to death, and legend had it that the Gardens were cultivated by a cadre of slaves blinded at birth. Traitors, failed Tionese military officers, and defeated enemies were said to have been executed there."
 	},
