@@ -22,7 +22,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Slugthrower] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -43,8 +43,8 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"upgradesTo": "Je'daii Warrior",
+		"uniques" : ["May upgrade to [Beam-tuber] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -61,8 +61,8 @@
 		"cost": 40,
     "promotions": ["Blitz"],
     "obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"upgradesTo": "Je'daii Warrior",
+		"uniques" : ["May upgrade to [Beam-tuber] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "Long ago the Rakata ruled all the known galaxy; all species bowed down to them - Keeper Orsaa"}
@@ -79,15 +79,15 @@
 		"cost": 40,
     "promotions": ["Blitz"],
     "obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"upgradesTo": "Je'daii Warrior",
+		"uniques" : ["May upgrade to [Beam-tuber] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "The term Sith actually refers to a species of red-skinned beings who were native to Korriban. - Vestara Khai"}
 		]
 	},
 	{
-		"name": "Rifleman",
+		"name": "Slugthrower",
 		"unitType": "Slugthrower",
 		"movement": 2,
 		"strength": 5,
@@ -105,8 +105,8 @@
 		"name": "Beam-tuber",
 		"unitType": "Blaster",
 		"movement": 2,
-		"strength": 11,
-		"cost": 56,
+		"strength": 9,
+		"cost": 46,
 		"requiredTech": "Beam tube",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
@@ -114,15 +114,15 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Mounted Warrior",
+		"name": "Star Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 6,
 		"cost": 56,
 		"requiredTech": "Beam tube",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Horseback Riding",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -130,12 +130,12 @@
 		"name": "Je'daii Warrior",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 18,
-		"cost": 66,
-		"requiredTech": "Forcesaber",
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Force-imbued blade",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Protosaber Warrior",
+		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
 		"civilopediaText": [
 			{"text": "In the light, there is a darkness and in the darkness, a light. It is the way with us all. Be a prisoner of neither Bogan nor Ashla. Strive to live in balance. As Tython itself teaches us, it is dangerous to do otherwise. And the danger is there—always. - Ketu"}
@@ -149,10 +149,10 @@
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
-		"requiredTech": "Force saber",
+		"requiredTech": "Force-imbued blade",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Protosaber Warrior",
+		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
 		"civilopediaText": [
 			{"text": "I am as I was made. Born to be a Force Hound. Fated to serve my masters. - Xesh"}
@@ -210,12 +210,25 @@
 		"replaces": "Guardian Droid",
 		"uniqueTo": "Xim's Empire",
 		"movement": 2,
-		"strength": 13,
+		"strength": 11,
 		"cost": 75,
 		"requiredTech": "Artificial intelligence",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
 		"attackSound": "shot"
+	},
+	{
+		"name": "Protosaber Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 
 	{
@@ -228,7 +241,7 @@
 		"uniques": ["No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
-		"attackSound": "machinegun"
+		"attackSound": "shot"
 		"civilopediaText": [
 			{"text": "From the earliest atomic rockets with primitive laser armaments, to Expansion Era cruisers such as the Gilagimar, to the Republic's battle vessels, to the amazing Super Star Destroyers of the Empire, ships have traded fire in the depths of space. - Unknown"}
 		]
