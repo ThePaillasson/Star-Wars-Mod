@@ -86,7 +86,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Forcesaber"
+		"requiredTech": "Force-imbued blade"
 	},
 {
 		"name": "Hyperspace beacon",
@@ -158,7 +158,40 @@
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
 	},
-	
+{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	},
+{
+		"name": "Valley of Royalty",
+		"culture": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]>"],
+		"requiredTech": "Calendar",
+		"quote": "The Valley of Royalty was an ancient valley on Duro where the Duros buried many of their most celebrated rulers, including Rana Mas Trehalt. There were many secret catacombs and caves in the Valley, hiding a wealth of both historical information and valuables. The Valley was flooded with toxic waste when the Tiercam Dam broke, almost killing several Duros archaeologists."
+	},
+{
+		"name": "Brass Soldiers of Axum",
+		"culture": 1,
+	        "greatPersonPoints": {"Great General": 1},
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Slugthrower",
+		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. The Brass Soldiers of Axum shared their name with Axum, a Core Worlds planet and once-capital of the Azure Imperium state that predated the formation of the Galactic Republic."
+	},
+{
+		"name": "Ice Crypts",
+		"culture": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]>"],
+		"requiredTech": "Slugthrower",
+		"quote": "The Ice Crypts were a network of subterranean caves in the glaciers several hundred meters beneath the Hasamadhi warehouse district, near the south pole of Coruscant. Thirteen burial chambers lay at the end of the tunnel system, each containing a mummified corpse with weapons, armor, and trophies of war. Archaeologists believed them to be the remains of the chiefs of the thirteen nations of Zhell, who presumably had fled there after their defeat at the hands of the Taungs in Pre-Republic times. It was one of the only known artifacts of this time period."
+	},
 {
 		"name": "Crevasse City",
 		"production": 5,
@@ -197,14 +230,13 @@
 	        "quote": "'Let the executions begin.' - Archduke Poggle the Lesser"
 	},
 {
-		"name": "Forbidden Gardens of Nuswatta",
-		"greatPersonPoints": {"Great Artist": 1},
-		"culture": 6,
-		"food": 1,
+		"name": "Statue of Xim",
+		"happiness": 1,
+	        "greatPersonPoints": {"Great General": 1},
 		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Beam tube",
-		"uniques": ["Gain a free [Garden] [in this city]"],
-		"quote": "The Forbidden Gardens of Nuswatta was a complex of gardens located on the planet of Nuswatta. The Gardens, located in a caldera of an extinct volcano, were originally cultivated as a royal retreat for the court of the Empire of Xim the Despot. All who entered without permission were put to death, and legend had it that the Gardens were cultivated by a cadre of slaves blinded at birth. Traitors, failed Tionese military officers, and defeated enemies were said to have been executed there."
+		"quote": "The Statue of Xim was a large metal and stone sculpture of the tyrant Xim the Despot on the planet of Desevro. It originally stood one hundred meters high and contained treasure chambers that had protective traps to fend off looters. During the end of Xim's reign, it was toppled by a groundquake. Nevertheless, it was included in the list of the Twenty Wonders of the Galaxy by the historian Vicendi in his 10,000 BBY publication Arturum Galactinum."
 	},
 {
 		"name": "Temple of the Ancients",
@@ -227,13 +259,14 @@
 		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY. Thousands of years later, in 10,000 BBY, the historian Vicendi included the Spire in his list of the Twenty Wonders of the Galaxy. By 43 ABY, the skyscraper had been rebuilt with more modern components."
 	},
 {
-		"name": "Statue of Xim",
-		"culture": 1,
-	        "greatPersonPoints": {"Great General": 1},
+		"name": "Forbidden Gardens of Nuswatta",
+		"greatPersonPoints": {"Great Artist": 1},
+		"culture": 6,
+		"food": 1,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"requiredTech": "Forcesaber",
-		"quote": "The Statue of Xim was a large metal and stone sculpture of the tyrant Xim the Despot on the planet of Desevro. It originally stood one hundred meters high and contained treasure chambers that had protective traps to fend off looters. During the end of Xim's reign, it was toppled by a groundquake. Nevertheless, it was included in the list of the Twenty Wonders of the Galaxy by the historian Vicendi in his 10,000 BBY publication Arturum Galactinum."
+		"requiredTech": "Force-imbued blade",
+		"uniques": ["Gain a free [Garden] [in this city]"],
+		"quote": "The Forbidden Gardens of Nuswatta was a complex of gardens located on the planet of Nuswatta. The Gardens, located in a caldera of an extinct volcano, were originally cultivated as a royal retreat for the court of the Empire of Xim the Despot. All who entered without permission were put to death, and legend had it that the Gardens were cultivated by a cadre of slaves blinded at birth. Traitors, failed Tionese military officers, and defeated enemies were said to have been executed there."
 	},
 {
 		"name": "Ark of Baron Auletphant",
@@ -242,6 +275,15 @@
 		"isWonder": true,
 		"requiredTech": "Hyperdrive",
 		"quote": "The Ark of Baron Auletphant was an interstellar barge. It was golden and was inlaid with rose and azure mytag crystals. Commissioned more than ten thousand years prior to 520 BBY, the Ark of Baron Auletphant traveled for a century between far-flung worlds. There, the vessel collected specimens of aquatic life."
+	},
+{
+		"name": "Nespis VIII Spaceport",
+		"cost": 185,
+		"science": 5,
+	        "greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Hyperdrive",
+		"quote": "'According to legend, the Jedi Knights built the space station Nespis 8 as a meeting place for scientists from across the galaxy. The station was devoted to knowledge and learning, and it was considered neutral territory. Even if two planets were involved in a brutal war, their scientists could come to Nespis to do research. As knowledge grew, so did the station, until it was supposed to have grown to the size of a small planet. The legends say that Nespis 8 contained all the knowledge in the galaxy. Including, all the wisdom of the Jedi.' - DV-9"
 	},
 {
 		"name": "Belgoth's Beacon",
@@ -283,7 +325,7 @@
 		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Philosophy"
 	},
-	{
+{
 		"name": "Celebratus Archive",
 		"science": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
@@ -291,4 +333,13 @@
 		"uniques": ["Free Technology"],
 		"quote": "The Celebratus Archive was a library on the planet Obroa-skai that held complete records from over three hundred thousand different species. The creation of the library, in 16,782 BBY, secured the reputation of the planet as a bastion of research. The archive was included in the list of the Twenty Wonders of the Galaxy by the historian Vicendi in his 10,000 BBY publication Arturum Galactinum."
 		"requiredTech": "Philosophy"
+	},
+{
+		"name": "Tract of Makem Te",
+		"faith": 3,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Dynamite]>"],
+		"requiredTech": "Engineering",
+		"quote": "The Tract of Makem Te was a large graveyard located on Makem Te. It was considered Makem Te's most famous feature, and was included in the list of the Twenty Wonders of the Galaxy by the historian Vicendi in his 10,000 BBY publication Arturum Galactinum.[1] Originally, the Tract, made of polished stone bases, was mistaken for an ice cap covering 10% of the planet's surface during the first orbital survey. However, it was actually an enormous necropolis."
 	},
