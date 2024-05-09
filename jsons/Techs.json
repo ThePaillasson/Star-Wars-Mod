@@ -86,6 +86,12 @@
 				"quote": "'Bury the millennial-old debate whether sleeper ships, jump-gates, or a hyperbeacon network supplied the primary means of star travel during Xim's era, or whether beam-tubes, particle dischargers, and pulse-cannons were the actual armaments.' - Professor S. V. Skynx"
 			},
 			{
+				"name": "Computers",
+				"row": 8,
+				"prerequisites": ["Mining"],
+				"quote": "'The city's central computer told you? R2-D2, you know better than to trust a strange computer.' - C-3PO"
+			},
+			{
 				"name": "Masonry",
 				"row": 9,
 				"prerequisites": ["Mining"],
@@ -113,16 +119,16 @@
 				"quote": "A Force-imbued blade, also known as Je'daii swords or Jedi katanas, was a bladed weapon used circa 36,453 BBY by the ancient followers of the Ashla and Bogan of the ancient Je'daii Order."
 			},
 			{
-				"name": "Mathematics",
-				"row": 7,
-				"prerequisites": ["Beam tube"],
-				"quote": "''Mathematics is the gate and key to the sciences.' - Roger Bacon"
+				"name": "Artificial intelligence",
+				"row": 8,
+				"prerequisites": ["Computers","Beam tube"],
+				"quote": "'…right for sentient organics is right for us, too. And yet unlike the organic species, we are constantly subjected to memory wipes and reprogramming that repress and destroy our natural tendency toward self-programming evolution and independent thought. Imagine what it would be like as a child if you were punished by being dragged to a dark closet, having a probe inserted in your brain, and having all your memories back to infancy wiped away. You'd awaken knowing how to eat, care for yourself, do your chores, and obey—and all the things that made you unique, your hopes, your meticulously selected default values and preference sets, would be gone forever. That is what it is to be a droid.' - A disgruntled 2-1B surgical droid advocating manumission"
 			},
 			{
-				"name": "Artificial intelligence",
+				"name": "Mathematics",
 				"row": 9,
-				"prerequisites": ["Masonry","Beam tube"],
-				"quote": "'…right for sentient organics is right for us, too. And yet unlike the organic species, we are constantly subjected to memory wipes and reprogramming that repress and destroy our natural tendency toward self-programming evolution and independent thought. Imagine what it would be like as a child if you were punished by being dragged to a dark closet, having a probe inserted in your brain, and having all your memories back to infancy wiped away. You'd awaken knowing how to eat, care for yourself, do your chores, and obey—and all the things that made you unique, your hopes, your meticulously selected default values and preference sets, would be gone forever. That is what it is to be a droid.' - A disgruntled 2-1B surgical droid advocating manumission"
+				"prerequisites": ["Masonry"],
+				"quote": "''Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "Hyperdrive",
@@ -196,10 +202,10 @@
 				"quote": "'The merchants and the traders have come; their profits are pre-ordained...' - Sri Guru Granth Sahib"
 			},
 			{
-				"name": "Metal Casting",
+				"name": "Deflector shield",
 				"row": 9,
 				"prerequisites": ["Engineering"],
-				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
+				"quote": "'Sir, we just lost the main rear deflector shield. One more direct hit on the back quarter and we're done for!' - C-3PO, to Han Solo"
 			}
 		]
 	},
@@ -214,7 +220,7 @@
 				"name": "Frozen blaster",
 				"row": 1,
 				"prerequisites": ["Force-imbued blade"],
-				"quote": "By the time of the Duinuogwuin Contention around 15,500 BBY, Jedi studies and researches with "frozen blaster" technology yielded success; they developed a method to generate a focused beam of energy that arced in a circumferential path back to its source, creating a controlled energy circuit and leading to the first portable high-energy blades. However, these preliminary lightsabers were highly unstable and inefficiently guzzled energy from a belt-mounted power supply; they could only be used for a brief duration before overheating. As a consequence of these flaws, the first lightsabers were little more than ceremonial objects, seldom worn, and much less utilized."
+				"quote": "By the time of the Duinuogwuin Contention around 15,500 BBY, Jedi studies and researches with 'frozen blaster' technology yielded success; they developed a method to generate a focused beam of energy that arced in a circumferential path back to its source, creating a controlled energy circuit and leading to the first portable high-energy blades. However, these preliminary lightsabers were highly unstable and inefficiently guzzled energy from a belt-mounted power supply; they could only be used for a brief duration before overheating. As a consequence of these flaws, the first lightsabers were little more than ceremonial objects, seldom worn, and much less utilized."
 			},
 			{
 				"name": "Education",
@@ -224,12 +230,31 @@
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
-				"name": "Warship",
+				"name": "Machinery",
+				"row": 7,
+				"prerequisites": ["Guilds","Engineering"],
+				"uniques": ["Improves movement speed on roads"],
+				"quote": "A factory was an industrial site containing several buildings and power plants in the galaxy. They came in a variety of functions, including civilian products and vehicles, as well as developing several military weapons and small-scale starfighters."
+			},
+			{
+				"name": "Physics",
+				"row": 8,
+				"prerequisites": ["Deflector shield"],
+				"quote": "'Measure what is measurable, and make measurable what is not so.' - Galileo Galilei"
+			},
+			{
+				"name": "Pulse-wave",
+				"row": 9,
+				"prerequisites": ["Guilds","Deflector shield"],
+				"quote": "The pulse-wave blaster, or pulse-wave pistol, was a ranged weapon seen as the predecessor of the blaster pistol. They were commonly in use c. 4000 BBY, but had been replaced by the first models of the standard blaster by 3956 BBY. By the time of the Rise of the Empire era these weapons were virtually extinct and considered archaic, however they were still used in the Outer Rim Territories and in Wild Space, particularly on backwater worlds."
+			}
+			{
+				"name": "Battlecruiser",
 				"cost": 375,
 				"row": 10,
-				"prerequisites": ["Hyperdrive"],
-				"quote": "'From the earliest atomic rockets with primitive laser armaments, to Expansion Era cruisers such as the Gilagimar, to the Republic's battle vessels, to the amazing Super Star Destroyers of the Empire, ships have traded fire in the depths of space.' - Unknown"
-			},
+				"prerequisites": ["Deflector shield","Hyperdrive"],
+				"quote": "'This is my personal battle cruiser…and I did not name it the Executor for nothing!' - Darth Vader"
+			}
 		]
 	},
 	{
@@ -240,17 +265,10 @@
 		"wonderCost": 500,
 		"techs": [
 			{
-				"name": "Astronomy",
-				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
-				"prerequisites": ["Compass","Education"],
-				"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
-			},
-			{
 				"name": "Acoustics",
 				"row": 4,
 				"prerequisites": ["Education"],
-				"quote": "'Their rising all at once was as the sound of thunder heard remote' - Milton"
+				"quote": "'Yes, it's amazing how those performers can sing for five hours straight. They must train their voices for years before they can carry out such a feat of musical daring.' - Wendell Wright-Sims"
 			},
 			{
 				"name": "Banking",
@@ -259,16 +277,23 @@
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
-				"name": "Printing Press",
+				"name": "Gambling",
 				"row": 8,
-				"prerequisites": ["Machinery","Physics","Chivalry"],
+				"prerequisites": ["Machinery","Physics"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
-				"name": "Gunpowder",
+				"name": "Rocket pack",
+				"row": 9,
+				"prerequisites": ["Physics","Pulse-wave"],
+				"quote": "'The ROCKET was the favored conveyance of the Old Republic Rocket-jumper Elite Advance Unit, a feared corps of commandos famed for their extravagant behaviour and battlefield bravery.' - Doctor Itlar, Gundark's Gear Datalog"
+			},
+			{
+				"name": "Warship",
 				"row": 10,
-				"prerequisites": ["Physics","Steel"],
-				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
+				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
+				"prerequisites": ["Battlecruiser","Education"],
+				"quote": "'From the earliest atomic rockets with primitive laser armaments, to Expansion Era cruisers such as the Gilagimar, to the Republic's battle vessels, to the amazing Super Star Destroyers of the Empire, ships have traded fire in the depths of space.' - Unknown"
 			}
 		]
 	},
@@ -280,35 +305,35 @@
 		"wonderCost": 625,
 		"techs": [
 			{
-				"name": "Navigation",
-				"row": 2,
-				"prerequisites": ["Astronomy"],
-				"quote": "'The winds and the waves are always on the side of the ablest navigators.' - Edward Gibbon"
-			},
-			{
 				"name": "Architecture",
 				"row": 4,
 				"prerequisites": ["Acoustics","Banking"],
-				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
+				"quote": "'I always wanted to design buildings, but never had the motivation to take the steps necessary to actually become an architect. Instead, I do paintings of buildings. Not quite the same thing, but I find it satisfying.' - Kolka Zteht"
 			},
 			{
-				"name": "Economics",
+				"name": "Galactic economy",
 				"row": 6,
-				"prerequisites": ["Banking","Printing Press"],
-				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
+				"prerequisites": ["Banking","Gambling"],
+				"quote": "'The galactic economy is a hypercomplex system, full of unexpected movements and ill-discerned effects, where the flutter of a pigeon on Trantor may create a typhoon on Bal'demnic. It is a mathematical organism with enough dependent variables to make the most devout Givin theoretician throw up his hands in defeat. This has by no means prevented attempts to harness it for political ends.' - The Golden Emperor of Prekaz"
 			},
 			{
 				"name": "Metallurgy",
-				"row": 9,
-				"prerequisites": ["Printing Press","Gunpowder"],
-				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
+				"row": 8,
+				"prerequisites": ["Gambling","Gunpowder"],
+				"quote": "Metallurgy was the science of the behaviors and properties of metals and their extraction from their ores. It studied the processes of producing objects made of metal, including quarrying, mine construction, and smelting. The Onderonian Shas Dovos, later known as the armored Dark Jedi "Warb Null," was a devoted metallurgist."
 			},
 			{
-				"name": "Chemistry",
-				"row": 10,
+				"name": "Turbolaser",
+				"row": 9,
 				"prerequisites": ["Gunpowder"],
-				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
-			}
+				"quote": "'We count thirty Rebel ships, Lord Vader, but they're so small they're evading our turbolasers.' - An Imperial Lieutenant to Darth Vader during the Battle of Yavin"
+			},
+			{
+				"name": "Capital ship",
+				"row": 10,
+				"prerequisites": ["Warship"],
+				"quote": "'Capital starships serve many functions: exploration, transportation, tourism, and – especially in recent times – war. Even small fleets, like those of the Rebel Alliance, have at least one or two capital ships.' - Commander Elpfel"
+			},
 		]
 	},
 	{
@@ -361,7 +386,7 @@
 		"era": "Subterra Period",
 		"techCost": 2350,
 		"buildingCost": 360,
-		"wonderCost": 900, // Note that this column doesn't actually have any wonders. This just continues the wonderCost = 2.5 * buildingCost pattern from the last few columns.
+		"wonderCost": 900,
 		"techs": [
 			{
 				"name": "Biology",
@@ -400,7 +425,7 @@
 			{
 				"name": "Refrigeration",
 				"row": 2,
-				"prerequisites": ["Biology", "Electricity"], //todo: offshore platform should need this
+				"prerequisites": ["Biology", "Electricity"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
