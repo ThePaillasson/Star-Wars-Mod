@@ -1,19 +1,183 @@
 [
 	{
-		"name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
-	},
-	{
-		"name": "Settler",
+		"name": "Colonist",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+		"civilopediaText": [
+			{"text": "'The key to colonization is self-sufficiency.' - Qui-Gon Jinn"}
+		]
+	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+		"civilopediaText": [
+			{"text": "'The key to colonization is self-sufficiency.' - Qui-Gon Jinn"}
+		]
+	},
+	{
+		"name": "Great Artist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+		"civilopediaText": [
+			{"text": "Artists were individuals who created original works of art. In the days of the Galactic Republic, the Colonial Academy offered art classes. Following the rise of the Galactic Empire, Mandalorian artist and rebel Sabine Wren became notorious for painting rebellious graffiti as a form of propaganda. Chefs sufficiently skilled at cooking considered their work to be art."}
+		]
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+		"civilopediaText": [
+			{"text": "'A scientist must question—or be worth nothing.' - Vul Isen"}
+		]
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+		"civilopediaText": [
+			{"text": "Merchants, also called traders, were people who sold and bought various products. Although some merchants did business legally, many did business illegally. Traders could also be adept at constructing a number of goods, including weapons, furniture, and droids. Traders who took part in constructing goods would occasionally specialize in a specific field, such as munitions, structures, domestic goods, or engineering."}
+		]
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+		"civilopediaText": [
+			{"text": "'Sentient creatures can believe whatever they want—but too often they confuse their hopes and dreams with cold, hard reality. I don't have that luxury. As an engineer, I'm only concerned with what works.' - Kuat of Kuat"}
+		]
+	},
+	{
+		"name": "Great Prophet",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+		"civilopediaText": [
+			{"text": "'I am the Prophet. I speak the truth and foretell what is to come. I am not myself the key to redemption—I merely see it.' - Yu'shaa"}
+		]
+	},
+	{
+		"name": "Great Consular",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Jedi Order",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+			"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can Spread Religion <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000,
+		"civilopediaText": [
+			{"text": "'A Consular is a specialized kind of Jedi. They focus more on cerebral Force skills. They're our healers, our researchers, our seers.' - Zayne Carrick"}
+		]
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Military Base] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+		"civilopediaText": [
+			{"text": "'Soldiers win battles. Generals take credit.' - Kal Skirata"}
+		]
+	},
+	{
+		"name": "Monk",
+		"unitType": "Civilian",
+		"uniques": [
+            "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+            "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+			"Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[-1] Sight", "Unbuildable", "Religious Unit", "Hidden when religion is disabled"],
+		"movement": 4,
+		"religiousStrength": 1000
+		"civilopediaText": [
+			{"text": "A monk was an individual who belonged to a religious community. Notable orders of monks included the B'omarr Order and the Arakein Monks. Because of the hooded robes they wore, the Jedi were sometimes compared to monks."}
+		]
+	},
+	{
+		"name": "Inquisitor",
+		"unitType": "Civilian",
+		"uniques": ["Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
+		],
+		"movement": 3
+		"civilopediaText": [
+			{"text": "'I know that treachery can break even the mightiest foe. And for those who study its secrets, the Force offers... unlimited power.' - Sith Inquisitor Kallig"}
+		]
+	},
+	{
+		"name": "Mobile Command Center",
+		"unitType": "Civilian",
+		"cost": 200,
+		"requiredTech": "Mobile headquarters",
+		"uniques": [
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"Can only be built <with [Qualified officer]>",
+			"Uncapturable",
+			"Never appears as a Barbarian unit"
+		],
+		"civilopediaText": [
+			{"text": "A mobile command center was a temporary prefabricated building used by the Galactic Empire for a variety of purposes, operating as a war room, barracks or mess halls. During the Empire's excavation of the Lothal Jedi Temple, several mobile command centers were used."}
+		]
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Agriculture",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+		"civilopediaText": [
+			{"text": "'The key to colonization is self-sufficiency.' - Qui-Gon Jinn"}
+		]
+		
 	},
 	{
 		"name": "Scout",
@@ -25,15 +189,9 @@
 		"uniques": ["May upgrade to [Slugthrower] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Agriculture",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
+		"civilopediaText": [
+			{"text": "'Our scout ships have reached Dantooine. They found the remains of a Rebel base, but they estimate that it has been deserted for some time. They are now conducting an extensive search of the surrounding systems.' - Siward Cass"}
+		]
 	},
 	
 	{
@@ -245,66 +403,5 @@
 		"civilopediaText": [
 			{"text": "From the earliest atomic rockets with primitive laser armaments, to Expansion Era cruisers such as the Gilagimar, to the Republic's battle vessels, to the amazing Super Star Destroyers of the Empire, ships have traded fire in the depths of space. - Unknown"}
 		]
-	},
-	
-	{
-		"name": "Great Artist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Scientist",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can hurry technology research",
-            "Can instantly construct a [Academy] improvement <by consuming this unit>",
-            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Merchant",
-		"unitType": "Civilian",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-            "Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Engineer",
-		"unitType": "Civilian",
-		"uniques": ["Can speed up construction of a building",
-            "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
-		"movement": 2
-	},
-	{
-		"name": "Great Prophet",
-		"unitType": "Civilian",
-		"uniques": [
-            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
-			"Removes other religions when spreading religion",
-            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
-            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
-			"Takes your religion over the one in their birth city"],
-		"movement": 2,
-		"religiousStrength": 1000
-	},
-	{
-		"name": "Great General",
-		"unitType": "Civilian",
-		"uniques": [
-            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
-		"movement": 2
 	},
 ]
