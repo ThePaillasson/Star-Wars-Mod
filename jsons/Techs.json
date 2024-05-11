@@ -320,7 +320,7 @@
 				"name": "Metallurgy",
 				"row": 8,
 				"prerequisites": ["Gambling","Rocket pack"],
-				"quote": "Metallurgy was the science of the behaviors and properties of metals and their extraction from their ores. It studied the processes of producing objects made of metal, including quarrying, mine construction, and smelting. The Onderonian Shas Dovos, later known as the armored Dark Jedi "Warb Null," was a devoted metallurgist."
+				"quote": "Metallurgy was the science of the behaviors and properties of metals and their extraction from their ores. It studied the processes of producing objects made of metal, including quarrying, mine construction, and smelting. The Onderonian Shas Dovos, later known as the armored Dark Jedi Warb Null, was a devoted metallurgist."
 			},
 			{
 				"name": "Turbolaser",
