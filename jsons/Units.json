@@ -245,46 +245,6 @@
 		]
 	},
 	{
-		"name": "Slugthrower",
-		"unitType": "Slugthrower",
-		"movement": 2,
-		"strength": 5,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Slugthrower",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "shot"
-		"civilopediaText": [
-			{"text": "It's like a projectile from a slugthrower. Like someone whipped a rock real fast. - Joss Adren"}
-		]
-	},
-	{
-		"name": "Beam-tuber",
-		"unitType": "Blaster",
-		"movement": 2,
-		"strength": 9,
-		"cost": 46,
-		"requiredTech": "Beam tube",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Star Lancer",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 6,
-		"cost": 56,
-		"requiredTech": "Beam tube",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Horseback Riding",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-	},
-	{
 		"name": "Je'daii Warrior",
 		"unitType": "Melee",
 		"movement": 2,
@@ -317,22 +277,86 @@
 		]
 	},
 	{
-		"name": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 12,
+		"name": "Protosaber Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"attackSound": "horse"
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Beam-tuber",
+		"unitType": "Blaster Infantry",
+		"movement": 2,
+		"strength": 9,
+		"cost": 46,
+		"requiredTech": "Beam tube",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Guardian Droid",
+		"unitType": "Blaster Infantry",
+		"movement": 2,
+		"strength": 7,
+		"cost": 75,
+		"requiredTech": "Artificial intelligence",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "shot"
+	},
+	{
+		"name": "War-robot",
+		"unitType": "Blaster Infantry",
+		"replaces": "Guardian Droid",
+		"uniqueTo": "Xim's Empire",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Artificial intelligence",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "Slugthrower",
+		"unitType": "Slugthrower",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 40,
+		"requiredTech": "Sniper",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "shot"
 		"civilopediaText": [
-			{"text": "That's not a star cruiser. That's a horse. Horses don't fly. - Cindel Towani"}
+			{"text": "It's like a projectile from a slugthrower. Like someone whipped a rock real fast. - Joss Adren"}
 		]
 	},
+	
+	{
+		"name": "Star Lancer",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 6,
+		"cost": 56,
+		"requiredTech": "Beam tube",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Horseback Riding",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
 	{
 		"name": "Ancient Artillery",
 		"unitType": "Siege",
@@ -350,43 +374,6 @@
 		"civilopediaText": [
 			{"text": "...and I've always said, if Exar Kun had artillery at Toprawa, your Jedi Chancellor would be sporting yellow eyes today. - Jarrow Rusher"}
 		]
-	},
-	{
-		"name": "Guardian Droid",
-		"unitType": "Blaster",
-		"movement": 2,
-		"strength": 7,
-		"cost": 75,
-		"requiredTech": "Artificial intelligence",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "shot"
-	},
-	{
-		"name": "War-robot",
-		"unitType": "Blaster",
-		"replaces": "Guardian Droid",
-		"uniqueTo": "Xim's Empire",
-		"movement": 2,
-		"strength": 11,
-		"cost": 75,
-		"requiredTech": "Artificial intelligence",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Protosaber Warrior",
-		"unitType": "Melee",
-		"movement": 2,
-		"strength": 14,
-		"cost": 75,
-		"requiredTech": "Protosaber",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
 	},
 
 	{
