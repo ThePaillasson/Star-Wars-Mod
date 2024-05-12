@@ -4,15 +4,15 @@
         "movementType": "Land"
     },
     {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
         "name": "Melee",
         "movementType": "Land"
     },
     {
-        "name": "Blaster",
-        "movementType": "Land"
-    },
-    {
-        "name": "Slugthrower",
+        "name": "Blaster infantry",
         "movementType": "Land"
     },
     {
@@ -20,8 +20,9 @@
         "movementType": "Land"
     },
     {
-        "name": "Scout",
+        "name": "Stealth Infantry",
         "movementType": "Land"
+        "uniques": ["Invisible to non-adjacent units", "Can see invisible [Stealth Infantry] units"]
     },
     {
         "name": "Mounted",
@@ -29,6 +30,10 @@
     },
     {
         "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Walker",
         "movementType": "Land"
     },
     {
@@ -40,9 +45,9 @@
         "movementType": "Water"
     },
     {
-        "name": "Submarine",
+        "name": "Submersible",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submersible] units"]
     },
     {
         "name": "Fighter",
@@ -60,7 +65,12 @@
         "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
-        "name": "Starship",
+        "name": "Melee starship",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles"]
+    },
+    {
+        "name": "Ranged starship",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
     }
