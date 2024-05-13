@@ -253,7 +253,6 @@
 		"requiredTech": "Force-imbued blade",
 		"obsoleteTech": "Protosaber",
 		"upgradesTo": "Protosaber Warrior",
-		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
 		"civilopediaText": [
 			{"text": "In the light, there is a darkness and in the darkness, a light. It is the way with us all. Be a prisoner of neither Bogan nor Ashla. Strive to live in balance. As Tython itself teaches us, it is dangerous to do otherwise. And the danger is there—always. - Ketu"}
@@ -270,11 +269,23 @@
 		"requiredTech": "Force-imbued blade",
 		"obsoleteTech": "Protosaber",
 		"upgradesTo": "Protosaber Warrior",
-		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
 		"civilopediaText": [
 			{"text": "I am as I was made. Born to be a Force Hound. Fated to serve my masters. - Xesh"}
 		]
+	},
+	{
+		"name": "Protosaber Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Jedi Knight",
+		"obsoleteTech": "Lightsaber",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Senate Guard",
@@ -290,14 +301,46 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Protosaber Warrior",
+		"name": "Jedi Temple Guard",
 		"unitType": "Melee",
+		"replaces": "Senate Guard",
+		"uniqueTo": "Jedi Order",
 		"movement": 2,
-		"strength": 16,
+		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Protosaber",
-		"upgradesTo": "Jedi Knight",
-		"obsoleteTech": "Lightsaber",
+		"upgradesTo": "Imperial Guard",
+		"obsoleteTech": "Mass production",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Jedi Temple Guard",
+		"unitType": "Melee",
+		"replaces": "Senate Guard",
+		"uniqueTo": "Jedi Order",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Imperial Guard",
+		"obsoleteTech": "Mass production",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Jedi Temple Guard",
+		"unitType": "Melee",
+		"replaces": "Senate Guard",
+		"uniqueTo": "Jedi Order",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Imperial Guard",
+		"obsoleteTech": "Mass production",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
