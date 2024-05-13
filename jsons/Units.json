@@ -251,7 +251,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Force-imbued blade",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Protosaber",
 		"upgradesTo": "Protosaber Warrior",
 		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
@@ -268,7 +268,7 @@
 		"strength": 13,
 		"cost": 56,
 		"requiredTech": "Force-imbued blade",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Protosaber",
 		"upgradesTo": "Protosaber Warrior",
 		"uniques": ["[+50]% Strength <vs [Blaster] units>"],
 		"attackSound": "metalhit"
@@ -277,14 +277,27 @@
 		]
 	},
 	{
-		"name": "Protosaber Warrior",
+		"name": "Senate Guard",
 		"unitType": "Melee",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Protosaber",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
+		"upgradesTo": "Imperial Guard",
+		"obsoleteTech": "Mass production",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Protosaber Warrior",
+		"unitType": "Melee",
+		"movement": 2,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Protosaber",
+		"upgradesTo": "Jedi Knight",
+		"obsoleteTech": "Lightsaber",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
